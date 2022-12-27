@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** DNS Service Discovery Service */
 	class MSdService : public Object
 	{
 		public:

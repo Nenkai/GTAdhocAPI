@@ -23,7 +23,7 @@ namespace System
 			Int class_id;
 			
 			/// @brief Returns whether an object is of a specific class.
-			Bool isInstanceOf(hClass classType);
+			Bool isInstanceOf(Class classType);
 			
 			/// @brief Gets a deep copy of this object.
 			Object getDeepCopy();

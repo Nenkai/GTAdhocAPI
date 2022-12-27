@@ -2,22 +2,24 @@ using namespace System;
 
 namespace pdistd
 {
-	class MSailTranscoder : public Object
+	class MNpEula : public Object
 	{
 		public:
 
-			MSailTranscoder() { };
+			MNpEula() { };
 
-			void open();
-			void close();
-			void start();
-			void stop();
-			void setKey();
-			void setAudioTrack();
-			void setSubtitle();
-			void setSubtitleFont();
-			void setSubtitleSize();
-			Int progress();
-			Bool isConverting();
+			/** \brief sceNpEulaCheckEulaStatus - Need to be signed-in
+			\code
+			var eula = pdistd::MNpEula();
+			var eula_currver = 0;
+			var status = 0;
+			return eula.check(&eula_currver, &status);
+			\endcode
+			*/
+			Bool check(Variable<UInt> eula_currver, Variable<UInt> status);
+
+			/** \brief sceNpEulaShowCurrentEula - Need to be signed */
+			Bool show();
+
 	}
 }

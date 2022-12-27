@@ -9,13 +9,14 @@ namespace pdistd
 		/// @brief constructor taking no param
 		MPJson() { };
 		
-		/** JSON Encode string */
+		/** \brief JSON Encode string */
 		String encode();
 		
-		/** JSON Encode string */
-		static String Encode(String string);
+		/** \brief JSON Encode string 
+		\param string Use Map for key to value, a string returns {"length":1,"size":1,"value":null}, int returns {"value":null} */
+		static String Encode(Object obj, Bool set_silent_mode = false);
 		
-		/** Set silent mode */
-		static void SetSilentMode(bool silentMode);
+		/** \brief Set silent mode */
+		static void SetSilentMode(Bool silent_mode);
 	}
 }

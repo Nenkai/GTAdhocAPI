@@ -1,13 +1,15 @@
 namespace System
 {
-	class Bool : public Object
+	/* Built-in boolean object */
+	class Bool : public Object, IByteData
 	{
 		public:
 		
 			/// @brief constructor taking no param
 			Bool() { };
 			
-			Object value;
+			/* Value */
+			Bool value;
 			
 			operator&&() {};
 			operator||() {};

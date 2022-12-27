@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['md5_0',['MD5',['../classpdistd_1_1____static____.html#a32da8de049d127f667d96e5e66b74934',1,'pdistd::__static__::MD5(hString arg)'],['../classpdistd_1_1____static____.html#a32da8de049d127f667d96e5e66b74934',1,'pdistd::__static__::MD5(hString arg)']]],
-  ['methodobject_1',['MethodObject',['../class_system_1_1_method_object.html#a8374090d10aad588bf96209023229393',1,'System::MethodObject']]],
-  ['module_2',['Module',['../class_system_1_1_module.html#acf3d3360509fd3f6903ce7abdff21f90',1,'System::Module']]],
-  ['monitor_3',['Monitor',['../class_system_1_1_monitor.html#a83cd02a04b0a489af83d9cd1a5cd25d1',1,'System::Monitor']]],
-  ['mpjson_4',['MPJson',['../classpdistd_1_1_m_pjson.html#a66365a6f9623e58763b9d06a0c64ae36',1,'pdistd::MPjson']]]
+  ['keep_0',['keep',['../classpdistd_1_1_m_music.html#a1b9cd3876750f4cabd3b27c75b0223c8',1,'pdistd::MMusic::keep(String group)'],['../classpdistd_1_1_m_music.html#a4264a1ed100f754093288f584a6816ed',1,'pdistd::MMusic::keep()']]],
+  ['keepdirect_1',['keepDirect',['../classpdistd_1_1_m_music.html#a3c6c03001d36163c9f37a42edec7fb4f',1,'pdistd::MMusic::keepDirect(String code)'],['../classpdistd_1_1_m_music.html#a9cff179c284b8170f899355a17454f84',1,'pdistd::MMusic::keepDirect()']]],
+  ['keepmusic_2',['keepMusic',['../classpdistd_1_1_m_sound.html#a434564630a03502683db98efeb694577',1,'pdistd::MSound']]]
 ];

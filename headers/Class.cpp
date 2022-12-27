@@ -1,15 +1,16 @@
 namespace System
 {
-	class Class : public Module
+	class Class : public Module, IMap
 	{
 		public:
 		
-			/// @brief constructor taking no param
-			Class() { };
+			/// @brief Creates a new class from the specified path name.
+			Class(String name) { };
 			
 			operator==(){};
 			operator!=(){};
+
 			operator_new(){};
-			operator_call(){};
+			Object operator_call(){};
 	}
 }

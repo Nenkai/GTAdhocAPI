@@ -6,6 +6,6 @@ namespace pdistd
 	{
 		public:
 		
-			Object buttons;
+			Int buttons;
 	}
 }

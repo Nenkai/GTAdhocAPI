@@ -1,13 +1,14 @@
 namespace System
 {
-	class Double : public Object
+	/* Built-in double object */
+	class Double : public Object, IByteData
 	{
 		public:
 		
 			/// @brief constructor taking no param
 			Double() { };
 			
-			Object value;
+			Double value;
 			
 			operator-() {};
 			operator+() {};

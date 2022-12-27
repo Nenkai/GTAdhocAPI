@@ -1,14 +1,16 @@
 var searchData=
 [
-  ['rc_5fclass_0',['rc_class',['../class_system_1_1_object.html#a978a2affb675ae9a637593c6cf3bfe87',1,'System::Object']]],
-  ['rc_5fcount_1',['rc_count',['../class_system_1_1_object.html#a6a2bf20916ba7bf1c200f69bc3b1f473',1,'System::Object']]],
-  ['rc_5fsize_2',['rc_size',['../class_system_1_1_object.html#a2b126abc49848b150e5bee4a2f9d0d87',1,'System::Object']]],
-  ['read_3',['read',['../class_system_1_1_stream_reader.html#a4bdd9f0b7b88dcfde4efb4c703561c0f',1,'System::StreamReader']]],
-  ['readfile_4',['ReadFile',['../classpdistd_1_1____static____.html#a8df52aed443a521b4ce454be626bbeb9',1,'pdistd::__static__::ReadFile(String path)'],['../classpdistd_1_1____static____.html#a8df52aed443a521b4ce454be626bbeb9',1,'pdistd::__static__::ReadFile(String path)']]],
-  ['readme_5',['README',['../md__r_e_a_d_m_e.html',1,'']]],
-  ['regexp_6',['Regexp',['../class_system_1_1_regexp.html#a69778f527bf147c990c5b264fcda80e2',1,'System::Regexp::Regexp()'],['../class_system_1_1_regexp.html',1,'System::Regexp']]],
-  ['removefile_7',['RemoveFile',['../classpdistd_1_1____static____.html#a000360e7c19dde398ee65abc7adfebf9',1,'pdistd::__static__::RemoveFile(String path)'],['../classpdistd_1_1____static____.html#a000360e7c19dde398ee65abc7adfebf9',1,'pdistd::__static__::RemoveFile(String path)']]],
-  ['removestatic_8',['removeStatic',['../class_system_1_1_module.html#aa4c3cfa93c5203ea2b20de0836d0c3de',1,'System::Module']]],
-  ['renamefile_9',['RenameFile',['../classpdistd_1_1____static____.html#a0195f6a8768b9ba0a0e74a8b366d7fe0',1,'pdistd::__static__::RenameFile(String path)'],['../classpdistd_1_1____static____.html#a0195f6a8768b9ba0a0e74a8b366d7fe0',1,'pdistd::__static__::RenameFile(String path)']]],
-  ['resize_10',['resize',['../class_system_1_1_array.html#a3a5dfada798100d5cb959a769da696b3',1,'System::Array']]]
+  ['name_0',['name',['../class_system_1_1_module.html#a51d700ac741bd77ebbe81d332ac1bde3',1,'System::Module::name()'],['../classpdistd_1_1_m_game_input_data.html#a909d49960033b39bf7ba6c4d1a6780c3',1,'pdistd::MGameInputData::name()'],['../classpdistd_1_1_m_sd_service.html#a84f7c71ee91da74266f5a5dbae614106',1,'pdistd::MSdService::name()'],['../classpdistd_1_1_m_p_d_i_network_user_id.html#a78e62c183ed5488f6450969475d19095',1,'pdistd::MPDINetworkUserId::name()'],['../classpdistd_1_1_m_p_d_i_network_user_profile.html#a802ab5cce1b4da33b9822f2628229ca6',1,'pdistd::MPDINetworkUserProfile::name()']]],
+  ['needsizekb_1',['needSizeKB',['../classpdistd_1_1_m_save_data_util.html#a33990f8f9758c0b1b147eb91a563ec01',1,'pdistd::MSaveDataUtil']]],
+  ['needtirechange_2',['NeedTireChange',['../namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aaa25014b32b0d1c0c5b4054ec7c7f56fe',1,'gtengine']]],
+  ['next_3',['next',['../classpdistd_1_1_m_system_b_g_m.html#ab82141ebc7fc5ff9266d80dcbe04948d',1,'pdistd::MSystemBGM::next()'],['../classpdistd_1_1_m_sqlite_operator.html#a63b147bcd66b862a858c5f9ef4ef51c5',1,'pdistd::MSqliteOperator::next()']]],
+  ['nextlapinvalid_4',['NextLapInvalid',['../namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aa01c7612d18862f6988b4577418dedaa4',1,'gtengine']]],
+  ['nl_5',['NL',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2da796834e7a2839412d79dbc5f1327594d',1,'pdistd']]],
+  ['no_6',['NO',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2dac2f3f489a00553e7a01d369c103c7251',1,'pdistd']]],
+  ['noticetype_7',['NoticeType',['../namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1a',1,'gtengine']]],
+  ['noticetype_2ecpp_8',['NoticeType.cpp',['../_notice_type_8cpp.html',1,'']]],
+  ['nullwriter_9',['NullWriter',['../class_i_o_1_1_null_writer.html',1,'IO::NullWriter'],['../class_i_o_1_1_null_writer.html#a051eb88aa7c6d008c3b6671393c2fe89',1,'IO::NullWriter::NullWriter()']]],
+  ['nullwriter_2ecpp_10',['NullWriter.cpp',['../_null_writer_8cpp.html',1,'']]],
+  ['number_11',['number',['../classpdistd_1_1_m_music.html#a47edc9f597717e9dade3d1c28d3e2b0f',1,'pdistd::MMusic']]],
+  ['number_12',['Number',['../classpdistd_1_1_m_music.html#ae0d7890632fea01fd03c56f096b1679e',1,'pdistd::MMusic']]]
 ];

@@ -6,6 +6,6 @@ namespace pdistd
 	{
 		public:
 		
-			Object channels;
+			Int channels;
 	}
 }

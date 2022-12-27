@@ -8,7 +8,8 @@ namespace pdistd
 
 			MWebAd() { };
 
-			void setFileRootPath();
+			/** \brief Sets the local path where adhoc modules are stored */
+			void setFileRootPath(String path);
 
 		class webad
 		{

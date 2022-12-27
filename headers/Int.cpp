@@ -1,6 +1,7 @@
 namespace System
 {
-	class Int : public Object
+	/* Built-in integer type */
+	class Int : public Object, IByteData
 	{
 		public:
 		

@@ -7,7 +7,7 @@ namespace System
 			/// @brief constructor taking no param
 			Symbol() { };
 						
-			Object value;
+			Symbol value;
 			
 			operator==() {};
 			operator!=() {};

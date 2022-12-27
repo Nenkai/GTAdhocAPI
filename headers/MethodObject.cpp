@@ -1,6 +1,6 @@
 namespace System
 {
-	class MethodObject : public Object
+	class MethodObject : public Object, IGenerator, IFunction
 	{
 		public:
 		

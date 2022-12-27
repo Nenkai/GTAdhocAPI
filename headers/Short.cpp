@@ -1,6 +1,6 @@
 namespace System
 {
-	class Short : public Object
+	class Short : public Object, IByteData
 	{
 		public:
 		

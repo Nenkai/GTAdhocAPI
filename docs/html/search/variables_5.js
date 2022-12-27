@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['size_0',['size',['../class_system_1_1_array.html#a82501ab8789406ef542baf0f9411dbe0',1,'System::Array::size()'],['../class_system_1_1_byte_data.html#a1f3d51f916a2b88fc371fda81f0c2b88',1,'System::ByteData::size()']]]
+  ['fetch_5fnext_0',['fetch_next',['../class_system_1_1_iterator.html#adb7ab5e618c9fc384125b7b86cadb819',1,'System::Iterator']]],
+  ['file_1',['file',['../class_system_1_1_void.html#a6883dd7f8d187e4b1ef5f67b8d8fc365',1,'System::Void']]]
 ];

@@ -1,13 +1,14 @@
 namespace System
 {
-	class Long : public Object
+	/* Built-in long object type */
+	class Long : public Object, IByteData
 	{
 		public:
 		
 			/// @brief constructor taking no param
 			Long() { };
 					
-			Object value;
+			Long value;
 			
 			operator-() {};
 			operator+() {};

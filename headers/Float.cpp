@@ -1,6 +1,7 @@
 namespace System
 {
-	class Float : public Object
+	/* Built-in floating point object */
+	class Float : public Object, IByteData
 	{
 		public:
 		

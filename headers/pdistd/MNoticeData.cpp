@@ -1,4 +1,5 @@
 using namespace System;
+using namespace gtengine;
 
 namespace pdistd
 {
@@ -8,11 +9,11 @@ namespace pdistd
 		
 			MNoticeData() { };
 
-			Object type;
-            Object title;
-            Object body;
-            Object time;
-            Object isLocalized;
-            Object args;
+			NoticeType type;
+            String title;
+            String body;
+            Long time;
+            Bool isLocalized;
+            Array args;
 	}
 }

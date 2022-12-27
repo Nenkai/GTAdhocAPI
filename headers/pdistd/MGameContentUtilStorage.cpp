@@ -16,6 +16,7 @@ namespace pdistd
 			void copyFileFromStorage();
 			void copyFileToStorage();
 			void getErrorCode();
+			
 			Object progress;
 	}
 }

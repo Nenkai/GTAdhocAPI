@@ -1,13 +1,14 @@
 namespace System
 {
-	class Byte : public Object
+	/* Built-in byte object */
+	class Byte : public Object, IByteData
 	{
 		public:
 		
 			/// @brief constructor taking no param
 			Byte() { };
 			
-			Object value;
+			Byte value;
 			
 			operator-() {};
 			operator+() {};

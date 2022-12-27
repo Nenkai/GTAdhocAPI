@@ -1,8 +1,10 @@
+using namespace Adhoc;
 using namespace System;
 
+/* PDISTD Namespace */
 namespace pdistd
 {
-	class __static__ : public Module
+	public class __static__ : public Module
 	{
 		public:
 			/// @brief Returns command line arguments
@@ -36,7 +38,7 @@ namespace pdistd
 			static Array<Map> GetFileEntries(String path);
 				
 			/// @brief Delays the threads by the specified amount of milliseconds.
-			static void DelayThread(hInt milliseconds = 1000);
+			static void DelayThread(Int milliseconds = 1000);
 			
 			/** Returns info a about a file or directory.
 				Returns a map, for which
@@ -46,7 +48,7 @@ namespace pdistd
 					"name" -> hName
 					"size" -> hLong
 					"type" -> hString (DIRECTORY, COMPRESSED, REGULAR, UNKNOWN) */
-			static hMap GetFileStatus(String path);
+			static Map GetFileStatus(String path);
 		
 			/// @brief Converts a path into a PS3 friendly one. nil returns current directory.
 			static String ConvertSystemPath(String path = nil);
@@ -65,14 +67,17 @@ namespace pdistd
 			*/
 			static Map ReadFile(String path);
 			
-			/// @brief Appends a file.
-			static Int WriteFile(hString path, Blob buffer, Int size);
+			/// @brief Writes a file.
+			static Int WriteFile(hString path, ByteData buffer);
+
+			/// @brief Writes a file.
+			static Int WriteFile(hString path, ByteData buffer, Int size);
 			
 			/// @brief Deletes a file.
 			static Int RemoveFile(String path);
 			
 			/// @brief Renames a file.
-			static Int RenameFile(String path);
+			static Int RenameFile(String src_name, String target_name);
 			
 			/// @brief Copies a file
 			static Int CopyFile(String src, String dst);
@@ -80,32 +85,52 @@ namespace pdistd
 			/// @brief Truncates a file.
 			static Int TruncateFile(String path, Int offset);
 			
-			static Int MakeDirectory(String path, Bool unk);
-			static Int MakeDirectoryForFile(String pathToFile);
-			static Int RemoveDirectory(String path, Bool unk);
-			static Blob Deflate(Blob blob);
+			/** \brief Creates a directory
+			  * \param path Directory.
+			  * \param recursive Whether to create sub-dirs provided by the paths. If disabled and the path contains subdirs, no directory will be created at all.
+			*/
+			static Int MakeDirectory(String path, Bool recursive = false);
+
+			/** \brief Creates directories for a specified file. */
+			static Int MakeDirectoryForFile(String path_to_file);
+
+			/** \brief Removes a directory
+			  * \param path Directory.
+			  * \param recursive Whether to remove sub-dirs from the parent path. If disabled and the path contains subdirs, no directory will be removed at all.
+			*/
+			static Int RemoveDirectory(String path, Bool recursive = false);
+
+			/** \brief Deflates (compress) object buffer (calls toString to it if applicable) */
+			static MBlob Deflate(Object obj);
 			
-			static Blob DeflateEncryptAsync(String path, Bool unk) ;
+			/** \brief Deflates (compress) and encrypts object buffer (calls toString to it if applicable) asynchronously */
+			static MBlob DeflateEncryptAsync(String path, Bool unk);
 			
-			static Blob Inflate(Blob blob);
+			/** \brief Inflates (decompresses) object buffer (calls toString to it if applicable) asynchronously */
+			static MBlob Inflate(Blob blob);
 			
-			static Blob DectyptInflateAsync(String path, Bool unk);
+			/** \brief Decrypts and Inflates (decompresses) and encrypts object buffer (calls toString to it if applicable) asynchronously */
+			static MBlob DecryptInflateAsync(String path, String unkPathS, Bool unk);
 			
+			/** \brief Gets disk free size for specified mount point (i.e /APP_DATA) */
 			static Long GetDiskFreeSize(String path);
 			
 			/// @brief Returns the amount of files being installed
 			static Int GetOnDemandInstallingFiles();
 			
+			/** \brief Encodes an object buffer to Base64 */
 			static String EncodeBase64(Object obj);
 			
-			static String DecodeBase64(Object obj);
+			/** \brief Decodes data from Base64 */
+			static mBlob DecodeBase64(Object obj);
 			
-			/* ? */
+			/** \brief Unknown */
 			static Int CheckRights();
 			
-			static Int CRC32(Blob data);
+			/** \brief Performs CRC32 for object buffer */
+			static Int CRC32(Object obj);
 			
-			/// @brief Returns whether the game is a debug version.
+			/** \brief Returns whether the game is a debug version (compile time value on engine) */.
 			static Int IsDebugVersion();
 			
 			/// @brief Stripped as release.
@@ -117,19 +142,19 @@ namespace pdistd
 			static void SetTsmOptionInt32(hString param, hLong value);
 			
 			/// @brief Stripped as release.
-			static void assert(string message);
+			static void assert(String message);
 			
 			/// @brief Initiates a crash.
-			static void crash(string message = nil);
+			static void crash(String message = nil);
 			
 			/// @brief Exits the game.
-			static void exit(hInt exitCode);
+			static void exit(Int exitCode);
 			
-			/// @brief Gets the system time in microseconds.
+			/// @brief Gets the system time in microseconds (calls sys_time_get_system_time).
 			static Long GetSystemTimeMicroSecond();
 			
-			/// @brief Gets the system time in milliseconds.
-			static Long GetSystemTimeMilliseconds();
+			/// @brief Gets the system time in milliseconds (calls sys_time_get_system_time / 1000).
+			static Long GetSystemTimeMillisecond();
 			
 			static Int GetHeapTotalSize();
 			static UInt GetHeapFreeSize();
@@ -140,7 +165,7 @@ namespace pdistd
 			static void DumpMemoryBlock();
 			
 			/// @brief Refer to pdistd::Language.
-			static void SetLanguage(Int language);
+			static void SetLanguage(Language language);
 			
 			/// @brief Rescans devices.
 			static void DeviceRescan();
@@ -158,24 +183,25 @@ namespace pdistd
 			static Int GetGameBootAttribute();
 			
 			/// @brief Unk (3 args) (self.base_rank_list, racers_list, racer_count)
-			static ? TraceRankList();
+			static Array TraceRankList();
 		
 			/// @brief MD5 Checksum
-			static String MD5(hString arg);
+			static String MD5(String arg);
 			
-			static Unknown Salsa20Encrypt();
-			static Unknown Salsa20Decrypt();
+			static ByteData Salsa20Encrypt(String key, Object data);
+
+			static ByteData Salsa20Decrypt(String key, Object data);
 			
-			/// @brief Returns ram left in bytes
-			static Int GetAvailableUserMemorySize();
+			/// @brief Returns ram left in bytes - Might be stubbed
+			static UInt GetAvailableUserMemorySize();
 			
-			/// @brief Gets the total of memory usable in bytes
-			static Int GetTotalUserMemorySize();
+			/// @brief Gets the total of memory usable in bytes - Might be stubbed
+			static UInt GetTotalUserMemorySize();
 			
 			/// @brief Gets the current PS3 Profile Name.
 			static String getPlayerName();
 			
-			static Unknown atan2();
+			static Float atan2(Float y, Float x);
 			
 			static Unknown inverseMatrix();
 			
@@ -187,5 +213,5 @@ namespace pdistd
 			
 			/// @brief Converts text. Warning: not providing the arg crashes the game.
 			static String TextConv(String str);
-	}
+	};
 };

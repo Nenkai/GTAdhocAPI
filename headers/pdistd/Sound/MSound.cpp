@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	// Document later
 	class MSound : public Object
 	{
 		public:
