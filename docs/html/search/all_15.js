@@ -9,5 +9,7 @@ var searchData=
   ['voice_5fagc_5flimit_6',['voice_agc_limit',['../classpdistd_1_1_m_sound_context.html#a0c5afa6b11e5b2094327ae9fddf6c99b',1,'pdistd::MSoundContext']]],
   ['void_7',['Void',['../class_system_1_1_void.html',1,'System']]],
   ['void_2ecpp_8',['Void.cpp',['../_void_8cpp.html',1,'']]],
-  ['volume_9',['volume',['../classpdistd_1_1_m_music.html#a084be6f5b10b2b25db449ee9ecfbad72',1,'pdistd::MMusic']]]
+  ['volume_9',['volume',['../classpdistd_1_1_m_music.html#a084be6f5b10b2b25db449ee9ecfbad72',1,'pdistd::MMusic']]],
+  ['voucherresultcode_10',['VoucherResultCode',['../namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1be',1,'pdiext']]],
+  ['voucherresultcode_2ecpp_11',['VoucherResultCode.cpp',['../_voucher_result_code_8cpp.html',1,'']]]
 ];

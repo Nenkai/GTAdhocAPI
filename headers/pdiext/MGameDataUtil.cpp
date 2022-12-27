@@ -23,6 +23,7 @@ namespace pdiext
 			return gdu.createGameData("TOTALLYREALGAMECODE", "MyGameDataTime", 0, filesize,
 			    main::manager.loadFile("icon.png"), 
 			    main::manager.loadFile("bg.png"))
+			\endcode
 			*/
 			String createGameData(String dirname, String title, Int parental_level, Int filesize, MBlob icon_png, MBlob bg_png);
 

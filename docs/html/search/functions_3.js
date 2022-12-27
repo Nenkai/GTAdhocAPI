@@ -61,12 +61,13 @@ var searchData=
   ['deflateencryptasync_58',['DeflateEncryptAsync',['../classpdistd_1_1____static____.html#afc97de914a759ce6c0e9ce2fb1d4188f',1,'pdistd::__static__']]],
   ['delaythread_59',['DelayThread',['../classpdistd_1_1____static____.html#a356b536dbcddb896aa4857856d3d9167',1,'pdistd::__static__']]],
   ['deletedata_60',['deleteData',['../classpdistd_1_1_m_network_user_storage.html#aa8a423caee437cca19c7699e5d197ee6',1,'pdistd::MNetworkUserStorage']]],
-  ['deleteloadbackupfile_61',['deleteLoadBackupFile',['../classpdistd_1_1_m_save_data_util.html#ac927c0757f83adf85554128e18338ce9',1,'pdistd::MSaveDataUtil']]],
-  ['deletemultidata_62',['deleteMultiData',['../classpdistd_1_1_m_network_user_storage.html#aa19cde6d5cfd8251eb0725d163b8055c',1,'pdistd::MNetworkUserStorage']]],
-  ['deserialize_63',['deserialize',['../class_system_1_1_object.html#a7bc3f740ed57279873bf298295dcdd19',1,'System::Object']]],
-  ['devicerescan_64',['DeviceRescan',['../classpdistd_1_1____static____.html#a6a79eb2f8aa6e68ae967d61f6fc0959a',1,'pdistd::__static__']]],
-  ['distribute_65',['distribute',['../classpdistd_1_1_m_gpb.html#ab8ca8f2b98424d5317259956b7f42976',1,'pdistd::MGpb']]],
-  ['double_66',['Double',['../class_system_1_1_double.html#aaddf97601bbd016cabb9ff9b29deecce',1,'System::Double']]],
-  ['downcase_67',['downcase',['../class_system_1_1_string.html#a0f3139a12b6c3bddb1e2f73572bccaf8',1,'System::String']]],
-  ['dump_68',['dump',['../class_system_1_1_object.html#acf713a38e353130f1b51cb30a1393bdb',1,'System::Object::dump()'],['../classpdistd_1_1_m_dom_node.html#a3d0b771089a400d40a60e3d7816808c4',1,'pdistd::MDomNode::dump()'],['../classpdistd_1_1_m_dom_node_list.html#a9ad2b9052f02a13cd0a4985c01fbdf1d',1,'pdistd::MDomNodeList::dump()']]]
+  ['deletegamedata_61',['deleteGameData',['../classpdiext_1_1_m_game_data_util.html#a9f117a8b717453301c4fcbc464f48745',1,'pdiext::MGameDataUtil']]],
+  ['deleteloadbackupfile_62',['deleteLoadBackupFile',['../classpdiext_1_1_m_save_data_util.html#a2e4bd10cc46fc3e318e512885fd0f68e',1,'pdiext::MSaveDataUtil']]],
+  ['deletemultidata_63',['deleteMultiData',['../classpdistd_1_1_m_network_user_storage.html#aa19cde6d5cfd8251eb0725d163b8055c',1,'pdistd::MNetworkUserStorage']]],
+  ['deserialize_64',['deserialize',['../class_system_1_1_object.html#a7bc3f740ed57279873bf298295dcdd19',1,'System::Object']]],
+  ['devicerescan_65',['DeviceRescan',['../classpdistd_1_1____static____.html#a6a79eb2f8aa6e68ae967d61f6fc0959a',1,'pdistd::__static__']]],
+  ['distribute_66',['distribute',['../classpdistd_1_1_m_gpb.html#ab8ca8f2b98424d5317259956b7f42976',1,'pdistd::MGpb']]],
+  ['double_67',['Double',['../class_system_1_1_double.html#aaddf97601bbd016cabb9ff9b29deecce',1,'System::Double']]],
+  ['downcase_68',['downcase',['../class_system_1_1_string.html#a0f3139a12b6c3bddb1e2f73572bccaf8',1,'System::String']]],
+  ['dump_69',['dump',['../class_system_1_1_object.html#acf713a38e353130f1b51cb30a1393bdb',1,'System::Object::dump()'],['../classpdistd_1_1_m_dom_node.html#a3d0b771089a400d40a60e3d7816808c4',1,'pdistd::MDomNode::dump()'],['../classpdistd_1_1_m_dom_node_list.html#a9ad2b9052f02a13cd0a4985c01fbdf1d',1,'pdistd::MDomNodeList::dump()']]]
 ];

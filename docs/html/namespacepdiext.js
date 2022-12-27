@@ -1,4 +1,58 @@
 var namespacepdiext =
 [
-    [ "__static__", "classpdiext_1_1____static____.html", null ]
+    [ "__static__", "classpdiext_1_1____static____.html", null ],
+    [ "MGameDataUtil", "classpdiext_1_1_m_game_data_util.html", "classpdiext_1_1_m_game_data_util" ],
+    [ "MPhotoSysUtil", "classpdiext_1_1_m_photo_sys_util.html", "classpdiext_1_1_m_photo_sys_util" ],
+    [ "MSaveDataUtil", "classpdiext_1_1_m_save_data_util.html", "classpdiext_1_1_m_save_data_util" ],
+    [ "MStorageDataUtil", "classpdiext_1_1_m_storage_data_util.html", "classpdiext_1_1_m_storage_data_util" ],
+    [ "MUsbPspComm", "classpdiext_1_1_m_usb_psp_comm.html", "classpdiext_1_1_m_usb_psp_comm" ],
+    [ "MVoucher", "classpdiext_1_1_m_voucher.html", "classpdiext_1_1_m_voucher" ],
+    [ "SaveDataUtilError", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6ea", [
+      [ "SAVEDATAUTIL_BUSY", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaad91acf5fcb2316ec5d1f772ad75cb2e0", null ],
+      [ "SAVEDATAUTIL_SUCCESS", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaae1527f802edaa18be2111a6c3654932d", null ],
+      [ "SAVEDATAUTIL_FAILED_MALLOC", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaac982b14b23ac6c56b2a29826d83f4083", null ],
+      [ "SAVEDATAUTIL_NOMORE_SPACE", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa3ce83d1081069d69bae7adf9aa6454fd", null ],
+      [ "SAVEDATAUTIL_NO_DIRNAME", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa67802355d9751196e11e0c9b382ba719", null ],
+      [ "SAVEDATAUTIL_NO_FILENAME", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa4df969dc99972958142a78376ed9a398", null ],
+      [ "SAVEDATAUTIL_CORRUPT_DATA", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaac10ac4dff3fb6275e4a73547efc9f0fd", null ],
+      [ "SAVEDATAUTIL_CANCEL_BY_USER", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa632b4330f7be5003ee8d65c30c179bf1", null ],
+      [ "SAVEDATAUTIL_FATAL_ERROR", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaafc84ce474acfd0d8dd412781ff21b1fc", null ],
+      [ "SAVEDATAUTIL_NO_ENOUGH_BUFFER_TO_LOAD", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa887fdf94234ea32d6a7aea29a69d1345", null ],
+      [ "SAVEDATAUTIL_BIND_ERROR", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa33f6ffffcac2057ea201e65cb4f89dab", null ],
+      [ "SAVEDATAUTIL_BIND_NEED_RECREATE", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaaf6bf6d8fbd8f93568b6ac79c529aa62b", null ],
+      [ "SAVEDATAUTIL_NEED_RETRY_LOAD", "namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaafc4769998afc0a8c32d588c235d616e2", null ]
+    ] ],
+    [ "SaveDataUtilMode", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117", [
+      [ "SAVEDATAUTIL_AUTO", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117addca4a0421279ac99b67fbf8b5887646", null ],
+      [ "SAVEDATAUTIL_LIST", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a5dae210eb765e6ef82f729ec6d18594c", null ],
+      [ "SAVEDATAUTIL_FIXED", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a2b2b95f9aa5212b0c3d32f40bfa79a04", null ],
+      [ "SAVEDATAUTIL_BG", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a96f77f594354bf8ae17d8b1c898b839d", null ],
+      [ "SAVEDATAUTIL_BACKUP", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117ad00eca14a6030d5cfc9a0a9cb8fcc27c", null ],
+      [ "SAVEDATAUTIL_OVERWRITE", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a7b0c36c8eb5e555caaba43426010c0fd", null ],
+      [ "SAVEDATAUTIL_AUTO_CREATE", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117ade8cd8356e0c31ae97538958cad916a7", null ],
+      [ "SAVEDATAUTIL_MIGRATION", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a1df71272b86589702c35a23eb94937ae", null ],
+      [ "SAVEDATAUTIL_RECREATE", "namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a5f9a1b2c40f1b360743df53d83e23993", null ]
+    ] ],
+    [ "VoucherResultCode", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1be", [
+      [ "ResultCodeOK", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1beab2be3e72b509d028b4fec1cad06a2df2", null ],
+      [ "ResultCodeInvalidArgument", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea4b0061c09ae6427ffc33a7ecfc08cef3", null ],
+      [ "ResultCodeNoMemory", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea615d1c57b3c6373e99889d2b2db8e26e", null ],
+      [ "ResultCodeNoIndex", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea3a902f9f45164d6f7d113fcad940c605", null ],
+      [ "ResultCodeBufferNoSpace", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea1d37551723e5a97e25dde09f98d009bf", null ],
+      [ "ResultCodeInvalidKeyLicensee", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea81715c1aad53c776b31f39f3784091cc", null ],
+      [ "ResultCodeInvalidIndex", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea1d9c0349b57ce5226dd42d43d78291e6", null ],
+      [ "ResultCodeNoEntry", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea853ef77eef0676d6789b620856fa5de1", null ],
+      [ "ResultCodeIllegal", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea0e0a8485cd5cdad06344b8aa286802a7", null ],
+      [ "ResultCodeNoDevice", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1beacbe9f4f2790992ef770803dcf363bb87", null ],
+      [ "ResultCodeNoSupport", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea80eaad2c2a3e889007ead0fe69dbbc2e", null ],
+      [ "ResultCodeDRMGeneric", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea6616f726edf96bb28e408a769d22dca0", null ],
+      [ "ResultCodeDRMBadRights", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea1c57c76ef47df2963bdc820040fca142", null ],
+      [ "ResultCodeDRMNoEntitlement", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea8bf21c9404d35ce211371e5b1ff378ef", null ],
+      [ "ResultCodeDRMBadDeviceAuth", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea58c7759684fd478e991c9368bcfcdd7a", null ],
+      [ "ResultCodeDRMIllegalFile", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea81057cdc84281589bb9599180fc7502a", null ],
+      [ "ResultCodeDRMTimeLimit", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea4fb6b3641a76a214b902fad96ef54862", null ],
+      [ "ResultCodeDRMServiceNotStarted", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea0b485c6af257eda03fc8c1745f90fbd4", null ],
+      [ "ResultCodeDRMClockNotInitialized", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1beaf12c62128a8b04d0f329cb053abe3f42", null ],
+      [ "ResultCodeUnknown", "namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea4e9861641140ed6a5f9481d066f1065b", null ]
+    ] ]
 ];

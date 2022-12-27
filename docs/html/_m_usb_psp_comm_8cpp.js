@@ -1,4 +1,4 @@
 var _m_usb_psp_comm_8cpp =
 [
-    [ "pdistd::MUsbPspComm", "classpdistd_1_1_m_usb_psp_comm.html", "classpdistd_1_1_m_usb_psp_comm" ]
+    [ "pdiext::MUsbPspComm", "classpdiext_1_1_m_usb_psp_comm.html", "classpdiext_1_1_m_usb_psp_comm" ]
 ];

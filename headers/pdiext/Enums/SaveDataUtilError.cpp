@@ -1,0 +1,19 @@
+namespace pdiext
+{
+    enum class SaveDataUtilError : uint
+	{
+		SAVEDATAUTIL_BUSY = 1, /*!< 1 */
+		SAVEDATAUTIL_SUCCESS = 2, /*!< 2 */
+		SAVEDATAUTIL_FAILED_MALLOC = -1, /*!< -1 */ 
+		SAVEDATAUTIL_NOMORE_SPACE = -2, /*!< -2 */
+		SAVEDATAUTIL_NO_DIRNAME = -3, /*!< -3 */
+		SAVEDATAUTIL_NO_FILENAME = -4, /*!< -4 */ 
+		SAVEDATAUTIL_CORRUPT_DATA = -5, /*!< -5 */
+		SAVEDATAUTIL_CANCEL_BY_USER = -6, /*!< -6 */ 
+		SAVEDATAUTIL_FATAL_ERROR = -7, /*!< -7 */ 
+		SAVEDATAUTIL_NO_ENOUGH_BUFFER_TO_LOAD = -8, /*!< -8 */ 
+		SAVEDATAUTIL_BIND_ERROR = -9, /*!< -9 */ 
+		SAVEDATAUTIL_BIND_NEED_RECREATE = -10, /*!< -10 */ 
+		SAVEDATAUTIL_NEED_RETRY_LOAD = -11, /*!< -11 */ 
+	};
+}

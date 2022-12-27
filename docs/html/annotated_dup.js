@@ -9,7 +9,13 @@ var annotated_dup =
       [ "StringWriter", "class_i_o_1_1_string_writer.html", "class_i_o_1_1_string_writer" ]
     ] ],
     [ "pdiext", "namespacepdiext.html", [
-      [ "__static__", "classpdiext_1_1____static____.html", null ]
+      [ "__static__", "classpdiext_1_1____static____.html", null ],
+      [ "MGameDataUtil", "classpdiext_1_1_m_game_data_util.html", "classpdiext_1_1_m_game_data_util" ],
+      [ "MPhotoSysUtil", "classpdiext_1_1_m_photo_sys_util.html", "classpdiext_1_1_m_photo_sys_util" ],
+      [ "MSaveDataUtil", "classpdiext_1_1_m_save_data_util.html", "classpdiext_1_1_m_save_data_util" ],
+      [ "MStorageDataUtil", "classpdiext_1_1_m_storage_data_util.html", "classpdiext_1_1_m_storage_data_util" ],
+      [ "MUsbPspComm", "classpdiext_1_1_m_usb_psp_comm.html", "classpdiext_1_1_m_usb_psp_comm" ],
+      [ "MVoucher", "classpdiext_1_1_m_voucher.html", "classpdiext_1_1_m_voucher" ]
     ] ],
     [ "pdistd", "namespacepdistd.html", [
       [ "__static__", "classpdistd_1_1____static____.html", null ],
@@ -65,7 +71,6 @@ var annotated_dup =
       [ "MRTextDB", "classpdistd_1_1_m_r_text_d_b.html", "classpdistd_1_1_m_r_text_d_b" ],
       [ "MRTextManager", "classpdistd_1_1_m_r_text_manager.html", "classpdistd_1_1_m_r_text_manager" ],
       [ "MSailTranscoder", "classpdistd_1_1_m_sail_transcoder.html", "classpdistd_1_1_m_sail_transcoder" ],
-      [ "MSaveDataUtil", "classpdistd_1_1_m_save_data_util.html", "classpdistd_1_1_m_save_data_util" ],
       [ "MScrollArea", "classpdistd_1_1_m_scroll_area.html", "classpdistd_1_1_m_scroll_area" ],
       [ "MSdService", "classpdistd_1_1_m_sd_service.html", "classpdistd_1_1_m_sd_service" ],
       [ "MSns", "classpdistd_1_1_m_sns.html", "classpdistd_1_1_m_sns" ],
@@ -73,17 +78,14 @@ var annotated_dup =
       [ "MSoundContext", "classpdistd_1_1_m_sound_context.html", "classpdistd_1_1_m_sound_context" ],
       [ "MSoundEffect", "classpdistd_1_1_m_sound_effect.html", "classpdistd_1_1_m_sound_effect" ],
       [ "MSqliteOperator", "classpdistd_1_1_m_sqlite_operator.html", "classpdistd_1_1_m_sqlite_operator" ],
-      [ "MStorageDataUtil", "classpdistd_1_1_m_storage_data_util.html", "classpdistd_1_1_m_storage_data_util" ],
       [ "MStreamPlayer", "classpdistd_1_1_m_stream_player.html", "classpdistd_1_1_m_stream_player" ],
       [ "MSystemBGM", "classpdistd_1_1_m_system_b_g_m.html", null ],
       [ "MTestSou", "classpdistd_1_1_m_test_sou.html", "classpdistd_1_1_m_test_sou" ],
       [ "MTextEvent", "classpdistd_1_1_m_text_event.html", "classpdistd_1_1_m_text_event" ],
       [ "MTime", "classpdistd_1_1_m_time.html", "classpdistd_1_1_m_time" ],
       [ "MTv2", "classpdistd_1_1_m_tv2.html", "classpdistd_1_1_m_tv2" ],
-      [ "MUsbPspComm", "classpdistd_1_1_m_usb_psp_comm.html", "classpdistd_1_1_m_usb_psp_comm" ],
       [ "MUserProfile2", "classpdistd_1_1_m_user_profile2.html", "classpdistd_1_1_m_user_profile2" ],
       [ "MVideoExport", "classpdistd_1_1_m_video_export.html", "classpdistd_1_1_m_video_export" ],
-      [ "MVoucher", "classpdistd_1_1_m_voucher.html", "classpdistd_1_1_m_voucher" ],
       [ "MWatcher", "classpdistd_1_1_m_watcher.html", "classpdistd_1_1_m_watcher" ],
       [ "MWebAd", "classpdistd_1_1_m_web_ad.html", "classpdistd_1_1_m_web_ad" ],
       [ "MWorker", "classpdistd_1_1_m_worker.html", "classpdistd_1_1_m_worker" ],

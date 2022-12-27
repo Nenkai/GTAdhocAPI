@@ -198,7 +198,7 @@ var searchData=
   ['reserve_195',['reserve',['../classpdistd_1_1_m_blob.html#ae79dde150db39a079cc19096c02f0b7f',1,'pdistd::MBlob']]],
   ['reservememorycommon_196',['reserveMemoryCommon',['../classpdistd_1_1_m_r_text_manager.html#a28fb15f78c35aad886c7fdd34169e948',1,'pdistd::MRTextManager']]],
   ['resetcustommenu_197',['resetCustomMenu',['../classpdistd_1_1_m_network_platform.html#a29b73ff7e0bc22aabd4134dfb15fd1fc',1,'pdistd::MNetworkPlatform']]],
-  ['resetprogress_198',['resetProgress',['../classpdistd_1_1_m_save_data_util.html#ab0328ef969ae19de90a52ad6b843d5a0',1,'pdistd::MSaveDataUtil']]],
+  ['resetprogress_198',['resetProgress',['../classpdiext_1_1_m_save_data_util.html#ab2196405d61a4bf4a1b094f8932d67cd',1,'pdiext::MSaveDataUtil']]],
   ['resetuserlistcheckedstate_199',['resetUserListCheckedState',['../classpdistd_1_1_m_p_d_i_network.html#a8a4019e7f989b5895209937f6aaff589',1,'pdistd::MPDINetwork']]],
   ['resize_200',['resize',['../class_system_1_1_array.html#a3a5dfada798100d5cb959a769da696b3',1,'System::Array::resize()'],['../class_system_1_1_byte_data.html#a0aedc476b55ba57ddca1d44d3d81fd43',1,'System::ByteData::resize()']]],
   ['resume_201',['resume',['../class_system_1_1_thread.html#ac4c2f8df44b9275d1b4f0463396a4397',1,'System::Thread']]],

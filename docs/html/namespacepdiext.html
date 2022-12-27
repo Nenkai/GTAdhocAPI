@@ -90,7 +90,8 @@ $(document).ready(function(){initNavTree('namespacepdiext.html',''); initResizab
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">pdiext Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -99,7 +100,243 @@ $(document).ready(function(){initNavTree('namespacepdiext.html',''); initResizab
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1____static____.html">__static__</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1_m_game_data_util.html">MGameDataUtil</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1_m_photo_sys_util.html">MPhotoSysUtil</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1_m_save_data_util.html">MSaveDataUtil</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1_m_storage_data_util.html">MStorageDataUtil</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1_m_usb_psp_comm.html">MUsbPspComm</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1_m_voucher.html">MVoucher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handler for voucher/dlcs.  <a href="classpdiext_1_1_m_voucher.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae6ae2e9de02381932eec905e5131b6ea"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6ea">SaveDataUtilError</a> : uint { <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaad91acf5fcb2316ec5d1f772ad75cb2e0">SAVEDATAUTIL_BUSY</a> = 1
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaae1527f802edaa18be2111a6c3654932d">SAVEDATAUTIL_SUCCESS</a> = 2
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaac982b14b23ac6c56b2a29826d83f4083">SAVEDATAUTIL_FAILED_MALLOC</a> = -1
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa3ce83d1081069d69bae7adf9aa6454fd">SAVEDATAUTIL_NOMORE_SPACE</a> = -2
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa67802355d9751196e11e0c9b382ba719">SAVEDATAUTIL_NO_DIRNAME</a> = -3
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa4df969dc99972958142a78376ed9a398">SAVEDATAUTIL_NO_FILENAME</a> = -4
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaac10ac4dff3fb6275e4a73547efc9f0fd">SAVEDATAUTIL_CORRUPT_DATA</a> = -5
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa632b4330f7be5003ee8d65c30c179bf1">SAVEDATAUTIL_CANCEL_BY_USER</a> = -6
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaafc84ce474acfd0d8dd412781ff21b1fc">SAVEDATAUTIL_FATAL_ERROR</a> = -7
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa887fdf94234ea32d6a7aea29a69d1345">SAVEDATAUTIL_NO_ENOUGH_BUFFER_TO_LOAD</a> = -8
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa33f6ffffcac2057ea201e65cb4f89dab">SAVEDATAUTIL_BIND_ERROR</a> = -9
+, <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaaf6bf6d8fbd8f93568b6ac79c529aa62b">SAVEDATAUTIL_BIND_NEED_RECREATE</a> = -10
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaafc4769998afc0a8c32d588c235d616e2">SAVEDATAUTIL_NEED_RETRY_LOAD</a> = -11
+<br />
+ }</td></tr>
+<tr class="separator:ae6ae2e9de02381932eec905e5131b6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef43cc4c0e0557747a2e1684e6883117"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117">SaveDataUtilMode</a> : uint { <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117addca4a0421279ac99b67fbf8b5887646">SAVEDATAUTIL_AUTO</a> = 0
+, <a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a5dae210eb765e6ef82f729ec6d18594c">SAVEDATAUTIL_LIST</a> = 1
+, <a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a2b2b95f9aa5212b0c3d32f40bfa79a04">SAVEDATAUTIL_FIXED</a> = 2
+, <a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a96f77f594354bf8ae17d8b1c898b839d">SAVEDATAUTIL_BG</a> = 3
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117ad00eca14a6030d5cfc9a0a9cb8fcc27c">SAVEDATAUTIL_BACKUP</a> = 4
+, <a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a7b0c36c8eb5e555caaba43426010c0fd">SAVEDATAUTIL_OVERWRITE</a> = 5
+, <a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117ade8cd8356e0c31ae97538958cad916a7">SAVEDATAUTIL_AUTO_CREATE</a> = 6
+, <a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a1df71272b86589702c35a23eb94937ae">SAVEDATAUTIL_MIGRATION</a> = 7
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a5f9a1b2c40f1b360743df53d83e23993">SAVEDATAUTIL_RECREATE</a> = 8
+<br />
+ }</td></tr>
+<tr class="separator:aef43cc4c0e0557747a2e1684e6883117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf6b977fe1dec9c0585871f8d77d1be"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1be">VoucherResultCode</a> : uint { <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1beab2be3e72b509d028b4fec1cad06a2df2">ResultCodeOK</a> = 0
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea4b0061c09ae6427ffc33a7ecfc08cef3">ResultCodeInvalidArgument</a> = 0x80001000
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea615d1c57b3c6373e99889d2b2db8e26e">ResultCodeNoMemory</a> = 0x80001001
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea3a902f9f45164d6f7d113fcad940c605">ResultCodeNoIndex</a> = 0x80001002
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea1d37551723e5a97e25dde09f98d009bf">ResultCodeBufferNoSpace</a> = 0x80001003
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea81715c1aad53c776b31f39f3784091cc">ResultCodeInvalidKeyLicensee</a> = 0x80001004
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea1d9c0349b57ce5226dd42d43d78291e6">ResultCodeInvalidIndex</a> = 0x80001005
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea853ef77eef0676d6789b620856fa5de1">ResultCodeNoEntry</a> = 0x80001014
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea0e0a8485cd5cdad06344b8aa286802a7">ResultCodeIllegal</a> = 0x80001015
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1beacbe9f4f2790992ef770803dcf363bb87">ResultCodeNoDevice</a> = 0x80001016
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea80eaad2c2a3e889007ead0fe69dbbc2e">ResultCodeNoSupport</a> = 0x80001017
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea6616f726edf96bb28e408a769d22dca0">ResultCodeDRMGeneric</a> = 0x80001028
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea1c57c76ef47df2963bdc820040fca142">ResultCodeDRMBadRights</a> = 0x80001029
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea8bf21c9404d35ce211371e5b1ff378ef">ResultCodeDRMNoEntitlement</a> = 0x8000102a
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea58c7759684fd478e991c9368bcfcdd7a">ResultCodeDRMBadDeviceAuth</a> = 0x8000102b
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea81057cdc84281589bb9599180fc7502a">ResultCodeDRMIllegalFile</a> = 0x8000102c
+, <br />
+&#160;&#160;<a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea4fb6b3641a76a214b902fad96ef54862">ResultCodeDRMTimeLimit</a> = 0x8000102d
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea0b485c6af257eda03fc8c1745f90fbd4">ResultCodeDRMServiceNotStarted</a> = 0x8000102e
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1beaf12c62128a8b04d0f329cb053abe3f42">ResultCodeDRMClockNotInitialized</a> = 0x8000102f
+, <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1bea4e9861641140ed6a5f9481d066f1065b">ResultCodeUnknown</a> = 0x80001063
+<br />
+ }</td></tr>
+<tr class="separator:a3cf6b977fe1dec9c0585871f8d77d1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ae6ae2e9de02381932eec905e5131b6ea" name="ae6ae2e9de02381932eec905e5131b6ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6ae2e9de02381932eec905e5131b6ea">&#9670;&#160;</a></span>SaveDataUtilError</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6ea">pdiext::SaveDataUtilError</a> : uint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaad91acf5fcb2316ec5d1f772ad75cb2e0" name="ae6ae2e9de02381932eec905e5131b6eaad91acf5fcb2316ec5d1f772ad75cb2e0"></a>SAVEDATAUTIL_BUSY&#160;</td><td class="fielddoc"><p >1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaae1527f802edaa18be2111a6c3654932d" name="ae6ae2e9de02381932eec905e5131b6eaae1527f802edaa18be2111a6c3654932d"></a>SAVEDATAUTIL_SUCCESS&#160;</td><td class="fielddoc"><p >2 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaac982b14b23ac6c56b2a29826d83f4083" name="ae6ae2e9de02381932eec905e5131b6eaac982b14b23ac6c56b2a29826d83f4083"></a>SAVEDATAUTIL_FAILED_MALLOC&#160;</td><td class="fielddoc"><p >-1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaa3ce83d1081069d69bae7adf9aa6454fd" name="ae6ae2e9de02381932eec905e5131b6eaa3ce83d1081069d69bae7adf9aa6454fd"></a>SAVEDATAUTIL_NOMORE_SPACE&#160;</td><td class="fielddoc"><p >-2 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaa67802355d9751196e11e0c9b382ba719" name="ae6ae2e9de02381932eec905e5131b6eaa67802355d9751196e11e0c9b382ba719"></a>SAVEDATAUTIL_NO_DIRNAME&#160;</td><td class="fielddoc"><p >-3 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaa4df969dc99972958142a78376ed9a398" name="ae6ae2e9de02381932eec905e5131b6eaa4df969dc99972958142a78376ed9a398"></a>SAVEDATAUTIL_NO_FILENAME&#160;</td><td class="fielddoc"><p >-4 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaac10ac4dff3fb6275e4a73547efc9f0fd" name="ae6ae2e9de02381932eec905e5131b6eaac10ac4dff3fb6275e4a73547efc9f0fd"></a>SAVEDATAUTIL_CORRUPT_DATA&#160;</td><td class="fielddoc"><p >-5 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaa632b4330f7be5003ee8d65c30c179bf1" name="ae6ae2e9de02381932eec905e5131b6eaa632b4330f7be5003ee8d65c30c179bf1"></a>SAVEDATAUTIL_CANCEL_BY_USER&#160;</td><td class="fielddoc"><p >-6 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaafc84ce474acfd0d8dd412781ff21b1fc" name="ae6ae2e9de02381932eec905e5131b6eaafc84ce474acfd0d8dd412781ff21b1fc"></a>SAVEDATAUTIL_FATAL_ERROR&#160;</td><td class="fielddoc"><p >-7 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaa887fdf94234ea32d6a7aea29a69d1345" name="ae6ae2e9de02381932eec905e5131b6eaa887fdf94234ea32d6a7aea29a69d1345"></a>SAVEDATAUTIL_NO_ENOUGH_BUFFER_TO_LOAD&#160;</td><td class="fielddoc"><p >-8 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaa33f6ffffcac2057ea201e65cb4f89dab" name="ae6ae2e9de02381932eec905e5131b6eaa33f6ffffcac2057ea201e65cb4f89dab"></a>SAVEDATAUTIL_BIND_ERROR&#160;</td><td class="fielddoc"><p >-9 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaaf6bf6d8fbd8f93568b6ac79c529aa62b" name="ae6ae2e9de02381932eec905e5131b6eaaf6bf6d8fbd8f93568b6ac79c529aa62b"></a>SAVEDATAUTIL_BIND_NEED_RECREATE&#160;</td><td class="fielddoc"><p >-10 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae6ae2e9de02381932eec905e5131b6eaafc4769998afc0a8c32d588c235d616e2" name="ae6ae2e9de02381932eec905e5131b6eaafc4769998afc0a8c32d588c235d616e2"></a>SAVEDATAUTIL_NEED_RETRY_LOAD&#160;</td><td class="fielddoc"><p >-11 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="aef43cc4c0e0557747a2e1684e6883117" name="aef43cc4c0e0557747a2e1684e6883117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef43cc4c0e0557747a2e1684e6883117">&#9670;&#160;</a></span>SaveDataUtilMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117">pdiext::SaveDataUtilMode</a> : uint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117addca4a0421279ac99b67fbf8b5887646" name="aef43cc4c0e0557747a2e1684e6883117addca4a0421279ac99b67fbf8b5887646"></a>SAVEDATAUTIL_AUTO&#160;</td><td class="fielddoc"><p >0 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117a5dae210eb765e6ef82f729ec6d18594c" name="aef43cc4c0e0557747a2e1684e6883117a5dae210eb765e6ef82f729ec6d18594c"></a>SAVEDATAUTIL_LIST&#160;</td><td class="fielddoc"><p >1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117a2b2b95f9aa5212b0c3d32f40bfa79a04" name="aef43cc4c0e0557747a2e1684e6883117a2b2b95f9aa5212b0c3d32f40bfa79a04"></a>SAVEDATAUTIL_FIXED&#160;</td><td class="fielddoc"><p >2 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117a96f77f594354bf8ae17d8b1c898b839d" name="aef43cc4c0e0557747a2e1684e6883117a96f77f594354bf8ae17d8b1c898b839d"></a>SAVEDATAUTIL_BG&#160;</td><td class="fielddoc"><p >3 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117ad00eca14a6030d5cfc9a0a9cb8fcc27c" name="aef43cc4c0e0557747a2e1684e6883117ad00eca14a6030d5cfc9a0a9cb8fcc27c"></a>SAVEDATAUTIL_BACKUP&#160;</td><td class="fielddoc"><p >4 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117a7b0c36c8eb5e555caaba43426010c0fd" name="aef43cc4c0e0557747a2e1684e6883117a7b0c36c8eb5e555caaba43426010c0fd"></a>SAVEDATAUTIL_OVERWRITE&#160;</td><td class="fielddoc"><p >5 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117ade8cd8356e0c31ae97538958cad916a7" name="aef43cc4c0e0557747a2e1684e6883117ade8cd8356e0c31ae97538958cad916a7"></a>SAVEDATAUTIL_AUTO_CREATE&#160;</td><td class="fielddoc"><p >6 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117a1df71272b86589702c35a23eb94937ae" name="aef43cc4c0e0557747a2e1684e6883117a1df71272b86589702c35a23eb94937ae"></a>SAVEDATAUTIL_MIGRATION&#160;</td><td class="fielddoc"><p >7 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aef43cc4c0e0557747a2e1684e6883117a5f9a1b2c40f1b360743df53d83e23993" name="aef43cc4c0e0557747a2e1684e6883117a5f9a1b2c40f1b360743df53d83e23993"></a>SAVEDATAUTIL_RECREATE&#160;</td><td class="fielddoc"><p >8 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a3cf6b977fe1dec9c0585871f8d77d1be" name="a3cf6b977fe1dec9c0585871f8d77d1be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf6b977fe1dec9c0585871f8d77d1be">&#9670;&#160;</a></span>VoucherResultCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1be">pdiext::VoucherResultCode</a> : uint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1beab2be3e72b509d028b4fec1cad06a2df2" name="a3cf6b977fe1dec9c0585871f8d77d1beab2be3e72b509d028b4fec1cad06a2df2"></a>ResultCodeOK&#160;</td><td class="fielddoc"><p >0 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea4b0061c09ae6427ffc33a7ecfc08cef3" name="a3cf6b977fe1dec9c0585871f8d77d1bea4b0061c09ae6427ffc33a7ecfc08cef3"></a>ResultCodeInvalidArgument&#160;</td><td class="fielddoc"><p >80001000 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea615d1c57b3c6373e99889d2b2db8e26e" name="a3cf6b977fe1dec9c0585871f8d77d1bea615d1c57b3c6373e99889d2b2db8e26e"></a>ResultCodeNoMemory&#160;</td><td class="fielddoc"><p >80001001 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea3a902f9f45164d6f7d113fcad940c605" name="a3cf6b977fe1dec9c0585871f8d77d1bea3a902f9f45164d6f7d113fcad940c605"></a>ResultCodeNoIndex&#160;</td><td class="fielddoc"><p >80001002 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea1d37551723e5a97e25dde09f98d009bf" name="a3cf6b977fe1dec9c0585871f8d77d1bea1d37551723e5a97e25dde09f98d009bf"></a>ResultCodeBufferNoSpace&#160;</td><td class="fielddoc"><p >80001003 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea81715c1aad53c776b31f39f3784091cc" name="a3cf6b977fe1dec9c0585871f8d77d1bea81715c1aad53c776b31f39f3784091cc"></a>ResultCodeInvalidKeyLicensee&#160;</td><td class="fielddoc"><p >80001004 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea1d9c0349b57ce5226dd42d43d78291e6" name="a3cf6b977fe1dec9c0585871f8d77d1bea1d9c0349b57ce5226dd42d43d78291e6"></a>ResultCodeInvalidIndex&#160;</td><td class="fielddoc"><p >80001005 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea853ef77eef0676d6789b620856fa5de1" name="a3cf6b977fe1dec9c0585871f8d77d1bea853ef77eef0676d6789b620856fa5de1"></a>ResultCodeNoEntry&#160;</td><td class="fielddoc"><p >80001014 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea0e0a8485cd5cdad06344b8aa286802a7" name="a3cf6b977fe1dec9c0585871f8d77d1bea0e0a8485cd5cdad06344b8aa286802a7"></a>ResultCodeIllegal&#160;</td><td class="fielddoc"><p >80001015 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1beacbe9f4f2790992ef770803dcf363bb87" name="a3cf6b977fe1dec9c0585871f8d77d1beacbe9f4f2790992ef770803dcf363bb87"></a>ResultCodeNoDevice&#160;</td><td class="fielddoc"><p >80001016 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea80eaad2c2a3e889007ead0fe69dbbc2e" name="a3cf6b977fe1dec9c0585871f8d77d1bea80eaad2c2a3e889007ead0fe69dbbc2e"></a>ResultCodeNoSupport&#160;</td><td class="fielddoc"><p >80001017 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea6616f726edf96bb28e408a769d22dca0" name="a3cf6b977fe1dec9c0585871f8d77d1bea6616f726edf96bb28e408a769d22dca0"></a>ResultCodeDRMGeneric&#160;</td><td class="fielddoc"><p >80001028 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea1c57c76ef47df2963bdc820040fca142" name="a3cf6b977fe1dec9c0585871f8d77d1bea1c57c76ef47df2963bdc820040fca142"></a>ResultCodeDRMBadRights&#160;</td><td class="fielddoc"><p >80001029 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea8bf21c9404d35ce211371e5b1ff378ef" name="a3cf6b977fe1dec9c0585871f8d77d1bea8bf21c9404d35ce211371e5b1ff378ef"></a>ResultCodeDRMNoEntitlement&#160;</td><td class="fielddoc"><p >8000102a </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea58c7759684fd478e991c9368bcfcdd7a" name="a3cf6b977fe1dec9c0585871f8d77d1bea58c7759684fd478e991c9368bcfcdd7a"></a>ResultCodeDRMBadDeviceAuth&#160;</td><td class="fielddoc"><p >8000102b </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea81057cdc84281589bb9599180fc7502a" name="a3cf6b977fe1dec9c0585871f8d77d1bea81057cdc84281589bb9599180fc7502a"></a>ResultCodeDRMIllegalFile&#160;</td><td class="fielddoc"><p >8000102c </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea4fb6b3641a76a214b902fad96ef54862" name="a3cf6b977fe1dec9c0585871f8d77d1bea4fb6b3641a76a214b902fad96ef54862"></a>ResultCodeDRMTimeLimit&#160;</td><td class="fielddoc"><p >8000102d </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea0b485c6af257eda03fc8c1745f90fbd4" name="a3cf6b977fe1dec9c0585871f8d77d1bea0b485c6af257eda03fc8c1745f90fbd4"></a>ResultCodeDRMServiceNotStarted&#160;</td><td class="fielddoc"><p >8000102e </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1beaf12c62128a8b04d0f329cb053abe3f42" name="a3cf6b977fe1dec9c0585871f8d77d1beaf12c62128a8b04d0f329cb053abe3f42"></a>ResultCodeDRMClockNotInitialized&#160;</td><td class="fielddoc"><p >8000102f </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3cf6b977fe1dec9c0585871f8d77d1bea4e9861641140ed6a5f9481d066f1065b" name="a3cf6b977fe1dec9c0585871f8d77d1bea4e9861641140ed6a5f9481d066f1065b"></a>ResultCodeUnknown&#160;</td><td class="fielddoc"><p >80001063 </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

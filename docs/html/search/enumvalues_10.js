@@ -1,7 +1,29 @@
 var searchData=
 [
-  ['sdk_0',['SDK',['../namespacepdistd.html#a9485c4c830c02232f59c7f16a5edcc33af20e3c5e54c0ab3d375d660b3f896f6a',1,'pdistd']]],
-  ['se_1',['SE',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2daf003c44deab679aa2edfaff864c77402',1,'pdistd']]],
-  ['someonevotedcourse_2',['SomeoneVotedCourse',['../namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aa8766bf695e553bd1971cbf64969fbd20',1,'gtengine']]],
-  ['system_3',['SYSTEM',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2dafa177138f94a7ea01f549b1aa7893d03',1,'pdistd']]]
+  ['savedatautil_5fauto_0',['SAVEDATAUTIL_AUTO',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117addca4a0421279ac99b67fbf8b5887646',1,'pdiext']]],
+  ['savedatautil_5fauto_5fcreate_1',['SAVEDATAUTIL_AUTO_CREATE',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117ade8cd8356e0c31ae97538958cad916a7',1,'pdiext']]],
+  ['savedatautil_5fbackup_2',['SAVEDATAUTIL_BACKUP',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117ad00eca14a6030d5cfc9a0a9cb8fcc27c',1,'pdiext']]],
+  ['savedatautil_5fbg_3',['SAVEDATAUTIL_BG',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a96f77f594354bf8ae17d8b1c898b839d',1,'pdiext']]],
+  ['savedatautil_5fbind_5ferror_4',['SAVEDATAUTIL_BIND_ERROR',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa33f6ffffcac2057ea201e65cb4f89dab',1,'pdiext']]],
+  ['savedatautil_5fbind_5fneed_5frecreate_5',['SAVEDATAUTIL_BIND_NEED_RECREATE',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaaf6bf6d8fbd8f93568b6ac79c529aa62b',1,'pdiext']]],
+  ['savedatautil_5fbusy_6',['SAVEDATAUTIL_BUSY',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaad91acf5fcb2316ec5d1f772ad75cb2e0',1,'pdiext']]],
+  ['savedatautil_5fcancel_5fby_5fuser_7',['SAVEDATAUTIL_CANCEL_BY_USER',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa632b4330f7be5003ee8d65c30c179bf1',1,'pdiext']]],
+  ['savedatautil_5fcorrupt_5fdata_8',['SAVEDATAUTIL_CORRUPT_DATA',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaac10ac4dff3fb6275e4a73547efc9f0fd',1,'pdiext']]],
+  ['savedatautil_5ffailed_5fmalloc_9',['SAVEDATAUTIL_FAILED_MALLOC',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaac982b14b23ac6c56b2a29826d83f4083',1,'pdiext']]],
+  ['savedatautil_5ffatal_5ferror_10',['SAVEDATAUTIL_FATAL_ERROR',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaafc84ce474acfd0d8dd412781ff21b1fc',1,'pdiext']]],
+  ['savedatautil_5ffixed_11',['SAVEDATAUTIL_FIXED',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a2b2b95f9aa5212b0c3d32f40bfa79a04',1,'pdiext']]],
+  ['savedatautil_5flist_12',['SAVEDATAUTIL_LIST',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a5dae210eb765e6ef82f729ec6d18594c',1,'pdiext']]],
+  ['savedatautil_5fmigration_13',['SAVEDATAUTIL_MIGRATION',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a1df71272b86589702c35a23eb94937ae',1,'pdiext']]],
+  ['savedatautil_5fneed_5fretry_5fload_14',['SAVEDATAUTIL_NEED_RETRY_LOAD',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaafc4769998afc0a8c32d588c235d616e2',1,'pdiext']]],
+  ['savedatautil_5fno_5fdirname_15',['SAVEDATAUTIL_NO_DIRNAME',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa67802355d9751196e11e0c9b382ba719',1,'pdiext']]],
+  ['savedatautil_5fno_5fenough_5fbuffer_5fto_5fload_16',['SAVEDATAUTIL_NO_ENOUGH_BUFFER_TO_LOAD',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa887fdf94234ea32d6a7aea29a69d1345',1,'pdiext']]],
+  ['savedatautil_5fno_5ffilename_17',['SAVEDATAUTIL_NO_FILENAME',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa4df969dc99972958142a78376ed9a398',1,'pdiext']]],
+  ['savedatautil_5fnomore_5fspace_18',['SAVEDATAUTIL_NOMORE_SPACE',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaa3ce83d1081069d69bae7adf9aa6454fd',1,'pdiext']]],
+  ['savedatautil_5foverwrite_19',['SAVEDATAUTIL_OVERWRITE',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a7b0c36c8eb5e555caaba43426010c0fd',1,'pdiext']]],
+  ['savedatautil_5frecreate_20',['SAVEDATAUTIL_RECREATE',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117a5f9a1b2c40f1b360743df53d83e23993',1,'pdiext']]],
+  ['savedatautil_5fsuccess_21',['SAVEDATAUTIL_SUCCESS',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6eaae1527f802edaa18be2111a6c3654932d',1,'pdiext']]],
+  ['sdk_22',['SDK',['../namespacepdistd.html#a9485c4c830c02232f59c7f16a5edcc33af20e3c5e54c0ab3d375d660b3f896f6a',1,'pdistd']]],
+  ['se_23',['SE',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2daf003c44deab679aa2edfaff864c77402',1,'pdistd']]],
+  ['someonevotedcourse_24',['SomeoneVotedCourse',['../namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aa8766bf695e553bd1971cbf64969fbd20',1,'gtengine']]],
+  ['system_25',['SYSTEM',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2dafa177138f94a7ea01f549b1aa7893d03',1,'pdistd']]]
 ];

@@ -6,5 +6,5 @@ var searchData=
   ['size_3',['size',['../class_system_1_1_array.html#a82501ab8789406ef542baf0f9411dbe0',1,'System::Array::size()'],['../class_system_1_1_byte_data.html#a697280dee819178dd7b3bdcaadb99343',1,'System::ByteData::size()'],['../classpdistd_1_1_m_blob.html#a731f1b2a5065ddf270522d29b5cc5ee9',1,'pdistd::MBlob::size()'],['../classpdistd_1_1_m_dom_node_list.html#a175c7b59cba5ed62b53c33ef9892365e',1,'pdistd::MDomNodeList::size()'],['../class_system_1_1_regexp.html#a47edd5569d29422dfa5fb54db65c6ae8',1,'System::Regexp::size()']]],
   ['sound_5fdriver_5fvolume_5fscale_4',['sound_driver_volume_scale',['../classpdistd_1_1_m_sound_context.html#a0c8d0fc8bbc435de271c0842e92a3b1d',1,'pdistd::MSoundContext']]],
   ['stream_5',['stream',['../classpdistd_1_1_m_sound.html#a042fe9a9100c39f2d8ecbad3f94162cb',1,'pdistd::MSound']]],
-  ['syncusb_6',['syncUSB',['../classpdistd_1_1_m_usb_psp_comm.html#a0ec7503d26f38808965317c1ac555da4',1,'pdistd::MUsbPspComm']]]
+  ['syncusb_6',['syncUSB',['../classpdiext_1_1_m_usb_psp_comm.html#ad88d037458fd93e1a5dfd4eec237317b',1,'pdiext::MUsbPspComm']]]
 ];
