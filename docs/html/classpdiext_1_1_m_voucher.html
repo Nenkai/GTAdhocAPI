@@ -131,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adfeb32e1026140df10807ad7fe085449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether indexing is done.  <a href="classpdiext_1_1_m_voucher.html#adfeb32e1026140df10807ad7fe085449">More...</a><br /></td></tr>
 <tr class="separator:adfeb32e1026140df10807ad7fe085449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f90b8b7288eb2c87cbb04e3478ae576"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_array.html">Array</a>&lt; <a class="el" href="class_system_1_1_int.html">Int</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1_m_voucher.html#a2f90b8b7288eb2c87cbb04e3478ae576">indexLoadFile</a> (<a class="el" href="class_system_1_1_byte_data.html">ByteData</a> buffer)</td></tr>
-<tr class="memdesc:a2f90b8b7288eb2c87cbb04e3478ae576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads file data into buffer.  <a href="classpdiext_1_1_m_voucher.html#a2f90b8b7288eb2c87cbb04e3478ae576">More...</a><br /></td></tr>
+<tr class="memdesc:a2f90b8b7288eb2c87cbb04e3478ae576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads decrypted edat file data into buffer.  <a href="classpdiext_1_1_m_voucher.html#a2f90b8b7288eb2c87cbb04e3478ae576">More...</a><br /></td></tr>
 <tr class="separator:a2f90b8b7288eb2c87cbb04e3478ae576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adef28d125e3aa2ef05de7bee6141de01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1be">VoucherResultCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdiext_1_1_m_voucher.html#adef28d125e3aa2ef05de7bee6141de01">indexIsValidNow</a> ()</td></tr>
 <tr class="separator:adef28d125e3aa2ef05de7bee6141de01"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -314,12 +314,14 @@ Additional Inherited Members</h2></td></tr>
 <div class="line">var res = voucher.loadDRMModule();</div>
 <div class="line"><span class="keywordflow">if</span> (res &lt; 0)</div>
 <div class="line">{</div>
+<div class="line">    <span class="comment">// Failed to load module</span></div>
 <div class="line">    <span class="keywordflow">return</span>;</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line">res = voucher.buildIndex();</div>
 <div class="line"><span class="keywordflow">if</span> (res &lt; 0)</div>
 <div class="line">{</div>
+<div class="line">    <span class="comment">// Failed to build index of files</span></div>
 <div class="line">    voucher.unloadDRMModule();</div>
 <div class="line">    <span class="keywordflow">return</span>;</div>
 <div class="line">}</div>
@@ -335,13 +337,13 @@ Additional Inherited Members</h2></td></tr>
 <div class="line">        <span class="comment">// Handle each result code</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// Do something with buffer</span></div>
-<div class="line"> </div>
+<div class="line">    <span class="comment">// Do something with buf</span></div>
+<div class="line">    </div>
 <div class="line">    voucher.indexNext();</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line">voucher.unloadDRMModule();</div>
-<div class="ttc" id="aclasspdiext_1_1_m_voucher_html"><div class="ttname"><a href="classpdiext_1_1_m_voucher.html">pdiext::MVoucher</a></div><div class="ttdoc">Handler for voucher/dlcs.</div><div class="ttdef"><b>Definition:</b> MVoucher.cpp:40</div></div>
+<div class="ttc" id="aclasspdiext_1_1_m_voucher_html"><div class="ttname"><a href="classpdiext_1_1_m_voucher.html">pdiext::MVoucher</a></div><div class="ttdoc">Handler for voucher/dlcs.</div><div class="ttdef"><b>Definition:</b> MVoucher.cpp:42</div></div>
 <div class="ttc" id="anamespacepdiext_html_a3cf6b977fe1dec9c0585871f8d77d1beab2be3e72b509d028b4fec1cad06a2df2"><div class="ttname"><a href="namespacepdiext.html#a3cf6b977fe1dec9c0585871f8d77d1beab2be3e72b509d028b4fec1cad06a2df2">pdiext::VoucherResultCode::ResultCodeOK</a></div><div class="ttdeci">@ ResultCodeOK</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a57c9b5ebf9232ae59d3a7a225b500dcf" name="a57c9b5ebf9232ae59d3a7a225b500dcf"></a>
@@ -461,7 +463,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Loads file data into buffer. </p>
+<p>Loads decrypted edat file data into buffer. </p>
 <dl class="section return"><dt>Returns</dt><dd>Array((VoucherResultCode) result, size) </dd></dl>
 
 </div>
@@ -501,6 +503,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Loads DRM Module. </p>
+<p >Doesn't actually seem to do anything or load any sort of module, may not even be needed </p>
 
 </div>
 </div>
@@ -520,6 +523,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Unloads DRM Module. </p>
+<p >Doesn't actually seem to do anything or unload any sort of module, may not even be needed </p>
 
 </div>
 </div>
