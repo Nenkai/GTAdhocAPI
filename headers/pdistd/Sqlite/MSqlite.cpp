@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief SQLite Library Interface Object */
 	class MSqlite : public Object
 	{
 		public:

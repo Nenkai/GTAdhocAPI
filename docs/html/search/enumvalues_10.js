@@ -25,5 +25,18 @@ var searchData=
   ['sdk_22',['SDK',['../namespacepdistd.html#a9485c4c830c02232f59c7f16a5edcc33af20e3c5e54c0ab3d375d660b3f896f6a',1,'pdistd']]],
   ['se_23',['SE',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2daf003c44deab679aa2edfaff864c77402',1,'pdistd']]],
   ['someonevotedcourse_24',['SomeoneVotedCourse',['../namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aa8766bf695e553bd1971cbf64969fbd20',1,'gtengine']]],
-  ['system_25',['SYSTEM',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2dafa177138f94a7ea01f549b1aa7893d03',1,'pdistd']]]
+  ['stereo_5fdolby_5fpl2_25',['STEREO_DOLBY_PL2',['../namespacepdiext.html#a7c4a6ad6b948886b2fd60148ac78d146a355ef8fd2137d6c244ce4b4f609dbf9c',1,'pdiext']]],
+  ['stereo_5fnormal_26',['STEREO_NORMAL',['../namespacepdiext.html#a7c4a6ad6b948886b2fd60148ac78d146a8c9fdbdc759f440970905c2cf9e2ac59',1,'pdiext']]],
+  ['surround_5fcircular_5f5ch_27',['SURROUND_CIRCULAR_5CH',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728ab2c24aa38226135b3c18225d160c9c90',1,'pdiext']]],
+  ['surround_5fcircular_5f7ch_28',['SURROUND_CIRCULAR_7CH',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728a0965c3dae080ed735417d08c3cc20d4c',1,'pdiext']]],
+  ['surround_5fdolby_5fdigital_5fex_29',['SURROUND_DOLBY_DIGITAL_EX',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728a27518236a3a8611283bb450a65f1c434',1,'pdiext']]],
+  ['surround_5fdolby_5fpl2_30',['SURROUND_DOLBY_PL2',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728aa445d37c15536ea1a899d03ac7188afd',1,'pdiext']]],
+  ['surround_5fdolby_5fpl2x_31',['SURROUND_DOLBY_PL2X',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728ac86ed396df450a5c294f08d2462d2841',1,'pdiext']]],
+  ['surround_5fdts_5fes_32',['SURROUND_DTS_ES',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728afd815f5ddcb7f909e5cb62c5a932a2bd',1,'pdiext']]],
+  ['surround_5fitu_5fr_33',['SURROUND_ITU_R',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728af05a9e3e37da06224c0146bf350749ef',1,'pdiext']]],
+  ['surround_5fitu_5fr_5fnc_34',['SURROUND_ITU_R_NC',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728a4e92d5667eff6469f6cfda08503af397',1,'pdiext']]],
+  ['surround_5fmono_35',['SURROUND_MONO',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728a392f8e39ad6d5633113377b8a24da17a',1,'pdiext']]],
+  ['surround_5fnormal_36',['SURROUND_NORMAL',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728a5aaeb359e963a831bef0e219823c05b7',1,'pdiext']]],
+  ['surround_5fstereo_37',['SURROUND_STEREO',['../namespacepdiext.html#a699c407ead01fec9e0b300ff184f7728a319576ffa98bbb6f4875bdb8524a1002',1,'pdiext']]],
+  ['system_38',['SYSTEM',['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2dafa177138f94a7ea01f549b1aa7893d03',1,'pdistd']]]
 ];

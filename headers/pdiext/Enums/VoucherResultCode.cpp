@@ -1,6 +1,6 @@
 namespace pdiext
 {
-    enum class VoucherResultCode : uint
+    enum class VoucherResultCode : int
 	{
 		ResultCodeOK = 0, /*!< 0 */
         ResultCodeInvalidArgument = 0x80001000, /*!< 80001000 */

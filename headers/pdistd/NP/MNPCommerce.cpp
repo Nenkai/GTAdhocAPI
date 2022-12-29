@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief NP Commerce Interface */
 	class MNPCommerce : public Object
 	{
 		public:

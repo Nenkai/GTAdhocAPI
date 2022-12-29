@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/* Mersenne-Twister Random */
+	/** \brief Mersenne-Twister base random number generator object */
 	class MRandom : public Object
 	{
 		public:

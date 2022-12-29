@@ -1,6 +1,7 @@
 namespace IO
 {
-	/* writeInt doesn't work, writeByte, writeString does (didn't test others) */
+	/** \brief Stream writer for writing strings. 
+	\details writeInt doesn't work, writeByte, writeString does (didn't test others) */
 	class StringWriter : public StreamWriter, IByteData
 	{
 		public:

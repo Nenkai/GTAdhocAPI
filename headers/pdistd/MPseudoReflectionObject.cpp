@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief Adhoc object serializer & accessor */
 	class MPseudoReflectionObject : public Object
 	{
 		public:

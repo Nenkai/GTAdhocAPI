@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/** Wrapper around libceil for PAMF file streaming */
+	/** \brief Wrapper around libsail for PAMF file streaming (Sony) */
 	class MSailTranscoder : public Object
 	{
 		public:

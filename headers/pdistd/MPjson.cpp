@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief Handler for encoding strings into JSON */
 	class MPjson : public Module
 	{
 		public:

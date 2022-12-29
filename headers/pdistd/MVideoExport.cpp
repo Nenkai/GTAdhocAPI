@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/** Wrapper around cellVideoExport */
+	/** \brief Wrapper around cellVideoExport (Sony) */
 	class MVideoExport : public Object
 	{
 		public:

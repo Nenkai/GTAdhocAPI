@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief PDI Network/Server Interface */
 	class MPDINetwork : public Object
 	{
 		public:

@@ -1,6 +1,6 @@
-namespace System
+namespace IO
 {
-	/* Reads strings */
+	/** \brief Stream reader for reading from strings. */
 	class StringReader : public StreamReader, IByteData
 	{
 		public:

@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/** NP Title User Storage (TUS) handler */
+	/** \brief NP Title User Storage (TUS) API Interface */
 	class MNetworkUserStorage : public Object
 	{
 		public:

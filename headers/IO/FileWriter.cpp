@@ -1,5 +1,6 @@
 namespace IO
 {
+	/** \brief Stream reader for direct file writing. */
 	class FileWriter : public StreamWriter
 	{
 		public:

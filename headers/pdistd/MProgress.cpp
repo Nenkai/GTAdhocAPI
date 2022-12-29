@@ -2,7 +2,8 @@ using namespace System;
 
 namespace pdistd
 {
-	/** Needs more documentation, couldn't get getRemainSecond not to return -1 or 0 after complete() */
+	/** \brief General object representing task progress
+	\details Needs more documentation, couldn't get getRemainSecond not to return -1 or 0 after complete() */
 	class MProgress : public Object
 	{
 		public:

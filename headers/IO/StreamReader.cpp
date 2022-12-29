@@ -1,5 +1,6 @@
-namespace System
+namespace IO
 {
+	/** \brief Abstract class for stream reading. */
 	class StreamReader : public Object
 	{
 		public:
@@ -22,9 +23,6 @@ namespace System
 
 			Int peek();
 
-			/// @brief Gets or sets the endianess.
-			Int endian;
-
 			Bool readBool();
 			Byte readByte();
 			Short readShort();
@@ -39,6 +37,13 @@ namespace System
 			Int readVarInt();
 			String readString();
 			ByteData readByteData();
+			ByteData readBuffer();
+			String readChar();
+			String readLine();
+			String readLines();
+
+			/// @brief Gets or sets the endianess.
+			Int endian;
 
 	}
 }

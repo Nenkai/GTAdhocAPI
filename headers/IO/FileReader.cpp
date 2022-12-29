@@ -1,5 +1,6 @@
 namespace IO
 {
+	/** \brief Stream reader for direct file reading. */
 	class FileReader : public StreamReader
 	{
 		public:

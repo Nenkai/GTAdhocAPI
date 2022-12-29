@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief Handler for Adhoc Project resources (GPB files) */
 	class MGpb : public Object
 	{
 		public:

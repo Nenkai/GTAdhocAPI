@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/* Screen recording capabilities */
+	/** \brief Provides Screen recording capabilities (Sony) */
 	class MRecorder : public Object
 	{
 		public:

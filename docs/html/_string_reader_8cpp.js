@@ -1,4 +1,4 @@
 var _string_reader_8cpp =
 [
-    [ "System::StringReader", "class_system_1_1_string_reader.html", "class_system_1_1_string_reader" ]
+    [ "IO::StringReader", "class_i_o_1_1_string_reader.html", "class_i_o_1_1_string_reader" ]
 ];

@@ -2,6 +2,8 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief Represents an object describing a date and time. 
+	\details Internally uses Julian. */
 	class MTime : public Object
 	{
 		public:

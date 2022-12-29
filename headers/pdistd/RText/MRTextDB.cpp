@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief Localization Database Object */
 	class MRTextDB : public Object
 	{
 		public:

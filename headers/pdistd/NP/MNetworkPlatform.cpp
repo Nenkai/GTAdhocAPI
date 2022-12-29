@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief PSN/Network Platform API Interface */
 	class MNetworkPlatform : public Object
 	{
 		public:

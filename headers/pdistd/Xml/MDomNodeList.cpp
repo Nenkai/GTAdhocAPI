@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief XML Node List */
 	class MDomNodeList
 	{
 		public:

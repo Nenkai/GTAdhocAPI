@@ -1,5 +1,6 @@
 namespace IO
 {
+	/** \brief Stream reader for byte buffers. */
 	class ByteReader : public StreamReader, IByteData
 	{
 		public:

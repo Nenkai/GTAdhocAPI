@@ -1,5 +1,6 @@
 var namespace_system =
 [
+    [ "__module__", "class_system_1_1____module____.html", null ],
     [ "Any", "class_system_1_1_any.html", null ],
     [ "Array", "class_system_1_1_array.html", "class_system_1_1_array" ],
     [ "Bool", "class_system_1_1_bool.html", "class_system_1_1_bool" ],
@@ -27,11 +28,8 @@ var namespace_system =
     [ "STDouble", "class_system_1_1_s_t_double.html", null ],
     [ "STFloat", "class_system_1_1_s_t_float.html", null ],
     [ "STLong", "class_system_1_1_s_t_long.html", null ],
-    [ "StreamReader", "class_system_1_1_stream_reader.html", "class_system_1_1_stream_reader" ],
-    [ "StreamWriter", "class_system_1_1_stream_writer.html", "class_system_1_1_stream_writer" ],
     [ "STRecord", "class_system_1_1_s_t_record.html", null ],
     [ "String", "class_system_1_1_string.html", "class_system_1_1_string" ],
-    [ "StringReader", "class_system_1_1_string_reader.html", "class_system_1_1_string_reader" ],
     [ "STShort", "class_system_1_1_s_t_short.html", null ],
     [ "STString", "class_system_1_1_s_t_string.html", null ],
     [ "STStructure", "class_system_1_1_s_t_structure.html", null ],
@@ -42,8 +40,8 @@ var namespace_system =
     [ "Symbol", "class_system_1_1_symbol.html", "class_system_1_1_symbol" ],
     [ "Thread", "class_system_1_1_thread.html", "class_system_1_1_thread" ],
     [ "UByte", "class_system_1_1_u_byte.html", "class_system_1_1_u_byte" ],
+    [ "UInt", "class_system_1_1_u_int.html", "class_system_1_1_u_int" ],
     [ "ULong", "class_system_1_1_u_long.html", "class_system_1_1_u_long" ],
     [ "UShort", "class_system_1_1_u_short.html", "class_system_1_1_u_short" ],
-    [ "Void", "class_system_1_1_void.html", "class_system_1_1_void" ],
-    [ "ZipReader", "class_system_1_1_zip_reader.html", "class_system_1_1_zip_reader" ]
+    [ "Void", "class_system_1_1_void.html", "class_system_1_1_void" ]
 ];

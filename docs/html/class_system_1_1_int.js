@@ -25,5 +25,6 @@ var class_system_1_1_int =
     [ "operator^", "class_system_1_1_int.html#a1ded72d7d2eaab88b14493e57a70c32e", null ],
     [ "operator|", "class_system_1_1_int.html#ab4d06e87b6684b21403c3a2dc27382e9", null ],
     [ "operator||", "class_system_1_1_int.html#ac63b0230129551b41223cf01b371d891", null ],
-    [ "operator~", "class_system_1_1_int.html#abcf4801ad7ecb1bfce554a65c7443cc6", null ]
+    [ "operator~", "class_system_1_1_int.html#abcf4801ad7ecb1bfce554a65c7443cc6", null ],
+    [ "value", "class_system_1_1_int.html#a2ffe4e86e185eccc7fe14a00b38ab9c4", null ]
 ];

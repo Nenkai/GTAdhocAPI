@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief Handler for parsing XML files */
 	class MXml : public Object
 	{
 		public:

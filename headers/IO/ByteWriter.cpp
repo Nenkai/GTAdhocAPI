@@ -1,5 +1,6 @@
 namespace IO
 {
+	/** \brief Stream writer for byte buffers. */
 	class ByteWriter : public StreamWriter
 	{
 		public:

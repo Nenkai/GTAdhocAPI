@@ -1,6 +1,7 @@
-namespace System
+namespace IO
 {
-	/* Reads from inflated files (using fibers library with ADZip as identifier)*/
+	/** \brief Stream reader for reading from inflated files
+	\details Uses fibers library with ADZip as identifier */
 	class ZipReader : public StreamReader
 	{
 		public:

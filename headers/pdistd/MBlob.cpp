@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/** Based on byte-data */
+	/** \brief Blob Object (Based on ByteData)*/
 	class MBlob : public Object, IByteData
 	{
 		public:

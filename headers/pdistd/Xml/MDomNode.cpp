@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/** XML Node Object */
+	/** \brief XML Node */
 	class MDomNode : public Object
 	{
 		public:

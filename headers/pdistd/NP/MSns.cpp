@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/* PSN Social Networking Services Handler */
+	/* PSN Social Networking Services API Interface */
 	class MSns : public Object
 	{
 		public:

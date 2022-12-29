@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exception_2ecpp_0',['Exception.cpp',['../_exception_8cpp.html',1,'']]]
+  ['double_2ecpp_0',['Double.cpp',['../_double_8cpp.html',1,'']]]
 ];

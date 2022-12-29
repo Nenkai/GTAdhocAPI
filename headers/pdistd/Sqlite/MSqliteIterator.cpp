@@ -2,7 +2,9 @@ using namespace System;
 
 namespace pdistd
 {
-	class MSqliteOperator : public Object, IIterator
+	/** \brief SQLite Interator Object
+	\details Intended for MSqlite.query() */
+	class MSqliteIterator : public Object, IIterator
 	{
 		public:
 			void end();

@@ -2,6 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
+	/** \brief NP Eula Interface */
 	class MNpEula : public Object
 	{
 		public:

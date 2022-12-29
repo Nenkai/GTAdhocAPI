@@ -2,7 +2,7 @@ using namespace System;
 
 namespace pdistd
 {
-	/** Acts as a string builder of some sort */
+	/** \brief Acts as a string builder of some sort */
 	class MPipe : public Object
 	{
 		public:
