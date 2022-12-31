@@ -1,6 +1,70 @@
 var namespacegtengine =
 [
     [ "__module__", "classgtengine_1_1____module____.html", null ],
+    [ "MCarDriverParameter", "classgtengine_1_1_m_car_driver_parameter.html", "classgtengine_1_1_m_car_driver_parameter" ],
+    [ "MCarParameter", "classgtengine_1_1_m_car_parameter.html", "classgtengine_1_1_m_car_parameter" ],
+    [ "AspirationType", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811c", [
+      [ "NATUNE", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca1750c34efc385f24124fe45061b04a37", null ],
+      [ "TURBO", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca25f5946148e1ba137daf695ba05e71d3", null ],
+      [ "SUPERCHARGER", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca9a29577884439ed386a73210d768dad3", null ],
+      [ "SUPERTURBO", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811cad64fe9b0d3cbb488cf0a2ccbcd0594c6", null ],
+      [ "MOTOR", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca5e4c01f166d4563e75575db113664c8a", null ],
+      [ "OTHER", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca03570470bad94692ce93e32700d2e1cb", null ]
+    ] ],
+    [ "CarPartsType", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006", [
+      [ "BRAKE", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a0c206573cf0e27e92aa30ae9c13de668", null ],
+      [ "BRAKE_CONTROLLER", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a98376b51fd5d87ee8db0135bf357fbc5", null ],
+      [ "SUSPENSION", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006aa1ba7786e9210213ad2cad80bfb75f72", null ],
+      [ "ASCC", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a1a7d0b04c01194b12edcb6cb3bbe0993", null ],
+      [ "TCSC", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ac23692f609da07c45ad0923f9c4ea2b6", null ],
+      [ "CHASSIS", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ad628c584625a374f9909c86b66a145ba", null ],
+      [ "RACING_MODIFY", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a3c710ec6cdf0fe4f8bdc50d82a6c0cd0", null ],
+      [ "LIGHT_WEIGHT", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ae95e781e8eec2aac52389cbd4c89906d", null ],
+      [ "STEER", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a59e8fcc4d92cbf4e0e19dd1def4ec44c", null ],
+      [ "DRIVETRAIN", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a79de1c527fdd7d88cf3ad097b19507b8", null ],
+      [ "GEAR", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006af7f969cab28c02ff054c290dbf9d3bfe", null ],
+      [ "ENGINE", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a1942d6cfa11aa1cf183f999aba8eac2e", null ],
+      [ "NATUNE", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a1750c34efc385f24124fe45061b04a37", null ],
+      [ "TURBINEKIT", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a7799efdc6120ecffe02c2075fe5927cb", null ],
+      [ "DISPLACEMENT", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a588d9cf9baadd390793d7bd46ae3d3a8", null ],
+      [ "COMPUTER", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ad19cbc472227d1e3d1d276c2cbc0e513", null ],
+      [ "INTERCOOLER", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a00c0d1ecc8471991d0521ec5661447bf", null ],
+      [ "MUFFLER", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006aec7f38a79085d5f43b422ccc6a14780e", null ],
+      [ "CLUTCH", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a1b212c9f774a6db2f4ec48f1c8219258", null ],
+      [ "FLYWHEEL", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a302102ee6e4e1b49bd6c5dcb56cce0ec", null ],
+      [ "PROPELLERSHAFT", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006aa13f04a10cc0c7965a1d0f5922ccd766", null ],
+      [ "LSD", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006acccf51b3cb3320e8dd936bd1bb473a3e", null ],
+      [ "FRONT_TIRE", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006aef6f63c6f3e08d6910beb2267d4a31f4", null ],
+      [ "REAR_TIRE", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a67c463299fb99932a2e9ed4ad93941bc", null ],
+      [ "NOS", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a8ffe23d79ecc928cd2202d4ee5d93c91", null ],
+      [ "SUPERCHARGER", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a9a29577884439ed386a73210d768dad3", null ],
+      [ "INTAKE_MANIFOLD", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a02195d703d59cf3e327718bcc4a70cd6", null ],
+      [ "EXHAUST_MANIFOLD", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a649039924945a071fe3d1e4fda7606d9", null ],
+      [ "CATALYST", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a589f969f135aace687071cee6ea9c5e4", null ],
+      [ "AIR_CLEANER", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ac6b068131dd4c2e4dda0c88e6f252245", null ],
+      [ "BOOST_CONTROLLER", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ab2d6f98b87178091922692b6b9688163", null ],
+      [ "INDEP_THROTTLE", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a0739585451720cb8290a134c6839cff4", null ],
+      [ "LIGHT_WEIGHT_WINDOW", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ad5af54da3edb8410735b312d32b56dea", null ],
+      [ "BONNET", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a13c35b26a59960bdf03fd71509fd918a", null ],
+      [ "AERO", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a9fd7e5dd9ebe480cd0c494eb895a8805", null ],
+      [ "FLAT_FLOOR", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ae392c4fd31ad5d7299ad5b80b3dd74f7", null ],
+      [ "FREEDOM", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006abbb61d886531b250428d19a0f5d53261", null ],
+      [ "WING", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006aaea48c55cbd683a8cba393631a243cdd", null ],
+      [ "STIFFNESS", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006aa231c1d74fe18f9e82224588887d1971", null ],
+      [ "SPECIAL_GAS", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ae6850a12981358bd35fd7cbf7882f4a1", null ]
+    ] ],
+    [ "CourseCondition", "namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06", [
+      [ "DRY", "namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06a76cca64663bcf77e11df2d5a88fc7d4b", null ],
+      [ "WET", "namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06a7b04589937ff7848ae72b7f93092c3fc", null ],
+      [ "DIRT", "namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06a3ef5656907af69ff36347e8dc2416744", null ],
+      [ "SNOW", "namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06a5b93646ac0ddec8af3c0d78a094d0fc3", null ]
+    ] ],
+    [ "DriverType", "namespacegtengine.html#a66de0285099c24efbd6539af28a14b14", [
+      [ "NONE", "namespacegtengine.html#a66de0285099c24efbd6539af28a14b14ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "PLAYER", "namespacegtengine.html#a66de0285099c24efbd6539af28a14b14a07c80e2a355d91402a00d82b1fa13855", null ],
+      [ "AI", "namespacegtengine.html#a66de0285099c24efbd6539af28a14b14a0a40e3c91a3a55c9a37428c6d194d0e5", null ],
+      [ "GPS", "namespacegtengine.html#a66de0285099c24efbd6539af28a14b14a8c578de37278ada488d763ea86c5cf20", null ]
+    ] ],
     [ "NoticeType", "namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1a", [
       [ "Unknown", "namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aa88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "AutoMessage", "namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aad9f54b93e7845b9b9a4df28a43fc7570", null ],
@@ -35,5 +99,40 @@ var namespacegtengine =
       [ "PitConstraint", "namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aa2ac1e791ed6539f72420ab41039d193f", null ],
       [ "NeedTireChange", "namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aaa25014b32b0d1c0c5b4054ec7c7f56fe", null ],
       [ "BestRecordUpdated", "namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aa34e7bcf655a862c59dc85801b078ead2", null ]
+    ] ],
+    [ "PARTS_TIRE", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5", [
+      [ "TIRE_DRY_MIN", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a8af0ff1de871b6fec6dba4d03abd5b2d", null ],
+      [ "TIRE_TARMAC_MIN", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a2d05166ca7e2c86fa9e8cd5ba753e812", null ],
+      [ "COMFORT_HARD", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5ada54338b6cf102a57fdb3b9f87569227", null ],
+      [ "COMFORT_MEDIUM", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5afed955d726a69f3faafb6c1dc534bc2b", null ],
+      [ "COMFORT_SOFT", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a9da6b091b0c3e96c997ffe4a257889f0", null ],
+      [ "SPORTS_HARD", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a1b202887e24f17d6b85d64559a19aefc", null ],
+      [ "SPORTS_MEDIUM", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5aa27d9fea251424ee25e5cfef8c0d5f8b", null ],
+      [ "SPORTS_SOFT", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a2e91273c56f0dd8b0fc1be6f701f30b9", null ],
+      [ "SPORTS_SUPER_SOFT", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a0707302157c670118b2315cc5c5a2713", null ],
+      [ "RACING_HARD", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a117e6d627f08487efe9c2e0bb3ec4e65", null ],
+      [ "RACING_MEDIUM", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a9f76e5f81948a4ef4c23f32abc890481", null ],
+      [ "RACING_SOFT", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a5f0f59e2863eedf5135d4f37c4dd27f9", null ],
+      [ "RACING_SUPER_SOFT", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a1e79c9cd0fe61172aecba105ce473310", null ],
+      [ "RAIN_INTERMEDIATE", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a3187d3aa7478a25d99ea7104ba85ddd5", null ],
+      [ "RAIN_HEAVY_WET", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a7e488a840507b85a4fbdfe5955d1506c", null ],
+      [ "TIRE_DRY_MAX", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a7a2ef976dd08f8295665a67d5c60051d", null ],
+      [ "TIRE_TARMAC_MAX", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5af1978e810e4e558782e6a62dc350cc83", null ],
+      [ "DIRT", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a3ef5656907af69ff36347e8dc2416744", null ],
+      [ "SNOW", "namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5a5b93646ac0ddec8af3c0d78a094d0fc3", null ]
+    ] ],
+    [ "RTAType", "namespacegtengine.html#aad3c92a3cd8aecff25f4aa75d1b9b225", [
+      [ "TCS", "namespacegtengine.html#aad3c92a3cd8aecff25f4aa75d1b9b225ab0b6fc80d101f0a12c9c78bb76ad1660", null ],
+      [ "AWD", "namespacegtengine.html#aad3c92a3cd8aecff25f4aa75d1b9b225aa76befc34ae7f1d14fd7ded43ae99946", null ],
+      [ "ASM", "namespacegtengine.html#aad3c92a3cd8aecff25f4aa75d1b9b225a7ccbb03cb795734415a0b6924a8d7aed", null ],
+      [ "ABS", "namespacegtengine.html#aad3c92a3cd8aecff25f4aa75d1b9b225a7d8a220d2262f9d6c658d549ee12cf2c", null ],
+      [ "BRK_FR", "namespacegtengine.html#aad3c92a3cd8aecff25f4aa75d1b9b225ab19a6656258d264bb92d959c3edd8ebb", null ],
+      [ "ALL", "namespacegtengine.html#aad3c92a3cd8aecff25f4aa75d1b9b225a5fb1f955b45e38e31789286a1790398d", null ]
+    ] ],
+    [ "SpecialAIType", "namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5", [
+      [ "NORMAL", "namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5a1e23852820b9154316c7c06e2b7ba051", null ],
+      [ "LEADING", "namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5a23719262641c7e78c2e890906bdd03ec", null ],
+      [ "OVAL", "namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5aa5212f26f41dafd831badcd565e80f3f", null ],
+      [ "OVALNASCAR", "namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5a1b1cd7617d3c6f07e2a941ef5d784246", null ]
     ] ]
 ];

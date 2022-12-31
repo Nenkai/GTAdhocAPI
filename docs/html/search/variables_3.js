@@ -3,10 +3,17 @@ var searchData=
   ['data_0',['data',['../classpdistd_1_1_m_game_port.html#a71dace5956f487eae802f594cef1fc8f',1,'pdistd::MGamePort']]],
   ['day_1',['day',['../classpdistd_1_1_m_time.html#a68504010d43bd95e9eb54fb4d3b98b2c',1,'pdistd::MTime']]],
   ['debug_2',['debug',['../classpdistd_1_1_m_r_text_manager.html#a92b28651ec214e6b2a5ae4f80b54083e',1,'pdistd::MRTextManager']]],
-  ['default_3',['default',['../classpdistd_1_1_m_sound.html#afd59ee74196e35e26f68e600bd1026d9',1,'pdistd::MSound']]],
-  ['default_5fvolume_4',['default_volume',['../classpdiext_1_1_m_sound_effect.html#a57d4584f23730cb87e1b02ff4bfaaa7d',1,'pdiext::MSoundEffect']]],
-  ['delay_5',['delay',['../classpdiext_1_1_m_stream_player.html#a0ed131166d50b1ff40b195ba74b6d015',1,'pdiext::MStreamPlayer']]],
-  ['distance_5ffilter_5ftype_6',['distance_filter_type',['../classpdiext_1_1_m_sound_context.html#aeac5f1d403d8e6ae1d191cf43d8f0132',1,'pdiext::MSoundContext']]],
-  ['done_7',['done',['../classpdistd_1_1_m_worker.html#a8eb7601ad43566346d1daed27e0c2aab',1,'pdistd::MWorker']]],
-  ['dow_8',['dow',['../classpdistd_1_1_m_time.html#a25a19ab2f462ebbba6c23c91faeaf3fa',1,'pdistd::MTime']]]
+  ['decken_5ftype_3',['decken_type',['../classgtengine_1_1_m_car_parameter.html#aee89895b74696362559fb6430f2004e4',1,'gtengine::MCarParameter']]],
+  ['default_4',['default',['../classpdistd_1_1_m_sound.html#afd59ee74196e35e26f68e600bd1026d9',1,'pdistd::MSound']]],
+  ['default_5fvolume_5',['default_volume',['../classpdiext_1_1_m_sound_effect.html#a57d4584f23730cb87e1b02ff4bfaaa7d',1,'pdiext::MSoundEffect']]],
+  ['delay_6',['delay',['../classpdiext_1_1_m_stream_player.html#a0ed131166d50b1ff40b195ba74b6d015',1,'pdiext::MStreamPlayer']]],
+  ['dirtiness_7',['dirtiness',['../classgtengine_1_1_m_car_parameter.html#a4036fb3cea074d4233587564b3891776',1,'gtengine::MCarParameter']]],
+  ['dirtiness100_8',['dirtiness100',['../classgtengine_1_1_m_car_parameter.html#aa5b9f2cd89394509f19f584a13e1581b',1,'gtengine::MCarParameter']]],
+  ['disable_5fbspec_5fskill_9',['disable_bspec_skill',['../classgtengine_1_1_m_car_driver_parameter.html#a06344eac0fb2c415c5e30e9b3c447f5a',1,'gtengine::MCarDriverParameter']]],
+  ['display_5fname_10',['display_name',['../classgtengine_1_1_m_car_driver_parameter.html#a87e1eb3bf33c992440c8ad1cfc048d7a',1,'gtengine::MCarDriverParameter']]],
+  ['distance_5ffilter_5ftype_11',['distance_filter_type',['../classpdiext_1_1_m_sound_context.html#aeac5f1d403d8e6ae1d191cf43d8f0132',1,'pdiext::MSoundContext']]],
+  ['done_12',['done',['../classpdistd_1_1_m_worker.html#a8eb7601ad43566346d1daed27e0c2aab',1,'pdistd::MWorker']]],
+  ['dow_13',['dow',['../classpdistd_1_1_m_time.html#a25a19ab2f462ebbba6c23c91faeaf3fa',1,'pdistd::MTime']]],
+  ['drivetrain_14',['drivetrain',['../classgtengine_1_1_m_car_parameter.html#a5a34a4d3cc5c4f5f987ec78ef42538a8',1,'gtengine::MCarParameter']]],
+  ['driving_5fdisplay_5fline_15',['driving_display_line',['../classgtengine_1_1_m_car_driver_parameter.html#ad051d625278bad43c05b79b07f93fd0e',1,'gtengine::MCarDriverParameter']]]
 ];
