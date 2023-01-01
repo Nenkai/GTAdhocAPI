@@ -3,7 +3,8 @@ var annotated_dup =
     [ "gtengine", "namespacegtengine.html", [
       [ "__module__", "classgtengine_1_1____module____.html", null ],
       [ "MCarDriverParameter", "classgtengine_1_1_m_car_driver_parameter.html", "classgtengine_1_1_m_car_driver_parameter" ],
-      [ "MCarParameter", "classgtengine_1_1_m_car_parameter.html", "classgtengine_1_1_m_car_parameter" ]
+      [ "MCarParameter", "classgtengine_1_1_m_car_parameter.html", "classgtengine_1_1_m_car_parameter" ],
+      [ "MOrganizer", "classgtengine_1_1_m_organizer.html", "classgtengine_1_1_m_organizer" ]
     ] ],
     [ "IO", "namespace_i_o.html", [
       [ "__module__", "class_i_o_1_1____module____.html", null ],

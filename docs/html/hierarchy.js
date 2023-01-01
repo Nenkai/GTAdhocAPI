@@ -67,6 +67,7 @@ var hierarchy =
     [ "gtengine::MCarParameter", "classgtengine_1_1_m_car_parameter.html", null ],
     [ "pdistd::MDomNodeList", "classpdistd_1_1_m_dom_node_list.html", null ],
     [ "pdistd::MMusic", "classpdistd_1_1_m_music.html", null ],
+    [ "gtengine::MOrganizer", "classgtengine_1_1_m_organizer.html", null ],
     [ "pdistd::MSystemBGM", "classpdistd_1_1_m_system_b_g_m.html", null ],
     [ "pdistd::MWatcher", "classpdistd_1_1_m_watcher.html", null ],
     [ "Object", null, [

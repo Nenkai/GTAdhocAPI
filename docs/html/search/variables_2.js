@@ -10,5 +10,7 @@ var searchData=
   ['control_5ftype_7',['control_type',['../classgtengine_1_1_m_car_parameter.html#a147a089a2b0d9713658e5f6825719842',1,'gtengine::MCarParameter']]],
   ['cornering_5fskill_8',['cornering_skill',['../classgtengine_1_1_m_car_driver_parameter.html#a1e89d385676bc75065412812c72cd9e3',1,'gtengine::MCarDriverParameter']]],
   ['countrycode_9',['countryCode',['../classpdistd_1_1_m_p_d_i_network_user_profile.html#a3e29847d76e9a908e69313fd419f9885',1,'pdistd::MPDINetworkUserProfile']]],
-  ['crossfade_5ftime_10',['crossfade_time',['../classpdistd_1_1_m_music.html#a675e6214536eecfe1ea30d9c4e86b419',1,'pdistd::MMusic']]]
+  ['crossfade_5ftime_10',['crossfade_time',['../classpdistd_1_1_m_music.html#a675e6214536eecfe1ea30d9c4e86b419',1,'pdistd::MMusic']]],
+  ['crowd_5fdebug_11',['crowd_debug',['../classgtengine_1_1_m_organizer.html#a9da0d98d93679d1bb9e370197294f4ec',1,'gtengine::MOrganizer']]],
+  ['customized_5fwindow_5fsettings_12',['customized_window_settings',['../classgtengine_1_1_m_organizer.html#ab60ea5055c5e93f017513e7cfef6b189',1,'gtengine::MOrganizer']]]
 ];

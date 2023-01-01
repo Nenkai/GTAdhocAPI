@@ -12,7 +12,8 @@ var searchData=
   ['brake_9',['brake',['../classgtengine_1_1_m_car_parameter.html#a1dd2d3c9d64cb7f93f8e7fbdef1aff02',1,'gtengine::MCarParameter']]],
   ['brakecontroller_10',['brakeController',['../classgtengine_1_1_m_car_parameter.html#aa9fa10d4516fa9b85260689541adfcd6',1,'gtengine::MCarParameter']]],
   ['braking_5fskill_11',['braking_skill',['../classgtengine_1_1_m_car_driver_parameter.html#a892d41709d7f1307e0fc2ac28c5681f0',1,'gtengine::MCarDriverParameter']]],
-  ['bus_12',['bus',['../classpdiext_1_1_m_stream_player.html#a2541e9e9949b03bab9ab68e1b01e9c81',1,'pdiext::MStreamPlayer']]],
-  ['button_13',['button',['../classpdistd_1_1_m_game_input_data.html#a191c7439c91a4484fac157ef1197a539',1,'pdistd::MGameInputData::button()'],['../classpdistd_1_1_m_game_port.html#aab3dd31fdf52655669e609daab66d58c',1,'pdistd::MGamePort::button()']]],
-  ['buttons_14',['buttons',['../classpdistd_1_1_m_game_input_button.html#afa03404f4c7644fefae3fbc6c9058ccc',1,'pdistd::MGameInputButton']]]
+  ['bspec_5fdev_5fskill_5fgauge_12',['bspec_dev_skill_gauge',['../classgtengine_1_1_m_organizer.html#a3569d375490f28afe3b7b8e088924b78',1,'gtengine::MOrganizer']]],
+  ['bus_13',['bus',['../classpdiext_1_1_m_stream_player.html#a2541e9e9949b03bab9ab68e1b01e9c81',1,'pdiext::MStreamPlayer']]],
+  ['button_14',['button',['../classpdistd_1_1_m_game_input_data.html#a191c7439c91a4484fac157ef1197a539',1,'pdistd::MGameInputData::button()'],['../classpdistd_1_1_m_game_port.html#aab3dd31fdf52655669e609daab66d58c',1,'pdistd::MGamePort::button()']]],
+  ['buttons_15',['buttons',['../classpdistd_1_1_m_game_input_button.html#afa03404f4c7644fefae3fbc6c9058ccc',1,'pdistd::MGameInputButton']]]
 ];

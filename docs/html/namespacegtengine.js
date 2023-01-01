@@ -3,6 +3,7 @@ var namespacegtengine =
     [ "__module__", "classgtengine_1_1____module____.html", null ],
     [ "MCarDriverParameter", "classgtengine_1_1_m_car_driver_parameter.html", "classgtengine_1_1_m_car_driver_parameter" ],
     [ "MCarParameter", "classgtengine_1_1_m_car_parameter.html", "classgtengine_1_1_m_car_parameter" ],
+    [ "MOrganizer", "classgtengine_1_1_m_organizer.html", "classgtengine_1_1_m_organizer" ],
     [ "AspirationType", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811c", [
       [ "NATUNE", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca1750c34efc385f24124fe45061b04a37", null ],
       [ "TURBO", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca25f5946148e1ba137daf695ba05e71d3", null ],
@@ -10,6 +11,20 @@ var namespacegtengine =
       [ "SUPERTURBO", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811cad64fe9b0d3cbb488cf0a2ccbcd0594c6", null ],
       [ "MOTOR", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca5e4c01f166d4563e75575db113664c8a", null ],
       [ "OTHER", "namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca03570470bad94692ce93e32700d2e1cb", null ]
+    ] ],
+    [ "AutomobileControllerType", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059", [
+      [ "UNKNOWN", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a696b031073e74bf2cb98e5ef201d4aa3", null ],
+      [ "AI", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a0a40e3c91a3a55c9a37428c6d194d0e5", null ],
+      [ "PAD_BUTTON", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059aa3e3a74d5d2ad2673e4a6eeaae6dc14e", null ],
+      [ "PAD_STICK", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a9b10b753e28cfdf83deab9941bd8814a", null ],
+      [ "WHEEL200", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a5c0b739d88e7997041150dfc2278d62a", null ],
+      [ "WHEEL900S", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a8f9c75b97fa71a664783467e4fc952ac", null ],
+      [ "WHEEL900G", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a059b0769464128bd4f2091bcc210fad3", null ],
+      [ "WHEEL900GC", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a8a750bbc566c7fa021ce5b4b8a7ba279", null ],
+      [ "WHEEL_MIN", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059ac4d63b9b5f68b59e379cd9f6a72c0ec8", null ],
+      [ "WHEEL_MAX", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a3041076aaf7a4832b594dbc9ba403ab2", null ],
+      [ "PAD_MIN", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a5e77bdca8c637a3b66427e7cdb210cbc", null ],
+      [ "PAD_MAX", "namespacegtengine.html#a5e4b2929b8d9ceddea9e78e1c3062059a1660926a70ac038b68b330a146968bf7", null ]
     ] ],
     [ "CarPartsType", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006", [
       [ "BRAKE", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006a0c206573cf0e27e92aa30ae9c13de668", null ],
@@ -53,6 +68,11 @@ var namespacegtengine =
       [ "STIFFNESS", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006aa231c1d74fe18f9e82224588887d1971", null ],
       [ "SPECIAL_GAS", "namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006ae6850a12981358bd35fd7cbf7882f4a1", null ]
     ] ],
+    [ "ControlType", "namespacegtengine.html#a2f553b807db1f5870b1f039fbef085cd", [
+      [ "LOCAL", "namespacegtengine.html#a2f553b807db1f5870b1f039fbef085cda54b4c4075463b2e02cd69f5cd139b5b2", null ],
+      [ "NETWORK", "namespacegtengine.html#a2f553b807db1f5870b1f039fbef085cda25835188a2355e9530d3a10fcbe4c65b", null ],
+      [ "GPSREPLAY", "namespacegtengine.html#a2f553b807db1f5870b1f039fbef085cda4fc692bc51893459bec7076ebe10a6fb", null ]
+    ] ],
     [ "CourseCondition", "namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06", [
       [ "DRY", "namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06a76cca64663bcf77e11df2d5a88fc7d4b", null ],
       [ "WET", "namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06a7b04589937ff7848ae72b7f93092c3fc", null ],
@@ -64,6 +84,16 @@ var namespacegtengine =
       [ "PLAYER", "namespacegtengine.html#a66de0285099c24efbd6539af28a14b14a07c80e2a355d91402a00d82b1fa13855", null ],
       [ "AI", "namespacegtengine.html#a66de0285099c24efbd6539af28a14b14a0a40e3c91a3a55c9a37428c6d194d0e5", null ],
       [ "GPS", "namespacegtengine.html#a66de0285099c24efbd6539af28a14b14a8c578de37278ada488d763ea86c5cf20", null ]
+    ] ],
+    [ "GridSortType", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0", [
+      [ "NONE", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "RANDOM", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0a170e02e86972c2be8559884cc3c12254", null ],
+      [ "POINT_DOWN", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0a40e715e5ae6d473e0f25966a7e7f1809", null ],
+      [ "POINT_UP", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0abbc35670b4297acbff6628bcf618f3b6", null ],
+      [ "FASTEST_UP", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0a71db5c0ccfff383236ba072893b8562e", null ],
+      [ "FASTEST_DOWN", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0a4b69fb38127e7d94c00099170ef75d54", null ],
+      [ "PREV_RANK", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0a0e12e83fd69a6c0bfb8daea333ce9de0", null ],
+      [ "PREV_RANK_REVERSE", "namespacegtengine.html#a5423a30895d3303909cd597a1216a8e0a94c3900eb915ddad86c154ec1f63bb96", null ]
     ] ],
     [ "NoticeType", "namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1a", [
       [ "Unknown", "namespacegtengine.html#abe1acf1b15fc31f59689921beee29a1aa88183b946cc5f0e8c96b2e66e1c74a7e", null ],
@@ -134,5 +164,20 @@ var namespacegtengine =
       [ "LEADING", "namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5a23719262641c7e78c2e890906bdd03ec", null ],
       [ "OVAL", "namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5aa5212f26f41dafd831badcd565e80f3f", null ],
       [ "OVALNASCAR", "namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5a1b1cd7617d3c6f07e2a941ef5d784246", null ]
+    ] ],
+    [ "StagePhaseType", "namespacegtengine.html#a145674465526ab387d2064e6735623c6", [
+      [ "NONE", "namespacegtengine.html#a145674465526ab387d2064e6735623c6ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "SETUP", "namespacegtengine.html#a145674465526ab387d2064e6735623c6addbb81a9e3aab6cfa19ad8eb2389efd4", null ],
+      [ "READY", "namespacegtengine.html#a145674465526ab387d2064e6735623c6a2baa69eafc7204f3bd8648eba580c489", null ],
+      [ "PLAYING", "namespacegtengine.html#a145674465526ab387d2064e6735623c6a50366a49630a416ab3ccaa004196027e", null ],
+      [ "END", "namespacegtengine.html#a145674465526ab387d2064e6735623c6ab1a326c06d88bf042f73d70f50197905", null ]
+    ] ],
+    [ "StartSessionCameraType", "namespacegtengine.html#ab416f1139bd2d812553da980f731fd2d", [
+      [ "NORMAL", "namespacegtengine.html#ab416f1139bd2d812553da980f731fd2da1e23852820b9154316c7c06e2b7ba051", null ],
+      [ "SPECTATOR", "namespacegtengine.html#ab416f1139bd2d812553da980f731fd2daad7525991fe98a3b121c1c71df633c19", null ],
+      [ "SPECTATOR_DISABLE_INPUT", "namespacegtengine.html#ab416f1139bd2d812553da980f731fd2da023d33937826f9f82b2e3ba733084aff", null ],
+      [ "DISABLE_INPUT_WITHOUT_ZOOM", "namespacegtengine.html#ab416f1139bd2d812553da980f731fd2da70d2f4ef991f5848ce4d46a7c818dd30", null ],
+      [ "PREVIEW", "namespacegtengine.html#ab416f1139bd2d812553da980f731fd2da16146de8c60e5b0d74bf6d2a78d4f576", null ],
+      [ "BENCHTEST", "namespacegtengine.html#ab416f1139bd2d812553da980f731fd2da3e1dc89ab0d4bd266a4382f60e0f9d92", null ]
     ] ]
 ];

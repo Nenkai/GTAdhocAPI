@@ -247,13 +247,14 @@ namespace gtengine
             \details WILL call SpecDB */
             Bool setSuitableTires(UInt course_code, Bool rain_tire = false);
 
-            /** \brief Sets suitable tires based on the provided course 
-            \details WILL call SpecDB */
-            Bool setSuitableTires(String course_label, Bool rain_tire = false);
-
             /** \brief Sets suitable tires based on the provided course (trunk version)
             \details WILL call SpecDB */
             Bool setSuitableTiresWithTrunk(String course_label, Bool rain_tire = false);
+
+            /** \brief Unknown.
+            \details WILL call SpecDB */
+            Bool setTarmacTiresWithTrunk();
+
 
             /** \brief Unknown.
             \details WILL call SpecDB */
@@ -425,7 +426,7 @@ namespace gtengine
 
             /** \brief Returns a part is allowed to be fitted on the current car. 
             \details Also checks whether the part is purchased. */
-            Bool isHavingParts(CarPartsType parts_type, Int parts_index);
+            Bool isAllowedParts(CarPartsType parts_type, Int parts_index);
 
             /** \brief Unlocks all "arcade parts" for the current car.
             \details Sets all tires as purchased, */
@@ -607,7 +608,7 @@ namespace gtengine
 
             /** \brief NOS from SpecDB. */
             UInt NOS;
-            
+
             Int powerModifyRatio;
             Int weightModifyRatio;
 
