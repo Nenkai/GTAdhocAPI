@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['carpartstype_0',['CarPartsType',['../namespacegtengine.html#a384a133a0946ac9da4ff13ba00061006',1,'gtengine']]],
-  ['controltype_1',['ControlType',['../namespacegtengine.html#a2f553b807db1f5870b1f039fbef085cd',1,'gtengine']]],
-  ['coursecondition_2',['CourseCondition',['../namespacegtengine.html#aad94acd8453c26fe2a5986071fb66c06',1,'gtengine']]]
+  ['battlemode_0',['BattleMode',['../namespacegtengine.html#af802ad40592ae38ccf7035ac4bd99cea',1,'gtengine']]],
+  ['behaviordamagetype_1',['BehaviorDamageType',['../namespacegtengine.html#adad0f129c6235bb32bd922fb30355c13',1,'gtengine']]],
+  ['behaviorslipstreamtype_2',['BehaviorSlipStreamType',['../namespacegtengine.html#ab9bc656e93ce5d5e3ccba9d1b3f582c1',1,'gtengine']]]
 ];

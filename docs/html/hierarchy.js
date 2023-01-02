@@ -1,6 +1,8 @@
 var hierarchy =
 [
+    [ "System::Array< CarThin >", "class_system_1_1_array.html", null ],
     [ "System::Array< Float >", "class_system_1_1_array.html", null ],
+    [ "System::Array< Int >", "class_system_1_1_array.html", null ],
     [ "System::Array< String >", "class_system_1_1_array.html", null ],
     [ "IArray", null, [
       [ "System::Array", "class_system_1_1_array.html", null ],
@@ -63,11 +65,20 @@ var hierarchy =
       [ "System::Iterator", "class_system_1_1_iterator.html", null ]
     ] ],
     [ "System::LoadPath", "class_system_1_1_load_path.html", null ],
+    [ "MActor", null, [
+      [ "gtengine::MRaceFadeActor", "classgtengine_1_1_m_race_fade_actor.html", null ]
+    ] ],
     [ "gtengine::MCarDriverParameter", "classgtengine_1_1_m_car_driver_parameter.html", null ],
     [ "gtengine::MCarParameter", "classgtengine_1_1_m_car_parameter.html", null ],
+    [ "gtengine::MClan", "classgtengine_1_1_m_clan.html", null ],
     [ "pdistd::MDomNodeList", "classpdistd_1_1_m_dom_node_list.html", null ],
+    [ "gtengine::MGarage", "classgtengine_1_1_m_garage.html", null ],
+    [ "gtengine::MGarageCar", "classgtengine_1_1_m_garage_car.html", null ],
+    [ "gtengine::MLobby", "classgtengine_1_1_m_lobby.html", null ],
     [ "pdistd::MMusic", "classpdistd_1_1_m_music.html", null ],
     [ "gtengine::MOrganizer", "classgtengine_1_1_m_organizer.html", null ],
+    [ "gtengine::MRaceOperator", "classgtengine_1_1_m_race_operator.html", null ],
+    [ "gtengine::MRoomConfig", "classgtengine_1_1_m_room_config.html", null ],
     [ "pdistd::MSystemBGM", "classpdistd_1_1_m_system_b_g_m.html", null ],
     [ "pdistd::MWatcher", "classpdistd_1_1_m_watcher.html", null ],
     [ "Object", null, [

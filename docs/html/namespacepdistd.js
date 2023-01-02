@@ -90,6 +90,13 @@ var namespacepdistd =
       [ "MAX", "namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2da26a4b44a837bf97b972628509912b4a5", null ],
       [ "SYSTEM", "namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2dafa177138f94a7ea01f549b1aa7893d03", null ]
     ] ],
+    [ "TopologyType", "namespacepdistd.html#a034067a8e0c025f6cdd36113054f50ce", [
+      [ "Mesh", "namespacepdistd.html#a034067a8e0c025f6cdd36113054f50cea710fdb6adb881b408116ef95335e1961", null ],
+      [ "Star", "namespacepdistd.html#a034067a8e0c025f6cdd36113054f50cea26f93e6e68e28a698377e941cb59f29a", null ],
+      [ "Hybrid", "namespacepdistd.html#a034067a8e0c025f6cdd36113054f50ceafb1b6e23a3767d2a31ef7899e6dd3f1e", null ],
+      [ "None", "namespacepdistd.html#a034067a8e0c025f6cdd36113054f50cea6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Max", "namespacepdistd.html#a034067a8e0c025f6cdd36113054f50cea6a061313d22e51e0f25b7cd4dc065233", null ]
+    ] ],
     [ "WheelAssignMode", "namespacepdistd.html#a9485c4c830c02232f59c7f16a5edcc33", [
       [ "SDK", "namespacepdistd.html#a9485c4c830c02232f59c7f16a5edcc33af20e3c5e54c0ab3d375d660b3f896f6a", null ],
       [ "CONSOLE", "namespacepdistd.html#a9485c4c830c02232f59c7f16a5edcc33a4695859f52d337ca3d7020b2c8f7882a", null ]

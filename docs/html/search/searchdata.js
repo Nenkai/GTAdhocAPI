@@ -3,11 +3,11 @@ var indexSectionsWithContent =
   0: "_abcdefghijklmnopqrstuvwyz",
   1: "_abcdefilmnorstuvwz",
   2: "gips",
-  3: "_abcdefgilmnoprstuvwz",
-  4: "abcdefghijklmnoprstuwz",
-  5: "abcdefghilmnopqrstuvwy",
-  6: "acdglnoprsvw",
-  7: "abcdefghijklmnoprstuw"
+  3: "_abcdefgilmnopqrstuvwz",
+  4: "abcdefghijklmnoprstuvwz",
+  5: "abcdefghiklmnopqrstuvwy",
+  6: "abcdfglnopqrstvw",
+  7: "abcdefghijklmnopqrstuvw"
 };
 
 var indexSectionNames =

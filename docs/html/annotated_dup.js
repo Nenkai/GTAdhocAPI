@@ -4,7 +4,14 @@ var annotated_dup =
       [ "__module__", "classgtengine_1_1____module____.html", null ],
       [ "MCarDriverParameter", "classgtengine_1_1_m_car_driver_parameter.html", "classgtengine_1_1_m_car_driver_parameter" ],
       [ "MCarParameter", "classgtengine_1_1_m_car_parameter.html", "classgtengine_1_1_m_car_parameter" ],
-      [ "MOrganizer", "classgtengine_1_1_m_organizer.html", "classgtengine_1_1_m_organizer" ]
+      [ "MClan", "classgtengine_1_1_m_clan.html", null ],
+      [ "MGarage", "classgtengine_1_1_m_garage.html", "classgtengine_1_1_m_garage" ],
+      [ "MGarageCar", "classgtengine_1_1_m_garage_car.html", "classgtengine_1_1_m_garage_car" ],
+      [ "MLobby", "classgtengine_1_1_m_lobby.html", "classgtengine_1_1_m_lobby" ],
+      [ "MOrganizer", "classgtengine_1_1_m_organizer.html", "classgtengine_1_1_m_organizer" ],
+      [ "MRaceFadeActor", "classgtengine_1_1_m_race_fade_actor.html", "classgtengine_1_1_m_race_fade_actor" ],
+      [ "MRaceOperator", "classgtengine_1_1_m_race_operator.html", "classgtengine_1_1_m_race_operator" ],
+      [ "MRoomConfig", "classgtengine_1_1_m_room_config.html", "classgtengine_1_1_m_room_config" ]
     ] ],
     [ "IO", "namespace_i_o.html", [
       [ "__module__", "class_i_o_1_1____module____.html", null ],
