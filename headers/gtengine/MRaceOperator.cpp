@@ -3,7 +3,7 @@ using namespace pdistd;
 
 namespace gtengine
 {
-	/** \brief Event/Race Organizer. */
+	/** \brief Race Operator. */
 	class MRaceOperator
 	{
 		public:

@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['racetype_0',['RaceType',['../namespacegtengine.html#a0b13ddd46bec0821952c99da192d0da9',1,'gtengine']]],
-  ['roomgamemode_1',['RoomGameMode',['../namespacegtengine.html#a92db876a498d45e379af2ba2d7d0c4f6',1,'gtengine::RoomGameMode()'],['../namespacegtengine.html#a92db876a498d45e379af2ba2d7d0c4f6',1,'gtengine::RoomGameMode()'],['../namespacegtengine.html#a92db876a498d45e379af2ba2d7d0c4f6',1,'gtengine::RoomGameMode()'],['../namespacegtengine.html#a92db876a498d45e379af2ba2d7d0c4f6',1,'gtengine::RoomGameMode()']]],
-  ['roompolicy_2',['RoomPolicy',['../namespacegtengine.html#aa3a7e28a2904a3a94340b971642254bd',1,'gtengine']]],
-  ['roomtype_3',['RoomType',['../namespacegtengine.html#aeae676bb9f578a1da55d672161267859',1,'gtengine::RoomType()'],['../namespacegtengine.html#aeae676bb9f578a1da55d672161267859',1,'gtengine::RoomType()']]],
-  ['rtatype_4',['RTAType',['../namespacegtengine.html#aad3c92a3cd8aecff25f4aa75d1b9b225',1,'gtengine']]]
+  ['parts_5fcomputer_0',['PARTS_COMPUTER',['../namespacegtengine.html#afdb4a6b2496e06d769863a3fcb9011a7',1,'gtengine']]],
+  ['parts_5fgear_1',['PARTS_GEAR',['../namespacegtengine.html#a7c52b00bf4caad5864dd8aa503ef27e6',1,'gtengine']]],
+  ['parts_5fmuffler_2',['PARTS_MUFFLER',['../namespacegtengine.html#ab6acd6f083e25ceaf231c0c60aba7a46',1,'gtengine']]],
+  ['parts_5fnatune_3',['PARTS_NATUNE',['../namespacegtengine.html#aec78e2f4e8cce87675d9ed761828b521',1,'gtengine']]],
+  ['parts_5fsuspension_4',['PARTS_SUSPENSION',['../namespacegtengine.html#a186f284208337de9e8b43d148ebbfce1',1,'gtengine']]],
+  ['parts_5ftire_5',['PARTS_TIRE',['../namespacegtengine.html#aaaf70421fc1a50c4974157fb1f78b8a5',1,'gtengine']]],
+  ['parts_5fturbinekit_6',['PARTS_TURBINEKIT',['../namespacegtengine.html#a2711d65ba42775040e1e9cda71f3ca4f',1,'gtengine']]],
+  ['penaltyleveltypes_7',['PenaltyLevelTypes',['../namespacegtengine.html#a4c348b5e6b4c6f3dce1d61b73db0070c',1,'gtengine']]],
+  ['playtype_8',['PlayType',['../namespacegtengine.html#a79ac6a53b90ff5a90c9da6588972b98c',1,'gtengine']]]
 ];

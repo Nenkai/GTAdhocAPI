@@ -3,6 +3,7 @@ using namespace pdistd;
 
 namespace gtengine
 {
+	/** \brief Represents an online lobby configuration. */
 	class MRoomConfig
 	{
 		public:
@@ -94,7 +95,7 @@ namespace gtengine
 		  Int car_tag_id;
 		  Int kart_permitted;
 		  Int restrictor_limit;
-		  Array<CarThin> cars;
+		  Array<MCarThin> cars;
 		  Array tuners;
 		  Array countries;
 		  ULong course_code;

@@ -2,6 +2,7 @@ using namespace System;
 
 namespace gtengine
 {
+	/** \brief Represents a garage file. */
 	class MGarage
 	{
 		  public:

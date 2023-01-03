@@ -2,6 +2,7 @@ using namespace System;
 
 namespace gtengine
 {
+    /** \brief Interface on NP Matching.*/
 	class MLobby
 	{
 		  public:

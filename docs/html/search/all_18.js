@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['year_0',['year',['../classgtengine_1_1_m_garage_car.html#addcc4d96ef853405088b458d629f923a',1,'gtengine::MGarageCar::year()'],['../classpdistd_1_1_m_time.html#aa9e03b73e9c4ad86c6032e9fd3e909a6',1,'pdistd::MTime::year()']]]
+  ['x_0',['x',['../classgtengine_1_1_g_t_game_1_1_stage_reset_data.html#a0d3d4754fee38546cf2cebd54059ebe5',1,'gtengine::GTGame::StageResetData']]],
+  ['x_1',['X',['../namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca02129bb861061d1a052c592e2dc6b383',1,'gtengine::X()'],['../namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca02129bb861061d1a052c592e2dc6b383',1,'gtengine::X()'],['../namespacegtengine.html#af202084af3c01fe7587bd44fc85e811ca02129bb861061d1a052c592e2dc6b383',1,'gtengine::X()']]]
 ];

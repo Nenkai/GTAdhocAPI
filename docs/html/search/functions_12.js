@@ -1,8 +1,8 @@
 var searchData=
 [
   ['tell_0',['tell',['../class_i_o_1_1_stream_reader.html#aab446eee0481dc8384d4c8143305d0cc',1,'IO::StreamReader::tell()'],['../class_i_o_1_1_stream_writer.html#ae1f08cfd0a7b1834efee0cb3f8445a90',1,'IO::StreamWriter::tell()']]],
-  ['terminate_1',['terminate',['../class_system_1_1_thread.html#af1486b6a7c05c914f5e032343ca5f969',1,'System::Thread']]],
-  ['terminate_2',['Terminate',['../class_system_1_1_thread.html#aa911f36a782bf7ffe9dd6f305d6e4d01',1,'System::Thread']]],
+  ['terminate_1',['Terminate',['../class_system_1_1_thread.html#aa911f36a782bf7ffe9dd6f305d6e4d01',1,'System::Thread']]],
+  ['terminate_2',['terminate',['../class_system_1_1_thread.html#af1486b6a7c05c914f5e032343ca5f969',1,'System::Thread']]],
   ['test_3',['test',['../classpdistd_1_1_m_network_user_storage.html#a611dcbb94afa68b138c9a5754c8e1490',1,'pdistd::MNetworkUserStorage']]],
   ['textconv_4',['TextConv',['../classpdistd_1_1____module____.html#a8fa371ea2ad6005779aa50f7eaea40d1',1,'pdistd::__module__']]],
   ['thread_5',['Thread',['../class_system_1_1_thread.html#a06a2aad8854f986540093f2dd2b086e9',1,'System::Thread::Thread()'],['../class_system_1_1_thread.html#a12f50c1ff8a4d7a29e95f53f86b4a2c6',1,'System::Thread::Thread(FunctionObject func)']]],

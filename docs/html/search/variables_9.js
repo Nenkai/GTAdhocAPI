@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['kart_5fpermitted_0',['kart_permitted',['../classgtengine_1_1_m_room_config.html#ac69595dff0bab60611f5a30db20ceeab',1,'gtengine::MRoomConfig']]]
+  ['jp_0',['JP',['../classgtengine_1_1_g_t_game_1_1_localize_text.html#ae111a737c9ebdae7f5c90bfd019252bf',1,'gtengine::GTGame::LocalizeText']]],
+  ['jump_5fbonus_5fscore_1',['jump_bonus_score',['../classgtengine_1_1_g_t_game_1_1_arcade_style_setting.html#af3d5faca73965d264d4b47ac91137ad9',1,'gtengine::GTGame::ArcadeStyleSetting']]]
 ];

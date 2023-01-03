@@ -1,9 +1,25 @@
 var hierarchy =
 [
-    [ "System::Array< CarThin >", "class_system_1_1_array.html", null ],
+    [ "gtengine::GTGame::AchieveCondition", "classgtengine_1_1_g_t_game_1_1_achieve_condition.html", null ],
+    [ "gtengine::GTGame::ArcadeStyleSetting", "classgtengine_1_1_g_t_game_1_1_arcade_style_setting.html", null ],
+    [ "System::Array< Country >", "class_system_1_1_array.html", null ],
+    [ "System::Array< DrivetrainType >", "class_system_1_1_array.html", null ],
     [ "System::Array< Float >", "class_system_1_1_array.html", null ],
+    [ "System::Array< gtengine::MCarThin >", "class_system_1_1_array.html", null ],
     [ "System::Array< Int >", "class_system_1_1_array.html", null ],
     [ "System::Array< String >", "class_system_1_1_array.html", null ],
+    [ "System::Array< Tuner >", "class_system_1_1_array.html", null ],
+    [ "gtengine::GTGame::Constraint", "classgtengine_1_1_g_t_game_1_1_constraint.html", null ],
+    [ "gtengine::GTGame::DriftCondition", "classgtengine_1_1_g_t_game_1_1_drift_condition.html", null ],
+    [ "gtengine::GTGame::EditorInfo", "classgtengine_1_1_g_t_game_1_1_editor_info.html", null ],
+    [ "gtengine::GTGame::Entry", "classgtengine_1_1_g_t_game_1_1_entry.html", null ],
+    [ "gtengine::GTGame::EntryBase", "classgtengine_1_1_g_t_game_1_1_entry_base.html", null ],
+    [ "gtengine::EntryGenerate", "classgtengine_1_1_entry_generate.html", null ],
+    [ "gtengine::GTGame::EntrySet", "classgtengine_1_1_g_t_game_1_1_entry_set.html", null ],
+    [ "gtengine::GTGame::EvalCondition", "classgtengine_1_1_g_t_game_1_1_eval_condition.html", null ],
+    [ "gtengine::GTGame::Event", "classgtengine_1_1_g_t_game_1_1_event.html", null ],
+    [ "gtengine::GTGame::FailureCondition", "classgtengine_1_1_g_t_game_1_1_failure_condition.html", null ],
+    [ "gtengine::GTGame::Gadget", "classgtengine_1_1_g_t_game_1_1_gadget.html", null ],
     [ "IArray", null, [
       [ "System::Array", "class_system_1_1_array.html", null ],
       [ "System::ByteData", "class_system_1_1_byte_data.html", null ],
@@ -61,24 +77,39 @@ var hierarchy =
         [ "pdistd::__module__", "classpdistd_1_1____module____.html", null ]
       ] ]
     ] ],
+    [ "gtengine::GTGame::Information", "classgtengine_1_1_g_t_game_1_1_information.html", null ],
     [ "IVariable", null, [
       [ "System::Iterator", "class_system_1_1_iterator.html", null ]
     ] ],
+    [ "gtengine::GTGame::LicenseCondition", "classgtengine_1_1_g_t_game_1_1_license_condition.html", null ],
+    [ "gtengine::GTGame::LicenseConditionData", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html", null ],
     [ "System::LoadPath", "class_system_1_1_load_path.html", null ],
+    [ "gtengine::GTGame::LocalizeText", "classgtengine_1_1_g_t_game_1_1_localize_text.html", null ],
     [ "MActor", null, [
       [ "gtengine::MRaceFadeActor", "classgtengine_1_1_m_race_fade_actor.html", null ]
     ] ],
     [ "gtengine::MCarDriverParameter", "classgtengine_1_1_m_car_driver_parameter.html", null ],
     [ "gtengine::MCarParameter", "classgtengine_1_1_m_car_parameter.html", null ],
+    [ "gtengine::MCarThin", "classgtengine_1_1_m_car_thin.html", null ],
     [ "gtengine::MClan", "classgtengine_1_1_m_clan.html", null ],
+    [ "gtengine::MController", "classgtengine_1_1_m_controller.html", null ],
     [ "pdistd::MDomNodeList", "classpdistd_1_1_m_dom_node_list.html", null ],
+    [ "gtengine::MGameParameter", "classgtengine_1_1_m_game_parameter.html", null ],
     [ "gtengine::MGarage", "classgtengine_1_1_m_garage.html", null ],
     [ "gtengine::MGarageCar", "classgtengine_1_1_m_garage_car.html", null ],
+    [ "gtengine::MGTServiceManager", "classgtengine_1_1_m_g_t_service_manager.html", null ],
     [ "gtengine::MLobby", "classgtengine_1_1_m_lobby.html", null ],
     [ "pdistd::MMusic", "classpdistd_1_1_m_music.html", null ],
     [ "gtengine::MOrganizer", "classgtengine_1_1_m_organizer.html", null ],
+    [ "gtengine::MQualityControlParameter", "classgtengine_1_1_m_quality_control_parameter.html", null ],
+    [ "gtengine::MRaceBuildParameter", "classgtengine_1_1_m_race_build_parameter.html", null ],
     [ "gtengine::MRaceOperator", "classgtengine_1_1_m_race_operator.html", null ],
+    [ "gtengine::MRaceParameter", "classgtengine_1_1_m_race_parameter.html", null ],
+    [ "gtengine::MRaceSound", "classgtengine_1_1_m_race_sound.html", null ],
+    [ "gtengine::MReplayInfo", "classgtengine_1_1_m_replay_info.html", null ],
     [ "gtengine::MRoomConfig", "classgtengine_1_1_m_room_config.html", null ],
+    [ "gtengine::MServiceBrowser", "classgtengine_1_1_m_service_browser.html", null ],
+    [ "gtengine::MServicePublisher", "classgtengine_1_1_m_service_publisher.html", null ],
     [ "pdistd::MSystemBGM", "classpdistd_1_1_m_system_b_g_m.html", null ],
     [ "pdistd::MWatcher", "classpdistd_1_1_m_watcher.html", null ],
     [ "Object", null, [
@@ -190,13 +221,21 @@ var hierarchy =
       [ "pdistd::MWorker", "classpdistd_1_1_m_worker.html", null ],
       [ "pdistd::MXml", "classpdistd_1_1_m_xml.html", null ]
     ] ],
+    [ "gtengine::GTGame::PlayStyle", "classgtengine_1_1_g_t_game_1_1_play_style.html", null ],
     [ "publicObject", null, [
       [ "pdistd::MPDINetworkUserId", "classpdistd_1_1_m_p_d_i_network_user_id.html", null ]
     ] ],
+    [ "gtengine::GTGame::Ranking", "classgtengine_1_1_g_t_game_1_1_ranking.html", null ],
+    [ "gtengine::GTGame::Regulation", "classgtengine_1_1_g_t_game_1_1_regulation.html", null ],
+    [ "gtengine::GTGame::Replay", "classgtengine_1_1_g_t_game_1_1_replay.html", null ],
+    [ "gtengine::GTGame::Reward", "classgtengine_1_1_g_t_game_1_1_reward.html", null ],
+    [ "gtengine::GTGame::StageData", "classgtengine_1_1_g_t_game_1_1_stage_data.html", null ],
+    [ "gtengine::GTGame::StageResetData", "classgtengine_1_1_g_t_game_1_1_stage_reset_data.html", null ],
     [ "StreamWriter", null, [
       [ "System::Regexp", "class_system_1_1_regexp.html", null ]
     ] ],
     [ "System::STRecord", "class_system_1_1_s_t_record.html", null ],
+    [ "gtengine::GTGame::Track", "classgtengine_1_1_g_t_game_1_1_track.html", null ],
     [ "System::Void", "class_system_1_1_void.html", null ],
     [ "pdistd::MWebAd::webad", "classpdistd_1_1_m_web_ad_1_1webad.html", null ]
 ];
