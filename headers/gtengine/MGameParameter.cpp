@@ -1,5 +1,6 @@
 using namespace System;
 using namespace pdistd;
+using namespace gtengine::GTGame;
 
 namespace gtengine
 {
