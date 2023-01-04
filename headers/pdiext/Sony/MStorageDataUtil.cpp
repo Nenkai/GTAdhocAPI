@@ -12,6 +12,7 @@ namespace pdiext
 			/** \brief cellStorageDataImport - Import a file 
 			\param srcMediaFile Path on the recording medium (mount point is not necessary). Include path from the root directory to the filename.
 			\param dstHddDir File from game data folder (appended from "<GAME_CODE>/USRDIR/")
+			\param param_fileSizeMax Unknown.
 			\returns Error code 
 			- 0 = SUCCESS (CELL_STORAGEDATA_RET_OK)
 			- 1 = CANCEL (CELL_STORAGEDATA_RET_CANCEL)
@@ -23,6 +24,8 @@ namespace pdiext
 			/** \brief cellStorageDataExport - Export a file 
 			\param srcHddFile File from game data folder (appended from "<GAME_CODE>/USRDIR/")
 			\param dstMediaDir Path on the recording medium (mount point is not necessary). Include path from the root directory to the filename.
+			\param title Title.
+			\param param_fileSizeMax Unknown.
 			\returns Error code 
 			- 0 = SUCCESS (CELL_STORAGEDATA_RET_OK)
 			- 1 = CANCEL (CELL_STORAGEDATA_RET_CANCEL)
@@ -38,6 +41,8 @@ namespace pdiext
 			/** \brief cellStorageDataImportMove - Move a file 
 			\param srcMediaFile Path on the recording medium (mount point is not necessary). Include path from the root directory to the filename.
 			\param dstHddDir Will be appended to "<GAME_CODE>/USRDIR/"
+			\param title Title.
+			\param param_fileSizeMax Unknown.
 			\returns Error code 
 			- 0 = SUCCESS (CELL_STORAGEDATA_RET_OK)
 			- 1 = CANCEL (CELL_STORAGEDATA_RET_CANCEL)

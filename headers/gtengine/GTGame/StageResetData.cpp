@@ -14,7 +14,7 @@ namespace gtengine::GTGame
 			Float y;
 			Float z;
 			Float rotYdeg;
-			Float vcoord;
+			StageCoordType vcoord;
 			Bool isDefault();
     }		
 }

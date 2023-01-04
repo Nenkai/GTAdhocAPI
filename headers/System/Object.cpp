@@ -6,7 +6,7 @@ namespace System
 		public:
 		
 			/** \brief constructor taking no param */
-			Object() { };
+			Object();
 			
 			/** \brief Getter-only. Reference counter size of this object. */
 			Int rc_size;

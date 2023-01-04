@@ -137,7 +137,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5d5dc015f897568c2d596cc0b2310f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">sceNpTusSetMultiSlotVariable - Write values to one TUS variable of 1 user (synchronous)  <a href="classpdistd_1_1_m_network_user_storage.html#a5d5dc015f897568c2d596cc0b2310f94">More...</a><br /></td></tr>
 <tr class="separator:a5d5dc015f897568c2d596cc0b2310f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae88bcb9470ae88e9d1d3512b09d5e7c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdistd_1_1_m_network_user_storage.html#ae88bcb9470ae88e9d1d3512b09d5e7c8">setMultiSlotVariables</a> (<a class="el" href="classpdistd_1_1_m_p_d_i_network_user_id.html">MPDINetworkUserId</a> target_id, <a class="el" href="class_system_1_1_array.html">Array</a>&lt; <a class="el" href="class_system_1_1_int.html">Int</a> &gt; slot_ids, <a class="el" href="class_system_1_1_long.html">Long</a> value)</td></tr>
-<tr class="memdesc:ae88bcb9470ae88e9d1d3512b09d5e7c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">sceNpTusSetMultiSlotVariable - Write values to one TUS variable of 1 user (synchronous)  <a href="classpdistd_1_1_m_network_user_storage.html#ae88bcb9470ae88e9d1d3512b09d5e7c8">More...</a><br /></td></tr>
+<tr class="memdesc:ae88bcb9470ae88e9d1d3512b09d5e7c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">sceNpTusSetMultiSlotVariable - Write values to  <a href="classpdistd_1_1_m_network_user_storage.html#ae88bcb9470ae88e9d1d3512b09d5e7c8">More...</a><br /></td></tr>
 <tr class="separator:ae88bcb9470ae88e9d1d3512b09d5e7c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1da08301baac99b512aef40548d55a44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_array.html">Array</a>&lt; <a class="el" href="class_system_1_1_map.html">Map</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdistd_1_1_m_network_user_storage.html#a1da08301baac99b512aef40548d55a44">getMultiSlotDataStatus</a> (<a class="el" href="classpdistd_1_1_m_p_d_i_network_user_id.html">MPDINetworkUserId</a> target_id, <a class="el" href="class_system_1_1_array.html">Array</a>&lt; <a class="el" href="class_system_1_1_int.html">Int</a> &gt; slot_ids)</td></tr>
 <tr class="memdesc:a1da08301baac99b512aef40548d55a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">sceNpTusGetMultiSlotDataStatus - Get multiple TUS data statuses of 1 user (synchronous)  <a href="classpdistd_1_1_m_network_user_storage.html#a1da08301baac99b512aef40548d55a44">More...</a><br /></td></tr>
@@ -429,6 +429,7 @@ Additional Inherited Members</h2></td></tr>
 <p>sceNpTusDeleteMultiSlotData - Delete multiple TUS data of 1 user (synchronous) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">target_id</td><td>Target User ID </td></tr>
     <tr><td class="paramname">slot_ids</td><td>64 max </td></tr>
   </table>
   </dd>
@@ -776,10 +777,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>sceNpTusSetMultiSlotVariable - Write values to one TUS variable of 1 user (synchronous) </p>
+<p>sceNpTusSetMultiSlotVariable - Write values to </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">target_id</td><td>Target User ID </td></tr>
     <tr><td class="paramname">slot_ids</td><td>Max slots </td></tr>
+    <tr><td class="paramname">value</td><td>Value </td></tr>
   </table>
   </dd>
 </dl>

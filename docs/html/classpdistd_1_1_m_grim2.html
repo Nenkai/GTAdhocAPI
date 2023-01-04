@@ -203,7 +203,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6294c61f337187f660eebf6782369838"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdistd_1_1_m_grim2.html#a6294c61f337187f660eebf6782369838">clearCacheIf</a> ()</td></tr>
 <tr class="separator:a6294c61f337187f660eebf6782369838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1973982c84426bf68662bd97f72a24d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdistd_1_1_m_grim2.html#a1973982c84426bf68662bd97f72a24d7">requestPutLog</a> (<a class="el" href="class_system_1_1_string.html">String</a> log)</td></tr>
-<tr class="memdesc:a1973982c84426bf68662bd97f72a24d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts logs at /log/&lt;region&gt;/.  <a href="classpdistd_1_1_m_grim2.html#a1973982c84426bf68662bd97f72a24d7">More...</a><br /></td></tr>
+<tr class="memdesc:a1973982c84426bf68662bd97f72a24d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts logs at "/log/&lt;region&gt;/".  <a href="classpdistd_1_1_m_grim2.html#a1973982c84426bf68662bd97f72a24d7">More...</a><br /></td></tr>
 <tr class="separator:a1973982c84426bf68662bd97f72a24d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acead89428ef1aabea81faeaa9cd3a249"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpdistd_1_1_m_grim2.html#acead89428ef1aabea81faeaa9cd3a249">requestServerTime</a> ()</td></tr>
 <tr class="separator:acead89428ef1aabea81faeaa9cd3a249"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1104,6 +1104,11 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">grim_url</td><td>Url to the main server for requestServerList </td></tr>
+    <tr><td class="paramname">language</td><td>Language </td></tr>
+    <tr><td class="paramname">use_db</td><td>Whether to use caching db </td></tr>
+    <tr><td class="paramname">fingerprint</td><td>Fingerprint </td></tr>
+    <tr><td class="paramname">cert_name</td><td>Certificate Name </td></tr>
+    <tr><td class="paramname">privkey_name</td><td>Private Key Name </td></tr>
   </table>
   </dd>
 </dl>
@@ -1490,7 +1495,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Puts logs at /log/&lt;region&gt;/. </p>
+<p>Puts logs at "/log/&lt;region&gt;/". </p>
 <p >Must be initted and connected past region list requests Log text will be in the X-gt-log header </p>
 
 </div>

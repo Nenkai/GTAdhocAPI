@@ -3,7 +3,7 @@ using namespace pdistd;
 
 namespace gtengine
 {
-	class MRaceBuildParameter
+	class MRaceBuildParameter : public Object
 	{
 		  public:
 			MRaceBuildParameter();

@@ -14,7 +14,8 @@ namespace pdistd
 		String encode();
 		
 		/** \brief JSON Encode string 
-		\param string Use Map for key to value, a string returns {"length":1,"size":1,"value":null}, int returns {"value":null} */
+		\param obj Use Map for key to value, a string returns {"length":1,"size":1,"value":null}, int returns {"value":null} 
+		\param set_silent_mode Unknown. */
 		static String Encode(Object obj, Bool set_silent_mode = false);
 		
 		/** \brief Set silent mode */

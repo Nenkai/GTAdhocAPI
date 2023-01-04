@@ -13,7 +13,7 @@ namespace pdiext
 			\param dirname Directory name. Should normally be from MProductInformation::GetGameDataNameCommon()
 			\param title Title of the game data - 128 bytes max
 			\param parental_level PARAM.SFO parental level. Use MProductInformation::GetParentalLevel()
-			\param size Size to allocate
+			\param filesize Size to allocate
 			\param icon_png Image buffer of the icon
 			\param bg_png Image buffer of the background
 			\returns Error message

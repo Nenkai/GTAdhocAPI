@@ -3,7 +3,7 @@ using namespace System;
 namespace gtengine
 {
 	/** \brief Represents a garage file. */
-	class MGarage
+	class MGarage : public Object
 	{
 		  public:
 
@@ -32,8 +32,8 @@ namespace gtengine
 			UInt getRidingGarageId();
 
 			/** \param filter_params Parameters for filtering
-			- "sort_type" - (Int)
-			- "sort_order" - (Int)
+			- "sort_type" - (GarageSortType)
+			- "sort_order" - (GarageSortOrder)
 			- "regulation" - (Regulation)
 			- "filter_nationality" - (Array<Int>)
 			- "filter_tuner" - (Array<Int>)

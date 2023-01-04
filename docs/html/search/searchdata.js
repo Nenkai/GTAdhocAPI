@@ -4,9 +4,9 @@ var indexSectionsWithContent =
   1: "_abcdefgilmnoprstuvwz",
   2: "gips",
   3: "_abcdefgilmnopqrstuvwz",
-  4: "abcdefghijklmnoprstuvwz",
+  4: "abcdefghijklmnopqrstuvwz",
   5: "abcdefghijklmnopqrstuvwxyz",
-  6: "abcdefgilnopqrstvw",
+  6: "abcdefgilmnopqrstvw",
   7: "_abcdefghijklmnopqrstuvwxyz"
 };
 

@@ -1,10 +1,10 @@
 var classgtengine_1_1_g_t_game_1_1_license_condition_data =
 [
-    [ "isDefault", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a83634e8a479fadeaab6c020bb77c3566", null ],
-    [ "display_mode", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a404eb4217cce3cd10fd386406fab82f4", null ],
-    [ "failure_condition", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a3e32505ba1be261fa1834e64c6136364", null ],
-    [ "finish_condition", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a6ada19004a4a03f4cd41d3789370360f", null ],
-    [ "stop_on_finish", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#ad3f53eba0961b057d448d53973492b0f", null ],
-    [ "success_condition", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a36b892c8ca4849c8874b47aed470a277", null ],
-    [ "use_basic_finish", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a1f6891fe6bb4f6c3655dade0732a2243", null ]
+    [ "check_type", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a21f1847e41ac2ea047e28d43823e2fb9", null ],
+    [ "condition", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a7624c0117766cbb8ec77379eb4e3d1f1", null ],
+    [ "connection", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a790f7497fb8b6475ce4a0035b8e0ad11", null ],
+    [ "float_value", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a03e1589698cfd37a6e1d1296ed2096e4", null ],
+    [ "int_value", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a672b2d556638bcbf5a676de6db2e98af", null ],
+    [ "result_type", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a89b172f91c3fdde58cc2d353c64ae921", null ],
+    [ "uint_value", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html#a8d79e6c25b63618a8aa6cb5e2f54e1a7", null ]
 ];

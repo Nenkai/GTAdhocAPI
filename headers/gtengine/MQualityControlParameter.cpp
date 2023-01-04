@@ -4,7 +4,7 @@ using namespace pdistd;
 namespace gtengine
 {
 	/** \brief Represents multiplayer packet settings. */
-	class MQualityControlParameter
+	class MQualityControlParameter : public Object
 	{
 		  public:
 			MQualityControlParameter();

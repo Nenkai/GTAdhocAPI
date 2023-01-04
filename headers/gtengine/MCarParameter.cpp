@@ -3,7 +3,7 @@ using namespace System;
 namespace gtengine
 {
 	/** \brief Represents a car entity */
-	class MCarParameter
+	class MCarParameter : public Object
 	{
 		public:
             /** \brief Constructs an empty MCarParameter. */
@@ -647,9 +647,9 @@ namespace gtengine
             Int Gear11th;
             Int FinalGearRatio;
             Int GearLastFinal;
-            Int FrontBrakeBalanceLevel;
-            Int RearBrakeBalanceLevel;
-            Int ABSCorneringControlLevel;
+            SettingDefault FrontBrakeBalanceLevel;
+            SettingDefault RearBrakeBalanceLevel;
+            SettingDefault ABSCorneringControlLevel;
             Int FrontStabilizer;
             Int RearStabilizer;
             Int FrontLSDParam;

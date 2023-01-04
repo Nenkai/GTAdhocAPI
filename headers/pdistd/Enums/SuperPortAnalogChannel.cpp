@@ -1,6 +1,6 @@
 namespace gtengine
 {
-    enum class AspirationType
+    enum class SuperPortAnalogChannel
 	{
         STICK_BX1 = 0, /*!< 0 */
         STICK_BX1C = 1, /*!< 1 */

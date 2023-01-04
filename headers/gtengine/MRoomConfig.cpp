@@ -4,7 +4,7 @@ using namespace pdistd;
 namespace gtengine
 {
 	/** \brief Represents an online lobby configuration. */
-	class MRoomConfig
+	class MRoomConfig : public Object
 	{
 		public:
 		  MRoomConfig();

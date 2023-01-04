@@ -23,8 +23,7 @@ namespace System
 			/** \brief Builds the string from multiple components.
 			\code
 			"{0} {1}".format("hello", "world!"); // "hello world!"
-			\endcode
-			*/
+			\endcode */
 			String build(...);
 
 			UInt length();

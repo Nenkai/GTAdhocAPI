@@ -4,7 +4,7 @@ using namespace pdistd;
 namespace gtengine
 {
 	/** \brief Provides data/socket/web services for outside clients to access. */
-	class MGTServiceManager
+	class MGTServiceManager : public Object
 	{
 		  public:
 		    MGTServiceManager();

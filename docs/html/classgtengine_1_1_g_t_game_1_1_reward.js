@@ -13,5 +13,5 @@ var classgtengine_1_1_g_t_game_1_1_reward =
     [ "prize_table", "classgtengine_1_1_g_t_game_1_1_reward.html#a2f7b3301607c2c3f7dff417b0d38a678", null ],
     [ "prize_type", "classgtengine_1_1_g_t_game_1_1_reward.html#a06e5c0c02f7ba209a7e737d2d9d58759", null ],
     [ "special_reward_code", "classgtengine_1_1_g_t_game_1_1_reward.html#a060f105bdd223bbc012daf4e66874c86", null ],
-    [ "star_table", "classgtengine_1_1_g_t_game_1_1_reward.html#affb823e9efc2648a2868c3d160c7f350", null ]
+    [ "star_table", "classgtengine_1_1_g_t_game_1_1_reward.html#abf0d236f3120669b56b2b5ea0405d1ff", null ]
 ];

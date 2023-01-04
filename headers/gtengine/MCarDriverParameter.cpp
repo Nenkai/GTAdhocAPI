@@ -3,7 +3,7 @@ using namespace System;
 namespace gtengine
 {
 	/** \brief Represents a car driver/driver entity */
-	class MCarDriverParameter
+	class MCarDriverParameter : public Object
 	{
 		public:
             /** \brief Constructs a new driver parameter with DriverType::NONE.*/

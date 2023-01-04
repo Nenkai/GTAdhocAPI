@@ -15,7 +15,7 @@ var classgtengine_1_1_m_replay_info =
     [ "getScore", "classgtengine_1_1_m_replay_info.html#a3fdd612cb4d28e50cef5b6f8ee28e3b7", null ],
     [ "getSectorTime", "classgtengine_1_1_m_replay_info.html#afd487a0a565164c960dec328dd42f7d4", null ],
     [ "getTotalTime", "classgtengine_1_1_m_replay_info.html#a6249f9aee80b66306534da1a4fbe3ff5", null ],
-    [ "initialize", "classgtengine_1_1_m_replay_info.html#a3c71f61b44549a5444941610decf9ad7", null ],
+    [ "initialize", "classgtengine_1_1_m_replay_info.html#a90865f2b14623fbc44447b2071a5f9fc", null ],
     [ "buffer_size", "classgtengine_1_1_m_replay_info.html#ad03b2bc4e39ede5297bbe05e7d9c4d49", null ],
     [ "entry_max", "classgtengine_1_1_m_replay_info.html#a97dfb8bfe7d4c05e997f7e937accaa88", null ],
     [ "entry_num", "classgtengine_1_1_m_replay_info.html#ad0fb93e97bf6aa1ab6af7bb13835a47f", null ],

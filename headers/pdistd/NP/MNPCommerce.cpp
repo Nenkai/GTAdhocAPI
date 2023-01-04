@@ -36,7 +36,7 @@ namespace pdistd
 			void endCheckout();
 
 			/** \brief sceNpCommerce2GetCategoryContentsStart - Start obtaining category content data 
-			\param category_id Category id 
+			\param categoryId Category id 
 			\param startPosition Start Position 
 			\param maxCountOfResults If set to 0, SCE_NP_COMMERCE2_GETCAT_MAX_COUNT (60) will be fetched */
 			Bool beginGetCategoryInfo(String categoryId, Int startPosition = 0, Int maxCountOfResults = 0);

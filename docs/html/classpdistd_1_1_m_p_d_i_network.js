@@ -71,7 +71,7 @@ var classpdistd_1_1_m_p_d_i_network =
     [ "startWebServer", "classpdistd_1_1_m_p_d_i_network.html#a52fc9e7539a9f7969c4e7b960b367fc6", null ],
     [ "stopWebServer", "classpdistd_1_1_m_p_d_i_network.html#a28e190d174623d0042b693f3240d9611", null ],
     [ "switchLobby", "classpdistd_1_1_m_p_d_i_network.html#a011edf3f90cf0aec0bb509c9f73fe636", null ],
-    [ "unlockTrophy", "classpdistd_1_1_m_p_d_i_network.html#a09117370e46144c13e472f703e6c7784", null ],
-    [ "unlockTrophyAsync", "classpdistd_1_1_m_p_d_i_network.html#af5a6052813bceeea38e739612c648b61", null ],
+    [ "unlockTrophy", "classpdistd_1_1_m_p_d_i_network.html#a991c719e9ace4887953d42acc29730e8", null ],
+    [ "unlockTrophyAsync", "classpdistd_1_1_m_p_d_i_network.html#ade946c47d48207f7ac097aeba09b120a", null ],
     [ "waitUntilTrophyInitialized", "classpdistd_1_1_m_p_d_i_network.html#aa39273776fc4e1a00bc051c1b2d93272", null ]
 ];

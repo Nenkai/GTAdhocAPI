@@ -5,7 +5,7 @@ using namespace gtengine::GTGame;
 namespace gtengine
 {
 	/** \brief Represents a set of events/races. */
-	class MGameParameter
+	class MGameParameter : public Object
 	{
 		  public:
 			MGameParameter();

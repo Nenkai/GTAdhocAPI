@@ -14,7 +14,7 @@ namespace gtengine::GTGame
 			Int video_format;
 			Int audio_format;
 			Int data_logger;
-			Int replay_recording_quality;
+			ReplayRecordingQuality replay_recording_quality;
 			Int auto_save;
 			Bool isExpected();
 			Bool isDefault();

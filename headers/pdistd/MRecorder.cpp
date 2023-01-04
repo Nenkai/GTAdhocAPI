@@ -18,7 +18,7 @@ namespace pdistd
 			\param unused2 Unused or stripped param 2
 			\return Returns error code of cellRecOpen
 			*/
-			Int open(string dir_name, string fileName, Int cell_video_format, Int cell_audio_format, Bool unused = nil, Bool unused2 = nil);
+			Int open(string dir_name, string file_name, Int cell_video_format, Int cell_audio_format, Bool unused = nil, Bool unused2 = nil);
 
 			/** \brief cellRecClose - Terminate the recording utility */
 			Int close();

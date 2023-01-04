@@ -22,7 +22,7 @@ namespace pdistd
 
 			/** \brief cellVideoExportFromFile - Move and register a video file to the system software 
 			\returns Cell error code */
-			void start(String dir, String file_name = nil, String title = nil, String game_title = nil, Int game_comment = nil);
+			Int start(String dir, String file_name = nil, String title = nil, String game_title = nil, Int game_comment = nil);
 
 			/** \brief Getter-only. cellVideoExportProgress - Get progress status of a video file copy processing */
 			Float progress();

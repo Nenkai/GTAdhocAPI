@@ -34,8 +34,10 @@ namespace pdistd
 			/** \brief sceNpTusSetMultiSlotVariable - Write values to one TUS variable of 1 user (synchronous) */
 			Bool setVariable(MPDINetworkUserId target_id, int slot_id, Long value);
 
-			/** \brief sceNpTusSetMultiSlotVariable - Write values to one TUS variable of 1 user (synchronous) 
-			\param slot_ids Max slots */
+			/** \brief sceNpTusSetMultiSlotVariable - Write values to 
+			\param target_id Target User ID
+			\param slot_ids Max slots 
+			\param value Value */
 			void setMultiSlotVariables(MPDINetworkUserId target_id, Array<Int> slot_ids, Long value);
 
 			/** \brief sceNpTusGetMultiSlotDataStatus - Get multiple TUS data statuses of 1 user (synchronous) 
@@ -79,6 +81,7 @@ namespace pdistd
 			Bool deleteData(MPDINetworkUserId target_id, Int slot_id);
 
 			/** \brief sceNpTusDeleteMultiSlotData - Delete multiple TUS data of 1 user (synchronous) 
+			\param target_id Target User ID
 			\param slot_ids 64 max */
 			Bool deleteMultiData(MPDINetworkUserId target_id, Array<int> slot_ids);
 

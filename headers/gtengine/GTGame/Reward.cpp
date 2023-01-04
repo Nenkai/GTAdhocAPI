@@ -8,7 +8,7 @@ namespace gtengine::GTGame
 		  public:
 			std::vector<Int> prize_table;
 			std::vector<Int> point_table;
-			std::vector<Int> star_table;
+			std::vector<FinishResult> star_table;
 			std::vector<GameItem> present;
 			Int special_reward_code;
 			Int prize_type;

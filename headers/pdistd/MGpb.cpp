@@ -31,7 +31,7 @@ namespace pdistd
 			/** \brief Extracts GPB 
 			\param gpb_name GPB Source
 			\param output_dir Output Directory
-			\param unknown Must point to valid folder (not necessarily file) - seems it needs to be a GPB. it will be deleted afterwards
+			\param unk_gpb Must point to valid folder (not necessarily file) - seems it needs to be a GPB. it will be deleted afterwards
 			\param buffer_size Buffer Size 
 			\returns Result (0/1) */
 			Int distribute(String gpb_name, String output_dir, String unk_gpb, Int buffer_size = 0x400);

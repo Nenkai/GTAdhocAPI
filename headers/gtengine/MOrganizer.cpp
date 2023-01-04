@@ -4,7 +4,7 @@ using namespace pdistd;
 namespace gtengine
 {
 	/** \brief Event/Race Organizer. */
-	class MOrganizer
+	class MOrganizer : public Object
 	{
 		public:
 		
@@ -58,7 +58,10 @@ namespace gtengine
 			void setWait0EntryEvent(Bool value);
 			void openLoadingCourseDoneEvent();
 			Bool isEventSignalWait();
-			/** \param unk Set to true if unk2 is not present */
+
+			/** 
+			\param unk Set to true if unk2 is not present 
+			\param new_rp New Race Parameter */
 			void resetWeather(Bool unk, MRaceParameter new_rp = nil);
 			Array<Float> getSplitTripByDrivers(Int slot_id);
 			Float getTripMeterInSession(Int unk);
@@ -84,8 +87,8 @@ namespace gtengine
 			/** \brief Unknown. Return object needs figuring */
 			Object leaveRace(Int slot_id, Bool unk2 = false);
 			void leaveRaceRequestAll();
-			Int getEntryState(Int unk);
-			Int getRunningState(Int unk);
+			EntryLevel getEntryState(Int unk);
+			RunningState getRunningState(Int unk);
 			UInt getHasEnergyType(Int unk);
 			void startGameObjectLoop();
 			void stopGameObjectLoop();
@@ -134,7 +137,7 @@ namespace gtengine
 			void copyDriverParameter(Int unk1, Int unk2, MCarDriverParameter unk3, Bool unk4 = false);
 
 			/** \returns Always 0 */
-			void setDataSynchronizeAtStart(Bool unk);
+			Int setDataSynchronizeAtStart(Bool unk);
 
 			/** \returns Struct with attributes:
 			- "front_tire" - Byte
@@ -153,7 +156,9 @@ namespace gtengine
 			\returns Always 1 */
 			STStructure getCurrentPitStrategy(Int slot_id, Bool unk2 = false);
 
-			/** \param pit_strategy Struct with attributes:
+			/** 
+			\param slot_id Slot ID.
+			\param pit_strategy Struct with attributes:
 			- "front_tire" - Byte
 			- "rear_tire" - Byte 
 			- "front_df" - Short
@@ -207,9 +212,9 @@ namespace gtengine
 			void setCameraTargetVbyPos(Array<Float> pos_XYZ);
 			void initializeCameraMode(Bool unk, Bool unk2, Bool unk3);
 			void callDriversViewChange();
-			void commandCameraButton(Int unk);
+			void commandCameraButton(CameraButtonCommand unk);
 			void setCameraInputEnable(Int unk);
-			void setDisableCameraDrawFlag(Int unk);
+			void setDisableCameraDrawFlag(CameraDrawFlag flag);
 			void setDisableSelectCamera(Bool unk);
 			void setInCarCameraPlay();
 			void setDisableSelectTarget(Int bool_int);
@@ -278,7 +283,7 @@ namespace gtengine
 			void requestLoadingCourse();
 			Bool isCourseLoadForDataLogger();
 
-			/** \param path_to_image Normally a path to piece/loading_bg/<label>.img */
+			/** \param path_to_image Normally a path to "piece/loading_bg/<label>.img" */
 			void setLoadingImageFile(String path_to_image);
 
 			Bool hasLoadingCarDone();
@@ -351,7 +356,13 @@ namespace gtengine
 			void setChangeableDriverParameterAtBeginningOfSession(Int slot_id, Int unk2 = -1);
 			void setRaceDisplayTarget(Int unk, Int unk2);
 
-			/** \param grid_type Can also be -1 
+			/** 
+			\param rp Race Parameter.
+			\param grid_type Can also be -1 
+			\param init_course Unknown.
+			\param to_race Unknown.
+			\param unk2 Unknown.
+			\param failure_session_maybe Unknown.
 			\returns Bool int */
 			Int restartNetworkRace(MRaceParameter rp, GridSortType grid_type = -1, Bool init_course = false, Bool to_race = true, Bool unk2 = false, Bool failure_session_maybe = false);
 			void restartOfflineRace(MRaceParameter rp, GridSortType grid_type = -1, Bool init_course = false, Bool to_race = true, Bool unk2 = false, Bool failure_session_maybe = false);
@@ -373,7 +384,7 @@ namespace gtengine
 				Bool unk2 = false, Int unk3 = 0, Bool unk4 = false, ByteData unk5 = nil);
 			Bool chaseReloadCourse();
 			MCourseGenerateData setGenerateData(ByteData course_data);
-			void issuePitMessage(Int unk, Int unk2);
+			void issuePitMessage(PitMessageType type, Int unk2);
 			Bool getLoadStatusOtherClient(Int unk = -1);
 			void setNoRunSlotGridIsRandom(Bool unk);
 			Int getElapsedRaceTime();
@@ -873,7 +884,7 @@ namespace gtengine
 			void setRaceSubMode(Bool unk);
 
 			/** \returns 2 elements */
-			Array<Int> getRaceSubModeList();
+			Array<RaceSubModeTypes> getRaceSubModeList();
 			void resetVehicle(Int unk, Int unk2);
 			void resetVehicleStatus(Int unk);
 			MRaceStatus getRace();

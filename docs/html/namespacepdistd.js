@@ -50,6 +50,7 @@ var namespacepdistd =
     [ "MSdService", "classpdistd_1_1_m_sd_service.html", "classpdistd_1_1_m_sd_service" ],
     [ "MSns", "classpdistd_1_1_m_sns.html", "classpdistd_1_1_m_sns" ],
     [ "MSound", "classpdistd_1_1_m_sound.html", "classpdistd_1_1_m_sound" ],
+    [ "MSqlite", "classpdistd_1_1_m_sqlite.html", "classpdistd_1_1_m_sqlite" ],
     [ "MSqliteIterator", "classpdistd_1_1_m_sqlite_iterator.html", "classpdistd_1_1_m_sqlite_iterator" ],
     [ "MSystemBGM", "classpdistd_1_1_m_system_b_g_m.html", null ],
     [ "MTestSou", "classpdistd_1_1_m_test_sou.html", "classpdistd_1_1_m_test_sou" ],

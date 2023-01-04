@@ -1,7 +1,20 @@
 var searchData=
 [
-  ['topologytype_0',['TopologyType',['../namespacepdistd.html#a034067a8e0c025f6cdd36113054f50ce',1,'pdistd']]],
-  ['trackdaymode_1',['TrackDayMode',['../namespacegtengine.html#a03ed6448b8563a8537f4a375111ebcd0',1,'gtengine']]],
-  ['trackdayweather_2',['TrackDayWeather',['../namespacegtengine.html#a347be2ed85ac44f9c5289920520a3958',1,'gtengine']]],
-  ['tuner_3',['Tuner',['../namespacegtengine.html#a29440816d70518ba38a373a9e60da1f3',1,'gtengine']]]
+  ['savedatautilerror_0',['SaveDataUtilError',['../namespacepdiext.html#ae6ae2e9de02381932eec905e5131b6ea',1,'pdiext']]],
+  ['savedatautilmode_1',['SaveDataUtilMode',['../namespacepdiext.html#aef43cc4c0e0557747a2e1684e6883117',1,'pdiext']]],
+  ['scope_2',['Scope',['../namespacegtengine.html#a51f5df684604704818d5094809864eeb',1,'gtengine']]],
+  ['servicetype_3',['ServiceType',['../namespacegtengine.html#ac9d873ad181176ac0efcac40e0e05059',1,'gtengine']]],
+  ['sessionparameter_4',['SessionParameter',['../namespacegtengine.html#a92fd598924ecdc2c0c5113de8bd2397c',1,'gtengine']]],
+  ['sessiontype_5',['SessionType',['../namespacegtengine.html#abe7f88369c21e78fd6e40632a1b5e582',1,'gtengine']]],
+  ['settingdefault_6',['SettingDefault',['../namespacegtengine.html#ab5961aba4f30f6050294ef18761cb948',1,'gtengine']]],
+  ['specialaitype_7',['SpecialAIType',['../namespacegtengine.html#aaa4077fb94e302dbed64c470d2c449c5',1,'gtengine']]],
+  ['speedtesttype_8',['SpeedTestType',['../namespacegtengine.html#af85ec8058220eb5113953add190ff9d4',1,'gtengine']]],
+  ['stagecoordtype_9',['StageCoordType',['../namespacegtengine.html#a9064500be1eb05f235e75eba62572bff',1,'gtengine']]],
+  ['stagelayouttype_10',['StageLayoutType',['../namespacegtengine.html#abeed6924a2e57460537380e60508d7f5',1,'gtengine']]],
+  ['stagephasetype_11',['StagePhaseType',['../namespacegtengine.html#a145674465526ab387d2064e6735623c6',1,'gtengine']]],
+  ['startsessioncameratype_12',['StartSessionCameraType',['../namespacegtengine.html#ab416f1139bd2d812553da980f731fd2d',1,'gtengine']]],
+  ['startsignaltype_13',['StartSignalType',['../namespacegtengine.html#a150dbc3c593c1f3519e14d6d23f6e56f',1,'gtengine']]],
+  ['starttype_14',['StartType',['../namespacegtengine.html#ac2985804e1222a8043337e185490fb6c',1,'gtengine']]],
+  ['superportanalogchannel_15',['SuperPortAnalogChannel',['../namespacegtengine.html#ad725a4fc20e1a24cad1448dd6364b1ad',1,'gtengine']]],
+  ['superportbuttonbit_16',['SuperPortButtonBit',['../namespacegtengine.html#a1aad68f89034b2ea68cebebfca558e09',1,'gtengine']]]
 ];

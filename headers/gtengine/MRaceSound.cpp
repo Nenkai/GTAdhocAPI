@@ -3,7 +3,7 @@ using namespace pdistd;
 
 namespace gtengine
 {
-	class MRaceSound
+	class MRaceSound : public Object
 	{
 		  public:
 			static void initializeGlobalParameter();

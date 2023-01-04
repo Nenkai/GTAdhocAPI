@@ -3,7 +3,7 @@ using namespace System;
 namespace gtengine
 {
     /** \brief Interface on NP Matching.*/
-	class MLobby
+	class MLobby : public Object
 	{
 		  public:
             /** \brief Normally 30000ms */

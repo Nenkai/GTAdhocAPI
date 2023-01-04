@@ -4,12 +4,12 @@ using namespace pdistd;
 namespace gtengine
 {
 	/** \brief DNS Service Publisher */
-	class MServicePublisher
+	class MServicePublisher : public Object
 	{
 		  public:
 		    MServicePublisher();
 
-			/** \param unk If not provided, uses ps3-<mac address> as name*/
+			/** \param name If not provided, uses ps3-<mac address> as name*/
 			Bool initialize(String name = nil);
 
 			void finalize();

@@ -99,7 +99,9 @@ namespace pdistd
 			void getRegionName();
 
 			/** \brief sceNpManagerGetContentRatingFlag - Get parental control information (age-based content restriction)
-			\returns Map containing "isRestricted": <Bool>, "age": <Int>*/
+			\returns Map containing 
+			- "isRestricted": (Bool)
+			- "age": (Int)*/
 			Map getContentsRestriction();
 
 			/** \brief sceNpBasicGetFriendListEntry - Get friend list entries

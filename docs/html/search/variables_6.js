@@ -31,13 +31,15 @@ var searchData=
   ['geometry_5fstream_5fsize_28',['geometry_stream_size',['../classgtengine_1_1_m_replay_info.html#a5911aad4ff16f42ed675d309e0799f65',1,'gtengine::MReplayInfo']]],
   ['ghost_5fdata_5fpath_29',['ghost_data_path',['../classgtengine_1_1_g_t_game_1_1_eval_condition.html#af90c2e9e7585a9158d6a7225eee3ba15',1,'gtengine::GTGame::EvalCondition']]],
   ['ghost_5fpresence_5ftype_30',['ghost_presence_type',['../classgtengine_1_1_m_race_parameter.html#a5c42c0c245e80853edc2bdff98de79d5',1,'gtengine::MRaceParameter']]],
-  ['ghost_5ftype_31',['ghost_type',['../classgtengine_1_1_m_race_parameter.html#a76b23f3f598406957f7e86f943619e09',1,'gtengine::MRaceParameter']]],
+  ['ghost_5ftype_31',['ghost_type',['../classgtengine_1_1_m_race_parameter.html#a9cfd0dbe472cd588221d8ba273de5b2c',1,'gtengine::MRaceParameter']]],
   ['goal_5ftime_5fuse_5flap_5ftotal_32',['goal_time_use_lap_total',['../classgtengine_1_1_m_race_parameter.html#a0ed24220f370e8aea75d1af5a9c711af',1,'gtengine::MRaceParameter']]],
   ['gold_33',['gold',['../classgtengine_1_1_g_t_game_1_1_eval_condition.html#ae6885164b6cab89ce3da053fdee932d1',1,'gtengine::GTGame::EvalCondition']]],
   ['gps_34',['gps',['../classgtengine_1_1_m_race_parameter.html#aa0e866b10861e43e767086935ec2dbb0',1,'gtengine::MRaceParameter']]],
-  ['grid_5flist_35',['grid_list',['../classgtengine_1_1_m_race_parameter.html#aab388f392b6942be5283b727362867cf',1,'gtengine::MRaceParameter']]],
-  ['grid_5fsort_5ftype_36',['grid_sort_type',['../classgtengine_1_1_m_race_parameter.html#a450d93beb6b4758792eb64d149dbd826',1,'gtengine::MRaceParameter::grid_sort_type()'],['../classgtengine_1_1_m_room_config.html#a1c481dfd6b58a3070d1f5b184de5d296',1,'gtengine::MRoomConfig::grid_sort_type()']]],
-  ['growth_5fparameter_37',['growth_parameter',['../classgtengine_1_1_m_car_driver_parameter.html#a847999486acae360f433fdc00942905f',1,'gtengine::MCarDriverParameter']]],
-  ['gt_5fhifi_38',['gt_hifi',['../classgtengine_1_1_m_organizer.html#a9a92a9e5413ed64544d7bb969a7433be',1,'gtengine::MOrganizer']]],
-  ['gtb_5fversion_39',['gtb_version',['../classgtengine_1_1_m_replay_info.html#ade17e92624a5cc8c03977319606b0805',1,'gtengine::MReplayInfo']]]
+  ['gps_5fantenna_5fmount_5fdir_35',['gps_antenna_mount_dir',['../classgtengine_1_1_m_g_p_s_replay2.html#a20cfa2f2425e8cf2c23418a79db91b8d',1,'gtengine::MGPSReplay2']]],
+  ['gps_5fantenna_5fmount_5fside_36',['gps_antenna_mount_side',['../classgtengine_1_1_m_g_p_s_replay2.html#a5b87e15cc24c5c0ede2e4bf3681c6fbf',1,'gtengine::MGPSReplay2']]],
+  ['grid_5flist_37',['grid_list',['../classgtengine_1_1_m_race_parameter.html#aab388f392b6942be5283b727362867cf',1,'gtengine::MRaceParameter']]],
+  ['grid_5fsort_5ftype_38',['grid_sort_type',['../classgtengine_1_1_m_race_parameter.html#a450d93beb6b4758792eb64d149dbd826',1,'gtengine::MRaceParameter::grid_sort_type()'],['../classgtengine_1_1_m_room_config.html#a1c481dfd6b58a3070d1f5b184de5d296',1,'gtengine::MRoomConfig::grid_sort_type()']]],
+  ['growth_5fparameter_39',['growth_parameter',['../classgtengine_1_1_m_car_driver_parameter.html#a847999486acae360f433fdc00942905f',1,'gtengine::MCarDriverParameter']]],
+  ['gt_5fhifi_40',['gt_hifi',['../classgtengine_1_1_m_organizer.html#a9a92a9e5413ed64544d7bb969a7433be',1,'gtengine::MOrganizer']]],
+  ['gtb_5fversion_41',['gtb_version',['../classgtengine_1_1_m_replay_info.html#ade17e92624a5cc8c03977319606b0805',1,'gtengine::MReplayInfo']]]
 ];

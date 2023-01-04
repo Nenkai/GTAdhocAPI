@@ -4,7 +4,7 @@ using namespace pdistd;
 namespace gtengine
 {
 	/** \brief Race Operator. */
-	class MRaceOperator
+	class MRaceOperator : public Object
 	{
 		public:
 		

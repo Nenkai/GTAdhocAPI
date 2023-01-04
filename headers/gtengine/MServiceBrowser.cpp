@@ -4,14 +4,18 @@ using namespace pdistd;
 namespace gtengine
 {
 	/** \brief DNS Service Browser */
-	class MServiceBrowser
+	class MServiceBrowser : public Object
 	{
 		  public:
 		    MServiceBrowser();
 
 			Bool initialize();
 
-			/** \param callback args provided, with [context, requestId, service] */
+			/** 
+			\param service Service.
+			\param unk Unknown.
+			\param callback args provided, with [context, requestId, service] 
+			*/
 			void browseRequest(MSdService service, String unk = nil, FunctionObject<Object> callback = nil);
 
 			Array<MSdService> getServiceList();

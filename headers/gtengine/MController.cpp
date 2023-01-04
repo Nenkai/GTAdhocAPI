@@ -3,7 +3,7 @@ using namespace pdistd;
 
 namespace gtengine
 {
-	class MController
+	class MController : public Object
 	{
 		  public:
 			MController();

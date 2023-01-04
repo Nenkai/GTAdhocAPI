@@ -10,7 +10,7 @@ var classgtengine_1_1_g_t_game_1_1_replay =
     [ "demo_data_path", "classgtengine_1_1_g_t_game_1_1_replay.html#aa33a6fece7e901acd40bbd2299bcbcf9", null ],
     [ "export_video", "classgtengine_1_1_g_t_game_1_1_replay.html#a6e0c13c8d2682bbc6bef1a2634b9ebd3", null ],
     [ "local_path", "classgtengine_1_1_g_t_game_1_1_replay.html#a689bcc506716a5512b53f679c0ec4da1", null ],
-    [ "replay_recording_quality", "classgtengine_1_1_g_t_game_1_1_replay.html#a674a3a8f6ae192b27ade845538432f18", null ],
+    [ "replay_recording_quality", "classgtengine_1_1_g_t_game_1_1_replay.html#a332d8dc3ce342c73955bc91e3e1366de", null ],
     [ "upload_video", "classgtengine_1_1_g_t_game_1_1_replay.html#a89fdc45efbc11c6102f9f70ce84c422d", null ],
     [ "url", "classgtengine_1_1_g_t_game_1_1_replay.html#ab4c902e6f6a642ae03ded3e1a1e3ea90", null ],
     [ "video_format", "classgtengine_1_1_g_t_game_1_1_replay.html#a1a15af6f61a201966c5d76179878d3f9", null ]

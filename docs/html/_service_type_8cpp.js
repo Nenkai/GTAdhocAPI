@@ -1,8 +1,6 @@
 var _service_type_8cpp =
 [
     [ "ServiceType", "_service_type_8cpp.html#ac9d873ad181176ac0efcac40e0e05059", [
-      [ "EVENT", "_service_type_8cpp.html#ac9d873ad181176ac0efcac40e0e05059a030d962d0faa148f02848881a3b4fdb6", null ],
-      [ "DLC", "_service_type_8cpp.html#ac9d873ad181176ac0efcac40e0e05059aba2c48de56cc959794adfb2169a7fbe3", null ],
       [ "Unknown", "_service_type_8cpp.html#ac9d873ad181176ac0efcac40e0e05059a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "Toyota86", "_service_type_8cpp.html#ac9d873ad181176ac0efcac40e0e05059aaa8b6b30be53669c126e798ec04558eb", null ],
       [ "SimpleUdp", "_service_type_8cpp.html#ac9d873ad181176ac0efcac40e0e05059a94bdca59c83dc59fdd11b4485270f808", null ],

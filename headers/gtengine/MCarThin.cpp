@@ -3,7 +3,7 @@ using namespace System;
 namespace gtengine
 {
 	/** \brief Represents a thin representation of a car. */
-	class MCarThin
+	class MCarThin : public Object
 	{
 		  public:
 		  

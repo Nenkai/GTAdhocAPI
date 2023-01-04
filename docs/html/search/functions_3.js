@@ -75,12 +75,13 @@ var searchData=
   ['disablerenderingrace_72',['disableRenderingRace',['../classgtengine_1_1_m_organizer.html#ab7f0e416d4f0520e0648db159ba09c7c',1,'gtengine::MOrganizer']]],
   ['disablereplay_73',['disableReplay',['../classgtengine_1_1_m_race_operator.html#afea328c1ed100cf6dca08b4ae3cce99d',1,'gtengine::MRaceOperator']]],
   ['disablesoundingrace_74',['disableSoundingRace',['../classgtengine_1_1_m_organizer.html#aa0e95c9184edc2a8a20615c3a329897f',1,'gtengine::MOrganizer']]],
-  ['disconnectrenderingrace_75',['disconnectRenderingRace',['../classgtengine_1_1_m_organizer.html#ae3bc913265322556cecdbcc23399752b',1,'gtengine::MOrganizer']]],
-  ['distribute_76',['distribute',['../classpdistd_1_1_m_gpb.html#ab8ca8f2b98424d5317259956b7f42976',1,'pdistd::MGpb']]],
-  ['double_77',['Double',['../class_system_1_1_double.html#aaddf97601bbd016cabb9ff9b29deecce',1,'System::Double']]],
-  ['downcase_78',['downcase',['../class_system_1_1_string.html#a0f3139a12b6c3bddb1e2f73572bccaf8',1,'System::String']]],
-  ['dropotherdriver_79',['dropOtherDriver',['../classgtengine_1_1_m_organizer.html#ac5f37e0e76d6cb599ad70423999a54c7',1,'gtengine::MOrganizer']]],
-  ['droprequest_80',['dropRequest',['../classgtengine_1_1_m_organizer.html#ade6bca8407bf81adb49008a1b70cc4a0',1,'gtengine::MOrganizer']]],
-  ['dump_81',['dump',['../classgtengine_1_1_m_car_parameter.html#a071e81d3ce95c3dbb6756987c1f1e78d',1,'gtengine::MCarParameter::dump()'],['../classpdistd_1_1_m_dom_node.html#a3d0b771089a400d40a60e3d7816808c4',1,'pdistd::MDomNode::dump()'],['../classpdistd_1_1_m_dom_node_list.html#a9ad2b9052f02a13cd0a4985c01fbdf1d',1,'pdistd::MDomNodeList::dump()'],['../class_system_1_1_object.html#acf713a38e353130f1b51cb30a1393bdb',1,'System::Object::dump()']]],
-  ['dumpreplayheaderinfo_82',['dumpReplayHeaderInfo',['../classgtengine_1_1_m_organizer.html#a54f35640bc9eb1bd4450ad94a1e348e7',1,'gtengine::MOrganizer']]]
+  ['disconnect_75',['disconnect',['../classgtengine_1_1_m_drift_mode.html#a1e08a3dbe1605238c3757e93483acc0e',1,'gtengine::MDriftMode']]],
+  ['disconnectrenderingrace_76',['disconnectRenderingRace',['../classgtengine_1_1_m_organizer.html#ae3bc913265322556cecdbcc23399752b',1,'gtengine::MOrganizer']]],
+  ['distribute_77',['distribute',['../classpdistd_1_1_m_gpb.html#ab8ca8f2b98424d5317259956b7f42976',1,'pdistd::MGpb']]],
+  ['double_78',['Double',['../class_system_1_1_double.html#aaddf97601bbd016cabb9ff9b29deecce',1,'System::Double']]],
+  ['downcase_79',['downcase',['../class_system_1_1_string.html#a0f3139a12b6c3bddb1e2f73572bccaf8',1,'System::String']]],
+  ['dropotherdriver_80',['dropOtherDriver',['../classgtengine_1_1_m_organizer.html#ac5f37e0e76d6cb599ad70423999a54c7',1,'gtengine::MOrganizer']]],
+  ['droprequest_81',['dropRequest',['../classgtengine_1_1_m_organizer.html#ade6bca8407bf81adb49008a1b70cc4a0',1,'gtengine::MOrganizer']]],
+  ['dump_82',['dump',['../classgtengine_1_1_m_car_parameter.html#a071e81d3ce95c3dbb6756987c1f1e78d',1,'gtengine::MCarParameter::dump()'],['../classpdistd_1_1_m_dom_node.html#a3d0b771089a400d40a60e3d7816808c4',1,'pdistd::MDomNode::dump()'],['../classpdistd_1_1_m_dom_node_list.html#a9ad2b9052f02a13cd0a4985c01fbdf1d',1,'pdistd::MDomNodeList::dump()'],['../class_system_1_1_object.html#acf713a38e353130f1b51cb30a1393bdb',1,'System::Object::dump()']]],
+  ['dumpreplayheaderinfo_83',['dumpReplayHeaderInfo',['../classgtengine_1_1_m_organizer.html#a54f35640bc9eb1bd4450ad94a1e348e7',1,'gtengine::MOrganizer']]]
 ];

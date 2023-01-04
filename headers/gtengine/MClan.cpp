@@ -3,7 +3,7 @@ using namespace pdistd;
 
 namespace gtengine
 {
-	class MClan
+	class MClan : public Object
 	{
 		  public:
 

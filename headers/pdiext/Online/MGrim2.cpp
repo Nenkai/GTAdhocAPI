@@ -10,7 +10,12 @@ namespace pdistd
 			MGrim2() { };
 
 			/** \brief Initializes Grim2 
-			\param grim_url Url to the main server for requestServerList */
+			\param grim_url Url to the main server for requestServerList 
+			\param language Language
+			\param use_db Whether to use caching db
+			\param fingerprint Fingerprint
+			\param cert_name Certificate Name
+			\param privkey_name Private Key Name*/
 			void initialize(String grim_url, String language, Bool use_db, MBlob fingerprint = nil, String cert_name = nil, String privkey_name = nil);
 
 			/** \brief Finalizes/deinits Grim2 entirely */
@@ -92,7 +97,7 @@ namespace pdistd
 			void clearCacheAll();
 			void clearCacheIf();
 
-			/** \brief Puts logs at /log/<region>/
+			/** \brief Puts logs at "/log/<region>/"
 			\details Must be initted and connected past region list requests 
 			Log text will be in the X-gt-log header */
 			void requestPutLog(String log);

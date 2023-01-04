@@ -25,11 +25,11 @@ namespace pdistd
 
 			/** \brief Unknown. i.e "menu" 
 			\returns 0 not playing, 1 playing */
-			void keep(String group);
+			Int keep(String group);
 
 			/** \brief Unknown. i.e "GT6_Menu01" 
 			\returns 0 not playing, 1 playing */
-			void keepDirect(String code);
+			Int keepDirect(String code);
 
 			/** \brief Stops playback (with fadeout if provided)*/
 			void stop(Float fadeout_seconds = 0.0);

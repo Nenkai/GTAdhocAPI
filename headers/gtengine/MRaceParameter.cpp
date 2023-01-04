@@ -5,7 +5,7 @@ using namespace gtengine::GTGame;
 namespace gtengine
 {
 	/** \brief Represents race parameters. */
-	class MRaceParameter
+	class MRaceParameter : public Object
 	{
 		  public:
 			MRaceParameter();
@@ -48,7 +48,7 @@ namespace gtengine
 			Int allow_codriver;
 			Int pace_note;
 			Int team_count;
-			Int ghost_type;
+			GhostType ghost_type;
 			Int disable_collision;
 			Int boost_level;
 			Int boost_params;
@@ -65,10 +65,10 @@ namespace gtengine
 			Int packet_timeout_interval;
 			Int packet_timeout_latency;
 			Int packet_timeout_lag;
-			Int consume_fuel;
+			RaceChangeConditionType consume_fuel;
 			Int bspec_vitality10;
-			Int consume_tire;
-			Int temperature_tire;
+			RaceChangeConditionType consume_tire;
+			RaceChangeConditionType temperature_tire;
 			Int temperature_engine;
 			Int temperature_brake;
 			Int consideration_type;
@@ -92,7 +92,7 @@ namespace gtengine
 			void setDefault();
 			void setup();
 			Int start_time_offset;
-			Int start_signal_type;
+			StartSignalType start_signal_type;
 			void setPenaltyParameter(Int unk, Int unk2);
 			void setPenaltyTime(Int unk, Int unk2);
 			Int penalty_no_reset;
@@ -105,7 +105,7 @@ namespace gtengine
 
 			/** \brief Stubbed. */
 			ULong getHashCodeForOnline();
-			Int accumulation;
+			RaceChangeConditionType accumulation;
 			Int enable_pit;
 			Int pitstage_revision;
 			Int vehicle_freeze_mode;

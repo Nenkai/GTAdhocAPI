@@ -3,7 +3,7 @@ using namespace System;
 namespace gtengine
 {
 	/** \brief Provides information about a replay file. */
-	class MReplayInfo
+	class MReplayInfo : public Object
 	{
 		  public:
 			MReplayInfo();
@@ -14,7 +14,7 @@ namespace gtengine
 			Int initialize(ByteData header, String file_name = nil)
 
 			/** \returns Bool int, whether replay version (Offset 0x08) is under 116 */
-			Int checkVersion();
+			VersionCheckResult checkVersion();
 
 			/** \brief Getter-only. */
 			UInt buffer_size;

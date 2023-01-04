@@ -2,10 +2,22 @@ var searchData=
 [
   ['gadget_2ecpp_0',['Gadget.cpp',['../_gadget_8cpp.html',1,'']]],
   ['gamecontentutilstorageerror_2ecpp_1',['GameContentUtilStorageError.cpp',['../_game_content_util_storage_error_8cpp.html',1,'']]],
-  ['gamemode_2ecpp_2',['GameMode.cpp',['../_game_mode_8cpp.html',1,'']]],
-  ['gameregioncode_2ecpp_3',['GameRegionCode.cpp',['../_game_region_code_8cpp.html',1,'']]],
-  ['generatetype_2ecpp_4',['GenerateType.cpp',['../_generate_type_8cpp.html',1,'']]],
-  ['ghostpresencetype_2ecpp_5',['GhostPresenceType.cpp',['../_ghost_presence_type_8cpp.html',1,'']]],
-  ['gridsorttype_2ecpp_6',['GridSortType.cpp',['../_grid_sort_type_8cpp.html',1,'']]],
-  ['grimerror_2ecpp_7',['GrimError.cpp',['../_grim_error_8cpp.html',1,'']]]
+  ['gameitemcategory_2ecpp_2',['GameItemCategory.cpp',['../_game_item_category_8cpp.html',1,'']]],
+  ['gameitemtype_2ecpp_3',['GameItemType.cpp',['../_game_item_type_8cpp.html',1,'']]],
+  ['gamemode_2ecpp_4',['GameMode.cpp',['../_game_mode_8cpp.html',1,'']]],
+  ['gameregioncode_2ecpp_5',['GameRegionCode.cpp',['../_game_region_code_8cpp.html',1,'']]],
+  ['garagesortorder_2ecpp_6',['GarageSortOrder.cpp',['../_garage_sort_order_8cpp.html',1,'']]],
+  ['garagesorttype_2ecpp_7',['GarageSortType.cpp',['../_garage_sort_type_8cpp.html',1,'']]],
+  ['geartype_2ecpp_8',['GearType.cpp',['../_gear_type_8cpp.html',1,'']]],
+  ['generatetype_2ecpp_9',['GenerateType.cpp',['../_generate_type_8cpp.html',1,'']]],
+  ['genericflag_2ecpp_10',['GenericFlag.cpp',['../_generic_flag_8cpp.html',1,'']]],
+  ['ghostpresencetype_2ecpp_11',['GhostPresenceType.cpp',['../_ghost_presence_type_8cpp.html',1,'']]],
+  ['ghosttype_2ecpp_12',['GhostType.cpp',['../_ghost_type_8cpp.html',1,'']]],
+  ['gpscandatacartype_2ecpp_13',['GPSCANDataCarType.cpp',['../_g_p_s_c_a_n_data_car_type_8cpp.html',1,'']]],
+  ['gpscandataconverter_2ecpp_14',['GPSCANDataConverter.cpp',['../_g_p_s_c_a_n_data_converter_8cpp.html',1,'']]],
+  ['gpscandataerrorcode_2ecpp_15',['GPSCANDataErrorCode.cpp',['../_g_p_s_c_a_n_data_error_code_8cpp.html',1,'']]],
+  ['gpscandatasourcefileformat_2ecpp_16',['GPSCANDataSourceFileFormat.cpp',['../_g_p_s_c_a_n_data_source_file_format_8cpp.html',1,'']]],
+  ['gpsreshapefiltertypes_2ecpp_17',['GPSReshapeFilterTypes.cpp',['../_g_p_s_reshape_filter_types_8cpp.html',1,'']]],
+  ['gridsorttype_2ecpp_18',['GridSortType.cpp',['../_grid_sort_type_8cpp.html',1,'']]],
+  ['grimerror_2ecpp_19',['GrimError.cpp',['../_grim_error_8cpp.html',1,'']]]
 ];

@@ -28,7 +28,7 @@ namespace pdistd
 			/** \brief Pushes a new rtext DB */
 			void pushDB(String rtext_dir);
 
-			/** \bruef Pops the last rtext DB */
+			/** \brief Pops the last rtext DB */
 			void popDB();
 
 			/** \brief Returns a localized string */

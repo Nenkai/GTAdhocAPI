@@ -1,6 +1,6 @@
 namespace gtengine
 {
-    enum class AspirationType
+    enum class SuperPortButtonBit
 	{
         INACTIVE = 0, /*!< 0 */
         UP = 1, /*!< 1 */

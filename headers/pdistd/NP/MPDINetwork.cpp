@@ -1,4 +1,5 @@
 using namespace System;
+using namespace gtengine;
 
 namespace pdistd
 {
@@ -39,8 +40,8 @@ namespace pdistd
 			void finalizeTrophy();
 			void isInitializedTrophy();
 			void waitUntilTrophyInitialized();
-			void unlockTrophy();
-			void unlockTrophyAsync();
+			void unlockTrophy(TrophyType trophy);
+			void unlockTrophyAsync(TrophyType trophy);
 			void getUnlockTrophyResult();
 			void checkUnlockTrophyResult();
 			void getTrophyAchievementRate();
