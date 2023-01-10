@@ -8,5 +8,6 @@ var searchData=
   ['nodispvehicleflag_5',['noDispVehicleFlag',['../classgtengine_1_1_m_organizer.html#a8adde8bc4c5539bd85d3de665c15f496',1,'gtengine::MOrganizer']]],
   ['notrecordbestlaptime_6',['notrecordBestLapTime',['../classgtengine_1_1_m_organizer.html#a6e333fe50ccac11d4864bd36cc5d7002',1,'gtengine::MOrganizer']]],
   ['nowplayingreplay_7',['nowPlayingReplay',['../classgtengine_1_1_m_organizer.html#a42d1757c8ef8e6ec9e8fdbb22995dd59',1,'gtengine::MOrganizer']]],
-  ['nullwriter_8',['NullWriter',['../class_i_o_1_1_null_writer.html#a051eb88aa7c6d008c3b6671393c2fe89',1,'IO::NullWriter']]]
+  ['nullreader_8',['NullReader',['../class_i_o_1_1_null_reader.html#adca46f63738f29eb7e7e882ecc8bb869',1,'IO::NullReader']]],
+  ['nullwriter_9',['NullWriter',['../class_i_o_1_1_null_writer.html#a051eb88aa7c6d008c3b6671393c2fe89',1,'IO::NullWriter']]]
 ];

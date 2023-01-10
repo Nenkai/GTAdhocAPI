@@ -2,7 +2,7 @@ using namespace Adhoc;
 using namespace System;
 using namespace pdistd;
 
-/** \brief GT Engine classes */
+/** \brief GT Engine API Interfacing & Enums */
 namespace gtengine
 {
 	/** \brief Functions for this module */

@@ -13,6 +13,8 @@ var namespacepdiext =
     [ "MSoundEffect", "classpdiext_1_1_m_sound_effect.html", "classpdiext_1_1_m_sound_effect" ],
     [ "MStorageDataUtil", "classpdiext_1_1_m_storage_data_util.html", "classpdiext_1_1_m_storage_data_util" ],
     [ "MStreamPlayer", "classpdiext_1_1_m_stream_player.html", "classpdiext_1_1_m_stream_player" ],
+    [ "MSystemCondition", "classpdiext_1_1_m_system_condition.html", null ],
+    [ "MSystemConfiguration", "classpdiext_1_1_m_system_configuration.html", null ],
     [ "MUsbPspComm", "classpdiext_1_1_m_usb_psp_comm.html", "classpdiext_1_1_m_usb_psp_comm" ],
     [ "MVoucher", "classpdiext_1_1_m_voucher.html", "classpdiext_1_1_m_voucher" ],
     [ "GameContentUtilStorageError", "namespacepdiext.html#a3d809b10107ce26862b7ddb0f47acc23", [

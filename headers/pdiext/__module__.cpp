@@ -1,7 +1,7 @@
 using namespace Adhoc;
 using namespace System;
 
-/** \brief Extended libraries (mostly Sony stuff) */
+/** \brief Extended APIs */
 namespace pdiext
 {
 	/** \brief Functions for this module */

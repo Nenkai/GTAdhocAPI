@@ -165,10 +165,10 @@ namespace gtengine
             Int sendRoomChatMessage(String message, Int unk = nil, Int unk2 = nil);
             Int sendRoomChatMessageAsync(String message, Int unk = nil, String unk2 = nil);
             Int sendRoomChatMessageAsync(String message, Int unk = nil, Int unk2 = nil);
-            Int sendRoomBinaryMessage(Int type, MBlob message, Int unk = 0, String unk2 = nil);
-            Int sendRoomBinaryMessage(Int type, MBlob message, Int unk = 0, Int unk2 = nil);
-            Int sendRoomBinaryMessageAsync(Int type, MBlob message, Int unk = 0, String unk2 = nil);
-            Int sendRoomBinaryMessageAsync(Int type, MBlob message, Int unk = 0, Int unk2 = nil);
+            Int sendRoomBinaryMessage(BinaryMessageType type, MBlob message, Int unk = 0, String unk2 = nil);
+            Int sendRoomBinaryMessage(BinaryMessageType type, MBlob message, Int unk = 0, Int unk2 = nil);
+            Int sendRoomBinaryMessageAsync(BinaryMessageType type, MBlob message, Int unk = 0, String unk2 = nil);
+            Int sendRoomBinaryMessageAsync(BinaryMessageType type, MBlob message, Int unk = 0, Int unk2 = nil);
             Int grantRoomOwner(Int unk);
             Int kickOutRoomMember(Int unk, Bool unk2);
             Int leaveRoomRequest(UInt unk);

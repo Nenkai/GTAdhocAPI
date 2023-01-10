@@ -38,5 +38,6 @@ var searchData=
   ['photocameravaluetype_35',['PhotoCameraValueType',['../namespacegtengine.html#a6963208e6e40df575f8ca0a709effb57',1,'gtengine']]],
   ['pitmessagetype_36',['PitMessageType',['../namespacegtengine.html#a2ebf389644f7d4225c1e930636220066',1,'gtengine']]],
   ['placetype_37',['PlaceType',['../namespacegtengine.html#ae5adabbf3d04268a5356cf55576f122a',1,'gtengine']]],
-  ['playtype_38',['PlayType',['../namespacegtengine.html#a79ac6a53b90ff5a90c9da6588972b98c',1,'gtengine']]]
+  ['playtype_38',['PlayType',['../namespacegtengine.html#a79ac6a53b90ff5a90c9da6588972b98c',1,'gtengine']]],
+  ['presencestate_39',['PresenceState',['../namespacepdistd.html#a12d9ebecc5f5555e37a2de02612b171b',1,'pdistd']]]
 ];

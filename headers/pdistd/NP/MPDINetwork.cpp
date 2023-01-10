@@ -61,8 +61,8 @@ namespace pdistd
 			void getNetworkTime();
 			void setTimeoutSecond();
 			void setupTimeout();
-			void getLastError();
-			void getFirstError();
+			NetworkError getLastError();
+			NetworkError getFirstError();
 			void getFirstErrorPacked();
 			void getLastErrorPacked();
 			void setLastError();

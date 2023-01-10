@@ -8,5 +8,7 @@ var dir_b0f1bc2eeaf3cfb7ce1886705db053b8 =
     [ "MBufferDecryptManager.cpp", "_m_buffer_decrypt_manager_8cpp.html", "_m_buffer_decrypt_manager_8cpp" ],
     [ "MGameObjectManager.cpp", "_m_game_object_manager_8cpp.html", "_m_game_object_manager_8cpp" ],
     [ "MHttpc.cpp", "_m_httpc_8cpp.html", "_m_httpc_8cpp" ],
-    [ "MHttpRequest.cpp", "_m_http_request_8cpp.html", "_m_http_request_8cpp" ]
+    [ "MHttpRequest.cpp", "_m_http_request_8cpp.html", "_m_http_request_8cpp" ],
+    [ "MSystemCondition.cpp", "_m_system_condition_8cpp.html", "_m_system_condition_8cpp" ],
+    [ "MSystemConfiguration.cpp", "_m_system_configuration_8cpp.html", "_m_system_configuration_8cpp" ]
 ];

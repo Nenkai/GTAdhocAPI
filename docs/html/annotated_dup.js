@@ -1,5 +1,11 @@
 var annotated_dup =
 [
+    [ "__toplevel__", "namespace____toplevel____.html", [
+      [ "__module__", "class____toplevel_____1_1____module____.html", null ]
+    ] ],
+    [ "Binary", "namespace_binary.html", [
+      [ "__module__", "class_binary_1_1____module____.html", null ]
+    ] ],
     [ "gtengine", "namespacegtengine.html", [
       [ "GTGame", "namespacegtengine_1_1_g_t_game.html", [
         [ "AchieveCondition", "classgtengine_1_1_g_t_game_1_1_achieve_condition.html", "classgtengine_1_1_g_t_game_1_1_achieve_condition" ],
@@ -78,17 +84,23 @@ var annotated_dup =
       [ "MVehicleStatus", "classgtengine_1_1_m_vehicle_status.html", "classgtengine_1_1_m_vehicle_status" ]
     ] ],
     [ "IO", "namespace_i_o.html", [
-      [ "__module__", "class_i_o_1_1____module____.html", null ],
+      [ "__module__", "class_i_o_1_1____module____.html", "class_i_o_1_1____module____" ],
       [ "ByteReader", "class_i_o_1_1_byte_reader.html", "class_i_o_1_1_byte_reader" ],
       [ "ByteWriter", "class_i_o_1_1_byte_writer.html", "class_i_o_1_1_byte_writer" ],
+      [ "File", "class_i_o_1_1_file.html", null ],
       [ "FileReader", "class_i_o_1_1_file_reader.html", "class_i_o_1_1_file_reader" ],
       [ "FileWriter", "class_i_o_1_1_file_writer.html", "class_i_o_1_1_file_writer" ],
+      [ "NullReader", "class_i_o_1_1_null_reader.html", "class_i_o_1_1_null_reader" ],
       [ "NullWriter", "class_i_o_1_1_null_writer.html", "class_i_o_1_1_null_writer" ],
+      [ "Path", "class_i_o_1_1_path.html", null ],
       [ "StreamReader", "class_i_o_1_1_stream_reader.html", "class_i_o_1_1_stream_reader" ],
       [ "StreamWriter", "class_i_o_1_1_stream_writer.html", "class_i_o_1_1_stream_writer" ],
       [ "StringReader", "class_i_o_1_1_string_reader.html", "class_i_o_1_1_string_reader" ],
       [ "StringWriter", "class_i_o_1_1_string_writer.html", "class_i_o_1_1_string_writer" ],
       [ "ZipReader", "class_i_o_1_1_zip_reader.html", "class_i_o_1_1_zip_reader" ]
+    ] ],
+    [ "Math", "namespace_math.html", [
+      [ "__module__", "class_math_1_1____module____.html", null ]
     ] ],
     [ "pdiext", "namespacepdiext.html", [
       [ "__module__", "classpdiext_1_1____module____.html", "classpdiext_1_1____module____" ],
@@ -104,13 +116,17 @@ var annotated_dup =
       [ "MSoundEffect", "classpdiext_1_1_m_sound_effect.html", "classpdiext_1_1_m_sound_effect" ],
       [ "MStorageDataUtil", "classpdiext_1_1_m_storage_data_util.html", "classpdiext_1_1_m_storage_data_util" ],
       [ "MStreamPlayer", "classpdiext_1_1_m_stream_player.html", "classpdiext_1_1_m_stream_player" ],
+      [ "MSystemCondition", "classpdiext_1_1_m_system_condition.html", null ],
+      [ "MSystemConfiguration", "classpdiext_1_1_m_system_configuration.html", null ],
       [ "MUsbPspComm", "classpdiext_1_1_m_usb_psp_comm.html", "classpdiext_1_1_m_usb_psp_comm" ],
       [ "MVoucher", "classpdiext_1_1_m_voucher.html", "classpdiext_1_1_m_voucher" ]
     ] ],
     [ "pdistd", "namespacepdistd.html", [
       [ "__module__", "classpdistd_1_1____module____.html", null ],
+      [ "AppBootConfig", "classpdistd_1_1_app_boot_config.html", null ],
       [ "MActivateEvent", "classpdistd_1_1_m_activate_event.html", "classpdistd_1_1_m_activate_event" ],
       [ "MActivity", "classpdistd_1_1_m_activity.html", "classpdistd_1_1_m_activity" ],
+      [ "MAutoTest", "classpdistd_1_1_m_auto_test.html", null ],
       [ "MAVChat", "classpdistd_1_1_m_a_v_chat.html", "classpdistd_1_1_m_a_v_chat" ],
       [ "MBbs2", "classpdistd_1_1_m_bbs2.html", "classpdistd_1_1_m_bbs2" ],
       [ "MBlob", "classpdistd_1_1_m_blob.html", "classpdistd_1_1_m_blob" ],
@@ -119,6 +135,7 @@ var annotated_dup =
       [ "MCourse", "classpdistd_1_1_m_course.html", "classpdistd_1_1_m_course" ],
       [ "MDomNode", "classpdistd_1_1_m_dom_node.html", "classpdistd_1_1_m_dom_node" ],
       [ "MDomNodeList", "classpdistd_1_1_m_dom_node_list.html", "classpdistd_1_1_m_dom_node_list" ],
+      [ "MDynRes", "classpdistd_1_1_m_dyn_res.html", null ],
       [ "MEventRace2", "classpdistd_1_1_m_event_race2.html", "classpdistd_1_1_m_event_race2" ],
       [ "MGameInputAnalog", "classpdistd_1_1_m_game_input_analog.html", "classpdistd_1_1_m_game_input_analog" ],
       [ "MGameInputButton", "classpdistd_1_1_m_game_input_button.html", "classpdistd_1_1_m_game_input_button" ],
@@ -129,9 +146,12 @@ var annotated_dup =
       [ "MGTMail", "classpdistd_1_1_m_g_t_mail.html", "classpdistd_1_1_m_g_t_mail" ],
       [ "MHttp3", "classpdistd_1_1_m_http3.html", "classpdistd_1_1_m_http3" ],
       [ "MHttpc", "classpdistd_1_1_m_httpc.html", "classpdistd_1_1_m_httpc" ],
+      [ "MLocale", "classpdistd_1_1_m_locale.html", null ],
+      [ "MLoggerManager", "classpdistd_1_1_m_logger_manager.html", null ],
       [ "MMatching2", "classpdistd_1_1_m_matching2.html", "classpdistd_1_1_m_matching2" ],
       [ "MMenuGameObjectManager", "classpdistd_1_1_m_menu_game_object_manager.html", "classpdistd_1_1_m_menu_game_object_manager" ],
       [ "MMusic", "classpdistd_1_1_m_music.html", "classpdistd_1_1_m_music" ],
+      [ "MNetworkInterface", "classpdistd_1_1_m_network_interface.html", null ],
       [ "MNetworkPlatform", "classpdistd_1_1_m_network_platform.html", "classpdistd_1_1_m_network_platform" ],
       [ "MNetworkUserStorage", "classpdistd_1_1_m_network_user_storage.html", "classpdistd_1_1_m_network_user_storage" ],
       [ "MNews2", "classpdistd_1_1_m_news2.html", "classpdistd_1_1_m_news2" ],
@@ -161,6 +181,7 @@ var annotated_dup =
       [ "MSqlite", "classpdistd_1_1_m_sqlite.html", "classpdistd_1_1_m_sqlite" ],
       [ "MSqliteIterator", "classpdistd_1_1_m_sqlite_iterator.html", "classpdistd_1_1_m_sqlite_iterator" ],
       [ "MSystemBGM", "classpdistd_1_1_m_system_b_g_m.html", null ],
+      [ "MSystemDialog", "classpdistd_1_1_m_system_dialog.html", null ],
       [ "MTestSou", "classpdistd_1_1_m_test_sou.html", "classpdistd_1_1_m_test_sou" ],
       [ "MTextEvent", "classpdistd_1_1_m_text_event.html", "classpdistd_1_1_m_text_event" ],
       [ "MTime", "classpdistd_1_1_m_time.html", "classpdistd_1_1_m_time" ],
@@ -217,5 +238,8 @@ var annotated_dup =
       [ "ULong", "class_system_1_1_u_long.html", "class_system_1_1_u_long" ],
       [ "UShort", "class_system_1_1_u_short.html", "class_system_1_1_u_short" ],
       [ "Void", "class_system_1_1_void.html", "class_system_1_1_void" ]
+    ] ],
+    [ "Time", "namespace_time.html", [
+      [ "__module__", "class_time_1_1____module____.html", null ]
     ] ]
 ];
