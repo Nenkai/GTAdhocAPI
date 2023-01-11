@@ -79,5 +79,26 @@ namespace __toplevel__
             /** \brief Release Print. Stubbed. 
             \returns Arg count */
             static Int release_pr(Object obj, ...);
+
+            /** \brief Release Print line. Stubbed. 
+            \returns Arg count */
+            static Int release_prln(Object obj, ...);
+
+            /** \brief Debug Print. Stubbed. 
+            \returns Arg count */
+            static Int pr(Object obj, ...);
+
+            /** \brief Debug Print line. Stubbed. 
+            \returns Arg count */
+            static Int prln(Object obj, ...);
+
+            /** \brief Stubbed. */
+            static void DumpBuiltinModule(); 
+
+            /** \brief For async use */
+            static void AwaitTaskStart();
+
+            /** \brief For async use */
+            static Object AwaitTaskResult(Object unk);
 	};
 };
