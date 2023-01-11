@@ -2,8 +2,8 @@ var searchData=
 [
   ['tan_0',['tan',['../class_math_1_1____module____.html#ab84f0b4a98b2ef7cd033a348ef28d211',1,'Math::__module__']]],
   ['tell_1',['tell',['../class_i_o_1_1_stream_reader.html#aab446eee0481dc8384d4c8143305d0cc',1,'IO::StreamReader::tell()'],['../class_i_o_1_1_stream_writer.html#ae1f08cfd0a7b1834efee0cb3f8445a90',1,'IO::StreamWriter::tell()']]],
-  ['terminate_2',['Terminate',['../class_system_1_1_thread.html#aa911f36a782bf7ffe9dd6f305d6e4d01',1,'System::Thread']]],
-  ['terminate_3',['terminate',['../class_system_1_1_thread.html#af1486b6a7c05c914f5e032343ca5f969',1,'System::Thread']]],
+  ['terminate_2',['terminate',['../class_system_1_1_thread.html#af1486b6a7c05c914f5e032343ca5f969',1,'System::Thread']]],
+  ['terminate_3',['Terminate',['../class_system_1_1_thread.html#aa911f36a782bf7ffe9dd6f305d6e4d01',1,'System::Thread']]],
   ['test_4',['test',['../classgtengine_1_1_m_g_p_s_replay2.html#a3a8a7d3e048ec770fd82b5bbb9da3e40',1,'gtengine::MGPSReplay2::test()'],['../classpdistd_1_1_m_network_user_storage.html#a611dcbb94afa68b138c9a5754c8e1490',1,'pdistd::MNetworkUserStorage::test()']]],
   ['textconv_5',['TextConv',['../classpdistd_1_1____module____.html#a8fa371ea2ad6005779aa50f7eaea40d1',1,'pdistd::__module__']]],
   ['thread_6',['Thread',['../class_system_1_1_thread.html#a06a2aad8854f986540093f2dd2b086e9',1,'System::Thread::Thread()'],['../class_system_1_1_thread.html#a12f50c1ff8a4d7a29e95f53f86b4a2c6',1,'System::Thread::Thread(FunctionObject func)']]],
@@ -28,9 +28,10 @@ var searchData=
   ['toushort_25',['toUShort',['../class_system_1_1_object.html#a155fdc8b210408307b7f5462bd251dfe',1,'System::Object::toUShort()'],['../class_system_1_1_string.html#a619ca917700363220a21236e19a3894b',1,'System::String::toUShort()']]],
   ['traceranklist_26',['TraceRankList',['../classpdistd_1_1____module____.html#a3e0820070d7125e03403fce91632945f',1,'pdistd::__module__']]],
   ['transfer_27',['transfer',['../classgtengine_1_1_m_garage.html#a06b5d286f3e166e5edd0a615e252999e',1,'gtengine::MGarage']]],
-  ['trim_28',['trim',['../class_system_1_1_string.html#a20baec9bbd67a321318d23d583f3eef3',1,'System::String::trim()'],['../class_system_1_1_string.html#a743bff52b4a16fcc2077ecc70f0101f5',1,'System::String::trim(String trim_str)']]],
-  ['trunc_29',['trunc',['../class_math_1_1____module____.html#a70bb790e02398cb42af01a2289782575',1,'Math::__module__']]],
-  ['truncatefile_30',['TruncateFile',['../classpdistd_1_1____module____.html#a7315b21ac8736c80f275a69d45666a44',1,'pdistd::__module__']]],
-  ['trylock_31',['trylock',['../class_system_1_1_monitor.html#a9399eb1b0c5d60c9a8d12fb16fb18bda',1,'System::Monitor']]],
-  ['turneverybodyoutfromroom_32',['turnEverybodyOutFromRoom',['../classgtengine_1_1_m_lobby.html#a6eaf1510fcae7301155ff9bfd0374a58',1,'gtengine::MLobby']]]
+  ['translate_28',['translate',['../classmenu_1_1_m_render_context.html#a899b20c9bb2814f6694dea627acf48f7',1,'menu::MRenderContext::translate(String category, String pair)'],['../classmenu_1_1_m_render_context.html#a8f3b7054f6c7d897208612b5a044d082',1,'menu::MRenderContext::translate(MNode node_name, String sub_category, String pair)']]],
+  ['trim_29',['trim',['../class_system_1_1_string.html#a20baec9bbd67a321318d23d583f3eef3',1,'System::String::trim()'],['../class_system_1_1_string.html#a743bff52b4a16fcc2077ecc70f0101f5',1,'System::String::trim(String trim_str)']]],
+  ['trunc_30',['trunc',['../class_math_1_1____module____.html#a70bb790e02398cb42af01a2289782575',1,'Math::__module__']]],
+  ['truncatefile_31',['TruncateFile',['../classpdistd_1_1____module____.html#a7315b21ac8736c80f275a69d45666a44',1,'pdistd::__module__']]],
+  ['trylock_32',['trylock',['../class_system_1_1_monitor.html#a9399eb1b0c5d60c9a8d12fb16fb18bda',1,'System::Monitor']]],
+  ['turneverybodyoutfromroom_33',['turnEverybodyOutFromRoom',['../classgtengine_1_1_m_lobby.html#a6eaf1510fcae7301155ff9bfd0374a58',1,'gtengine::MLobby']]]
 ];

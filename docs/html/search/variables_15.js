@@ -8,13 +8,14 @@ var searchData=
   ['vehicle_5fvisible_5',['vehicle_visible',['../classgtengine_1_1_m_organizer.html#a1a70294fe0d6df113ee7ce8eda5ca7ed',1,'gtengine::MOrganizer']]],
   ['version_6',['VERSION',['../classgtengine_1_1_m_game_item.html#a83b5d03817066ed88566a8c90997cf0a',1,'gtengine::MGameItem::VERSION()'],['../classgtengine_1_1_m_game_parameter.html#a141a65c8198d362931a5aaedaf784b0c',1,'gtengine::MGameParameter::VERSION()'],['../classgtengine_1_1_m_room_config.html#aedc17f663120a31e1f4e63b2dc9f27b2',1,'gtengine::MRoomConfig::VERSION()']]],
   ['video_5fformat_7',['video_format',['../classgtengine_1_1_g_t_game_1_1_replay.html#a1a15af6f61a201966c5d76179878d3f9',1,'gtengine::GTGame::Replay']]],
-  ['voice_5fagc_5fcomp_5frate_8',['voice_agc_comp_rate',['../classpdiext_1_1_m_sound_context.html#a2a58cfd71054571db00ae96426ba1343',1,'pdiext::MSoundContext']]],
-  ['voice_5fagc_5fexp_9',['voice_agc_exp',['../classpdiext_1_1_m_sound_context.html#ac081ee89531cebf7a6c99aaa029c420a',1,'pdiext::MSoundContext']]],
-  ['voice_5fagc_5fexp_5frate_10',['voice_agc_exp_rate',['../classpdiext_1_1_m_sound_context.html#ac6659f648f6a16c9c5cd98dcc6f4dd85',1,'pdiext::MSoundContext']]],
-  ['voice_5fagc_5fgain_11',['voice_agc_gain',['../classpdiext_1_1_m_sound_context.html#a673b66423eb7efbd79c60d8f5e03dbdf',1,'pdiext::MSoundContext']]],
-  ['voice_5fagc_5flimit_12',['voice_agc_limit',['../classpdiext_1_1_m_sound_context.html#a3f141b9d86e5dc87add2eb113922dc70',1,'pdiext::MSoundContext']]],
-  ['voice_5fchat_13',['voice_chat',['../classgtengine_1_1_m_room_config.html#af69cc64119908a85ef5782a2af26bbd3',1,'gtengine::MRoomConfig']]],
-  ['voice_5fchat_5fmode_14',['voice_chat_mode',['../classgtengine_1_1_m_room_config.html#a89f0d54a5ce3a24802b7427608589ecd',1,'gtengine::MRoomConfig']]],
-  ['voice_5fquality_15',['voice_quality',['../classgtengine_1_1_m_room_config.html#a9009170977a78d28f4a0ba1ec023d26b',1,'gtengine::MRoomConfig']]],
-  ['volume_16',['volume',['../classpdistd_1_1_m_music.html#a084be6f5b10b2b25db449ee9ecfbad72',1,'pdistd::MMusic']]]
+  ['visible_8',['visible',['../classmenu_1_1_m_widget.html#a708b86faf527cb6b8f14838e38ba4021',1,'menu::MWidget']]],
+  ['voice_5fagc_5fcomp_5frate_9',['voice_agc_comp_rate',['../classpdiext_1_1_m_sound_context.html#a2a58cfd71054571db00ae96426ba1343',1,'pdiext::MSoundContext']]],
+  ['voice_5fagc_5fexp_10',['voice_agc_exp',['../classpdiext_1_1_m_sound_context.html#ac081ee89531cebf7a6c99aaa029c420a',1,'pdiext::MSoundContext']]],
+  ['voice_5fagc_5fexp_5frate_11',['voice_agc_exp_rate',['../classpdiext_1_1_m_sound_context.html#ac6659f648f6a16c9c5cd98dcc6f4dd85',1,'pdiext::MSoundContext']]],
+  ['voice_5fagc_5fgain_12',['voice_agc_gain',['../classpdiext_1_1_m_sound_context.html#a673b66423eb7efbd79c60d8f5e03dbdf',1,'pdiext::MSoundContext']]],
+  ['voice_5fagc_5flimit_13',['voice_agc_limit',['../classpdiext_1_1_m_sound_context.html#a3f141b9d86e5dc87add2eb113922dc70',1,'pdiext::MSoundContext']]],
+  ['voice_5fchat_14',['voice_chat',['../classgtengine_1_1_m_room_config.html#af69cc64119908a85ef5782a2af26bbd3',1,'gtengine::MRoomConfig']]],
+  ['voice_5fchat_5fmode_15',['voice_chat_mode',['../classgtengine_1_1_m_room_config.html#a89f0d54a5ce3a24802b7427608589ecd',1,'gtengine::MRoomConfig']]],
+  ['voice_5fquality_16',['voice_quality',['../classgtengine_1_1_m_room_config.html#a9009170977a78d28f4a0ba1ec023d26b',1,'gtengine::MRoomConfig']]],
+  ['volume_17',['volume',['../classpdistd_1_1_m_music.html#a084be6f5b10b2b25db449ee9ecfbad72',1,'pdistd::MMusic']]]
 ];

@@ -41,6 +41,7 @@ var searchData=
   ['grid_5flist_38',['grid_list',['../classgtengine_1_1_m_race_parameter.html#aab388f392b6942be5283b727362867cf',1,'gtengine::MRaceParameter']]],
   ['grid_5fsort_5ftype_39',['grid_sort_type',['../classgtengine_1_1_m_race_parameter.html#a450d93beb6b4758792eb64d149dbd826',1,'gtengine::MRaceParameter::grid_sort_type()'],['../classgtengine_1_1_m_room_config.html#a1c481dfd6b58a3070d1f5b184de5d296',1,'gtengine::MRoomConfig::grid_sort_type()']]],
   ['growth_5fparameter_40',['growth_parameter',['../classgtengine_1_1_m_car_driver_parameter.html#a847999486acae360f433fdc00942905f',1,'gtengine::MCarDriverParameter']]],
-  ['gt_5fhifi_41',['gt_hifi',['../classgtengine_1_1_m_organizer.html#a9a92a9e5413ed64544d7bb969a7433be',1,'gtengine::MOrganizer']]],
-  ['gtb_5fversion_42',['gtb_version',['../classgtengine_1_1_m_replay_info.html#ade17e92624a5cc8c03977319606b0805',1,'gtengine::MReplayInfo']]]
+  ['gt4_5fcompatible_5fname_41',['GT4_compatible_name',['../classmenu_1_1_m_node.html#aecd504ed1ba09e53161553af4e19938e',1,'menu::MNode::GT4_compatible_name()'],['../classmenu_1_1_m_root_window.html#ad30302b9d993eea35ffb2158803c53a0',1,'menu::MRootWindow::GT4_compatible_name()']]],
+  ['gt_5fhifi_42',['gt_hifi',['../classgtengine_1_1_m_organizer.html#a9a92a9e5413ed64544d7bb969a7433be',1,'gtengine::MOrganizer']]],
+  ['gtb_5fversion_43',['gtb_version',['../classgtengine_1_1_m_replay_info.html#ade17e92624a5cc8c03977319606b0805',1,'gtengine::MReplayInfo']]]
 ];
