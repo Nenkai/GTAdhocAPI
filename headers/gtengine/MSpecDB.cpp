@@ -10,7 +10,7 @@ namespace gtengine
 	{
 		  public:
 
-		    MSpecDB();
+		    MSpecDB() { };
 
 			static const UInt NO_CODE = -1;
 

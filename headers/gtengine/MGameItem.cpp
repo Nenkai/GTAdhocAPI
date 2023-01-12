@@ -7,7 +7,7 @@ namespace gtengine
 	class MGameItem : public Object
 	{
 		  public:
-		  	MGameItem();
+		  	MGameItem() { };
 
 			GameItemType itemtype;
 			GameItemCategory itemcategory;

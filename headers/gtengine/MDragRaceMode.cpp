@@ -6,7 +6,7 @@ namespace gtengine
 	class MDragRaceMode : public Object
 	{
 		  public:
-		    MDragRaceMode();
+		    MDragRaceMode() { };
 			
 			void connect(MOrganizer organizer);
 			Int burnout_time;

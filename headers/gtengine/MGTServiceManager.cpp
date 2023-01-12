@@ -7,7 +7,7 @@ namespace gtengine
 	class MGTServiceManager : public Object
 	{
 		  public:
-		    MGTServiceManager();
+		    MGTServiceManager() { };
 
 			void setOrganizer(MOrganizer organizer);
 

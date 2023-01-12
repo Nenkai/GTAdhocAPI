@@ -4,7 +4,7 @@ using namespace pdistd;
 
 namespace menu
 {
-	/** \brief Represents a core UI node. */
+	/** \brief Represents a window/page/root. */
 	public class MRootWindow : public MSBox
 	{
 		public:

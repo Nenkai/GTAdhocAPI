@@ -6,7 +6,7 @@ namespace gtengine
 	class MDriftMode : public Object
 	{
 		  public:
-		    MDriftMode();
+		    MDriftMode() { };
 			
 			void connect(MOrganizer organizer);
 			void reconnect(MOrganizer organizer);

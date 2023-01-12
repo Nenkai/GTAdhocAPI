@@ -37,7 +37,7 @@ var NAVTREEINDEX0 =
 "_analog_code_8cpp.html#add9979aad0362d4b3673f1dd2c2c6b88af666138802a66e7ade44ef4376f76f46":[2,0,0,1,0,1,0,18],
 "_analog_code_8cpp.html#add9979aad0362d4b3673f1dd2c2c6b88afa82d2206f78894d7457daadd4f209aa":[2,0,0,1,0,1,0,12],
 "_any_8cpp.html":[2,0,0,7,1],
-"_app_boot_config_8cpp.html":[2,0,0,6,10],
+"_app_boot_config_8cpp.html":[2,0,0,6,9],
 "_arcade_style_direction_type_8cpp.html":[2,0,0,1,0,2],
 "_arcade_style_direction_type_8cpp.html#ad595752ce044a398f3a72ebe13fc73f4":[2,0,0,1,0,2,0],
 "_arcade_style_direction_type_8cpp.html#ad595752ce044a398f3a72ebe13fc73f4ab078ffd28db767c502ac367053f6e0ac":[2,0,0,1,0,2,0,0],

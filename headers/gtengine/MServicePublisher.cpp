@@ -7,7 +7,7 @@ namespace gtengine
 	class MServicePublisher : public Object
 	{
 		  public:
-		    MServicePublisher();
+		    MServicePublisher() { };
 
 			/** \param name If not provided, uses ps3-<mac address> as name*/
 			Bool initialize(String name = nil);

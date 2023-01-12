@@ -6,7 +6,7 @@ namespace gtengine
 	class MController : public Object
 	{
 		  public:
-			MController();
+			MController() { };
 
 			void declare(InputMode input_mode, String device_name, Int port, String analog_or_button, SuperPortButtonBit button_bit);
 			void declare(InputMode input_mode, String device_name, Int port, String analog_or_button, SuperPortAnalogChannel analog_channel);

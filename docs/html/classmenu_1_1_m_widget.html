@@ -106,9 +106,21 @@ Inheritance diagram for menu::MWidget:</div>
  <div class="center">
   <img src="classmenu_1_1_m_widget.png" usemap="#menu::MWidget_map" alt=""/>
   <map id="menu::MWidget_map" name="menu::MWidget_map">
-<area href="classmenu_1_1_m_node.html" title="Represents a core UI node." alt="menu::MNode" shape="rect" coords="55,112,155,136"/>
-<area href="class_system_1_1_module.html" title="Built-in type that represents a module (or namespace in C++)." alt="System::Module" shape="rect" coords="55,56,155,80"/>
-<area href="class_system_1_1_object.html" title="This is the base object for every type." alt="System::Object" shape="rect" coords="0,0,100,24"/>
+<area href="classmenu_1_1_m_node.html" title="Represents a core UI node." alt="menu::MNode" shape="rect" coords="483,112,611,136"/>
+<area href="class_system_1_1_module.html" title="Built-in type that represents a module (or namespace in C++)." alt="System::Module" shape="rect" coords="483,56,611,80"/>
+<area href="class_system_1_1_object.html" title="This is the base object for every type." alt="System::Object" shape="rect" coords="414,0,542,24"/>
+<area href="classmenu_1_1_m_composite.html" title="Represents a widget made up or containing multiple widgets." alt="menu::MComposite" shape="rect" coords="414,224,542,248"/>
+<area href="classmenu_1_1_m_text_face.html" title="Represents a facing widget that displays text." alt="menu::MTextFace" shape="rect" coords="552,224,680,248"/>
+<area href="classmenu_1_1_m_box.html" title="Base Box." alt="menu::MBox" shape="rect" coords="276,280,404,304"/>
+<area href="classmenu_1_1_m_component.html" alt="menu::MComponent" shape="rect" coords="414,280,542,304"/>
+<area href="classmenu_1_1_m_project.html" title="Represents a project, a group of roots/pages ." alt="menu::MProject" shape="rect" coords="552,280,680,304"/>
+<area href="classmenu_1_1_m_d_box.html" title="Base Directional Box." alt="menu::MDBox" shape="rect" coords="69,336,197,360"/>
+<area href="classmenu_1_1_m_f_box.html" title="F Box." alt="menu::MFBox" shape="rect" coords="207,336,335,360"/>
+<area href="classmenu_1_1_m_m_box.html" title="M Box." alt="menu::MMBox" shape="rect" coords="345,336,473,360"/>
+<area href="classmenu_1_1_m_s_box.html" title="S Box." alt="menu::MSBox" shape="rect" coords="483,336,611,360"/>
+<area href="classmenu_1_1_m_h_box.html" title="Horizontal Widget Box." alt="menu::MHBox" shape="rect" coords="0,392,128,416"/>
+<area href="classmenu_1_1_m_v_box.html" title="Vertical Widget Box." alt="menu::MVBox" shape="rect" coords="138,392,266,416"/>
+<area href="classmenu_1_1_m_root_window.html" title="Represents a window/page/root." alt="menu::MRootWindow" shape="rect" coords="483,392,611,416"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -119,26 +131,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a391d55e38060c720eb7a96706d902e0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a391d55e38060c720eb7a96706d902e0e">clearActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context=nil)</td></tr>
 <tr class="memdesc:a391d55e38060c720eb7a96706d902e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all the actors from this widget.  <a href="classmenu_1_1_m_widget.html#a391d55e38060c720eb7a96706d902e0e">More...</a><br /></td></tr>
 <tr class="separator:a391d55e38060c720eb7a96706d902e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5585daafebf1e7de230631964ea9ae9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a5585daafebf1e7de230631964ea9ae9f">insertActor</a> (MActor unk, MActor unk2)</td></tr>
+<tr class="memitem:a5585daafebf1e7de230631964ea9ae9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a5585daafebf1e7de230631964ea9ae9f">insertActor</a> (<a class="el" href="classmenu_1_1_m_actor.html">MActor</a> unk, <a class="el" href="classmenu_1_1_m_actor.html">MActor</a> unk2)</td></tr>
 <tr class="separator:a5585daafebf1e7de230631964ea9ae9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad99fb60c96370de6af5e6fc13e2cd091"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#ad99fb60c96370de6af5e6fc13e2cd091">insertActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context, MActor unk, MActor unk2)</td></tr>
+<tr class="memitem:ad99fb60c96370de6af5e6fc13e2cd091"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#ad99fb60c96370de6af5e6fc13e2cd091">insertActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context, <a class="el" href="classmenu_1_1_m_actor.html">MActor</a> unk, <a class="el" href="classmenu_1_1_m_actor.html">MActor</a> unk2)</td></tr>
 <tr class="separator:ad99fb60c96370de6af5e6fc13e2cd091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb3772fb36d5f1af55f588b2e3c224d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#adb3772fb36d5f1af55f588b2e3c224d5">appendActor</a> (MActor <a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a>)</td></tr>
+<tr class="memitem:adb3772fb36d5f1af55f588b2e3c224d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#adb3772fb36d5f1af55f588b2e3c224d5">appendActor</a> (<a class="el" href="classmenu_1_1_m_actor.html">MActor</a> <a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a>)</td></tr>
 <tr class="memdesc:adb3772fb36d5f1af55f588b2e3c224d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends an actor to actors of this widget.  <a href="classmenu_1_1_m_widget.html#adb3772fb36d5f1af55f588b2e3c224d5">More...</a><br /></td></tr>
 <tr class="separator:adb3772fb36d5f1af55f588b2e3c224d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a27092c33afeb1bcf5b46ef857dcc59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a8a27092c33afeb1bcf5b46ef857dcc59">appendActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context, MActor <a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a>)</td></tr>
+<tr class="memitem:a8a27092c33afeb1bcf5b46ef857dcc59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a8a27092c33afeb1bcf5b46ef857dcc59">appendActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context, <a class="el" href="classmenu_1_1_m_actor.html">MActor</a> <a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a>)</td></tr>
 <tr class="memdesc:a8a27092c33afeb1bcf5b46ef857dcc59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends an actor to actors of this widget (with context).  <a href="classmenu_1_1_m_widget.html#a8a27092c33afeb1bcf5b46ef857dcc59">More...</a><br /></td></tr>
 <tr class="separator:a8a27092c33afeb1bcf5b46ef857dcc59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad043232d607b6eba6c038c5aa75b314d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#ad043232d607b6eba6c038c5aa75b314d">removeActor</a> (MActor <a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a>)</td></tr>
+<tr class="memitem:ad043232d607b6eba6c038c5aa75b314d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#ad043232d607b6eba6c038c5aa75b314d">removeActor</a> (<a class="el" href="classmenu_1_1_m_actor.html">MActor</a> <a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a>)</td></tr>
 <tr class="memdesc:ad043232d607b6eba6c038c5aa75b314d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an actor from the list of actors of this widget.  <a href="classmenu_1_1_m_widget.html#ad043232d607b6eba6c038c5aa75b314d">More...</a><br /></td></tr>
 <tr class="separator:ad043232d607b6eba6c038c5aa75b314d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0310a65833789943c2d971932cee3641"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a0310a65833789943c2d971932cee3641">removeActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context, MActor <a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a>)</td></tr>
+<tr class="memitem:a0310a65833789943c2d971932cee3641"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a0310a65833789943c2d971932cee3641">removeActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context, <a class="el" href="classmenu_1_1_m_actor.html">MActor</a> <a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a>)</td></tr>
 <tr class="memdesc:a0310a65833789943c2d971932cee3641"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an actor from the list of actors of this widget. (with context)  <a href="classmenu_1_1_m_widget.html#a0310a65833789943c2d971932cee3641">More...</a><br /></td></tr>
 <tr class="separator:a0310a65833789943c2d971932cee3641"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83057ee96cf00154c00cec8b2e0dfabb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a83057ee96cf00154c00cec8b2e0dfabb">replaceActor</a> (MActor src, MActor target)</td></tr>
+<tr class="memitem:a83057ee96cf00154c00cec8b2e0dfabb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a83057ee96cf00154c00cec8b2e0dfabb">replaceActor</a> (<a class="el" href="classmenu_1_1_m_actor.html">MActor</a> src, <a class="el" href="classmenu_1_1_m_actor.html">MActor</a> target)</td></tr>
 <tr class="memdesc:a83057ee96cf00154c00cec8b2e0dfabb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace a specific actor of this widget.  <a href="classmenu_1_1_m_widget.html#a83057ee96cf00154c00cec8b2e0dfabb">More...</a><br /></td></tr>
 <tr class="separator:a83057ee96cf00154c00cec8b2e0dfabb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14417f3717b54120a76c343a053453cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a14417f3717b54120a76c343a053453cb">replaceActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context, MActor src, MActor target)</td></tr>
+<tr class="memitem:a14417f3717b54120a76c343a053453cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a14417f3717b54120a76c343a053453cb">replaceActor</a> (<a class="el" href="classmenu_1_1_m_render_context.html">MRenderContext</a> context, <a class="el" href="classmenu_1_1_m_actor.html">MActor</a> src, <a class="el" href="classmenu_1_1_m_actor.html">MActor</a> target)</td></tr>
 <tr class="memdesc:a14417f3717b54120a76c343a053453cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace a specific actor of this widget. (with context)  <a href="classmenu_1_1_m_widget.html#a14417f3717b54120a76c343a053453cb">More...</a><br /></td></tr>
 <tr class="separator:a14417f3717b54120a76c343a053453cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6add52a6412c2fab444becd3c9a89341"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_int.html">Int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a6add52a6412c2fab444becd3c9a89341">countActor</a> ()</td></tr>
@@ -575,7 +587,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acc59b3ee39d5b9fee103fd905c6d8484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe8ff5aad572c581ef825dc5a9c896b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_array.html">Array</a>&lt; <a class="el" href="class_system_1_1_float.html">Float</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#afe8ff5aad572c581ef825dc5a9c896b8">screen_position</a></td></tr>
 <tr class="separator:afe8ff5aad572c581ef825dc5a9c896b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a368caa6fdcf4eb2e9b092c6c254e2529"><td class="memItemLeft" align="right" valign="top">MActor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a></td></tr>
+<tr class="memitem:a368caa6fdcf4eb2e9b092c6c254e2529"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#a368caa6fdcf4eb2e9b092c6c254e2529">actor</a></td></tr>
 <tr class="separator:a368caa6fdcf4eb2e9b092c6c254e2529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6551ddd4633db2f531fb671fa8a27e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_array.html">Array</a>&lt; <a class="el" href="class_system_1_1_float.html">Float</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_widget.html#ab6551ddd4633db2f531fb671fa8a27e5">center</a></td></tr>
 <tr class="separator:ab6551ddd4633db2f531fb671fa8a27e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -680,18 +692,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a20367bc3806437457d549758de54c12e inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a20367bc3806437457d549758de54c12e">parent</a></td></tr>
 <tr class="memdesc:a20367bc3806437457d549758de54c12e inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the parent node for this node.  <a href="classmenu_1_1_m_node.html#a20367bc3806437457d549758de54c12e">More...</a><br /></td></tr>
 <tr class="separator:a20367bc3806437457d549758de54c12e inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fc1c118b6182f85fb4c3b5dbf15d942 inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a8fc1c118b6182f85fb4c3b5dbf15d942">next</a></td></tr>
-<tr class="memdesc:a8fc1c118b6182f85fb4c3b5dbf15d942 inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the next node for this node.  <a href="classmenu_1_1_m_node.html#a8fc1c118b6182f85fb4c3b5dbf15d942">More...</a><br /></td></tr>
-<tr class="separator:a8fc1c118b6182f85fb4c3b5dbf15d942 inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00af1e0efef362fadb666113fce81a45 inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a00af1e0efef362fadb666113fce81a45">prev</a></td></tr>
-<tr class="memdesc:a00af1e0efef362fadb666113fce81a45 inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the previous node for this node.  <a href="classmenu_1_1_m_node.html#a00af1e0efef362fadb666113fce81a45">More...</a><br /></td></tr>
-<tr class="separator:a00af1e0efef362fadb666113fce81a45 inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00c3a1e7790bb058c26bc87783c6c5ad inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a00c3a1e7790bb058c26bc87783c6c5ad">next_node</a></td></tr>
-<tr class="memdesc:a00c3a1e7790bb058c26bc87783c6c5ad inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the next node for this node. Same as next.  <a href="classmenu_1_1_m_node.html#a00c3a1e7790bb058c26bc87783c6c5ad">More...</a><br /></td></tr>
-<tr class="separator:a00c3a1e7790bb058c26bc87783c6c5ad inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedc879c86f145a6eccae45778c187a3d inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#aedc879c86f145a6eccae45778c187a3d">prev_node</a></td></tr>
-<tr class="memdesc:aedc879c86f145a6eccae45778c187a3d inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the previous node for this node. Same as prev.  <a href="classmenu_1_1_m_node.html#aedc879c86f145a6eccae45778c187a3d">More...</a><br /></td></tr>
-<tr class="separator:aedc879c86f145a6eccae45778c187a3d inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f329444c75860a7d1e7af9b2635a8a inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a39f329444c75860a7d1e7af9b2635a8a">next</a></td></tr>
+<tr class="memdesc:a39f329444c75860a7d1e7af9b2635a8a inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the next node for this node.  <a href="classmenu_1_1_m_node.html#a39f329444c75860a7d1e7af9b2635a8a">More...</a><br /></td></tr>
+<tr class="separator:a39f329444c75860a7d1e7af9b2635a8a inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae950159e46b89aab8d8cc1eaf20c83e9 inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#ae950159e46b89aab8d8cc1eaf20c83e9">prev</a></td></tr>
+<tr class="memdesc:ae950159e46b89aab8d8cc1eaf20c83e9 inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the previous node for this node.  <a href="classmenu_1_1_m_node.html#ae950159e46b89aab8d8cc1eaf20c83e9">More...</a><br /></td></tr>
+<tr class="separator:ae950159e46b89aab8d8cc1eaf20c83e9 inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa91839def3fa7121059ac1f759b1b4a inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#aaa91839def3fa7121059ac1f759b1b4a">next_node</a></td></tr>
+<tr class="memdesc:aaa91839def3fa7121059ac1f759b1b4a inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the next node for this node. Same as next.  <a href="classmenu_1_1_m_node.html#aaa91839def3fa7121059ac1f759b1b4a">More...</a><br /></td></tr>
+<tr class="separator:aaa91839def3fa7121059ac1f759b1b4a inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc79844437fc110387d11c4806531deb inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#abc79844437fc110387d11c4806531deb">prev_node</a></td></tr>
+<tr class="memdesc:abc79844437fc110387d11c4806531deb inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the previous node for this node. Same as prev.  <a href="classmenu_1_1_m_node.html#abc79844437fc110387d11c4806531deb">More...</a><br /></td></tr>
+<tr class="separator:abc79844437fc110387d11c4806531deb inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2e7730e88014d9e772276c4cb0d5a0 inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#abb2e7730e88014d9e772276c4cb0d5a0">class_name</a></td></tr>
 <tr class="memdesc:abb2e7730e88014d9e772276c4cb0d5a0 inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the class name of this node. i.e "MRootWindow".  <a href="classmenu_1_1_m_node.html#abb2e7730e88014d9e772276c4cb0d5a0">More...</a><br /></td></tr>
 <tr class="separator:abb2e7730e88014d9e772276c4cb0d5a0 inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -721,7 +733,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad37ca53880c27e2e38559cb25bfcb07e inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_root_window.html">MRootWindow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#ad37ca53880c27e2e38559cb25bfcb07e">root_window</a></td></tr>
 <tr class="memdesc:ad37ca53880c27e2e38559cb25bfcb07e inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Returns the root window linked to this node.  <a href="classmenu_1_1_m_node.html#ad37ca53880c27e2e38559cb25bfcb07e">More...</a><br /></td></tr>
 <tr class="separator:ad37ca53880c27e2e38559cb25bfcb07e inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeadf8b96224c4907f1989956de0fd0ea inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top">MProject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#aeadf8b96224c4907f1989956de0fd0ea">project</a></td></tr>
+<tr class="memitem:aeadf8b96224c4907f1989956de0fd0ea inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_project.html">MProject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#aeadf8b96224c4907f1989956de0fd0ea">project</a></td></tr>
 <tr class="memdesc:aeadf8b96224c4907f1989956de0fd0ea inherit pub_attribs_classmenu_1_1_m_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Returns the project linked to this node.  <a href="classmenu_1_1_m_node.html#aeadf8b96224c4907f1989956de0fd0ea">More...</a><br /></td></tr>
 <tr class="separator:aeadf8b96224c4907f1989956de0fd0ea inherit pub_attribs_classmenu_1_1_m_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd93d5b990803bed17be7cb9a58a00a9 inherit pub_attribs_classmenu_1_1_m_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#afd93d5b990803bed17be7cb9a58a00a9">reset_script_check</a></td></tr>
@@ -767,6 +779,9 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">menu::MWidget::MWidget </td>
@@ -775,6 +790,11 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -789,7 +809,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void menu::MWidget::appendActor </td>
           <td>(</td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>actor</em></td><td>)</td>
           <td></td>
         </tr>
@@ -815,7 +835,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>actor</em>&#160;</td>
         </tr>
         <tr>
@@ -1045,13 +1065,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void menu::MWidget::insertActor </td>
           <td>(</td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>unk</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>unk2</em>&#160;</td>
         </tr>
         <tr>
@@ -1079,13 +1099,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>unk</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>unk2</em>&#160;</td>
         </tr>
         <tr>
@@ -1169,7 +1189,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void menu::MWidget::removeActor </td>
           <td>(</td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>actor</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1195,7 +1215,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>actor</em>&#160;</td>
         </tr>
         <tr>
@@ -1269,13 +1289,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void menu::MWidget::replaceActor </td>
           <td>(</td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>target</em>&#160;</td>
         </tr>
         <tr>
@@ -1305,13 +1325,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>src</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MActor&#160;</td>
+          <td class="paramtype"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a>&#160;</td>
           <td class="paramname"><em>target</em>&#160;</td>
         </tr>
         <tr>
@@ -1488,7 +1508,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MActor menu::MWidget::actor</td>
+          <td class="memname"><a class="el" href="classmenu_1_1_m_actor.html">MActor</a> menu::MWidget::actor</td>
         </tr>
       </table>
 </div><div class="memdoc">

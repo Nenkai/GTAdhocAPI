@@ -7,7 +7,8 @@ namespace gtengine
 	class MQualityControlParameter : public Object
 	{
 		  public:
-			MQualityControlParameter();
+			MQualityControlParameter() { };
+			
 
 			void deepCopy(MQualityControlParameter rbp);
 			Bool isDefault();

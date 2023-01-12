@@ -10,5 +10,5 @@ var searchData=
   ['zero_5fq_5fmile_7',['ZERO_Q_MILE',['../namespacegtengine.html#af85ec8058220eb5113953add190ff9d4a8fe67118129f1b345076d41bcaadee35',1,'gtengine']]],
   ['zipreader_8',['ZipReader',['../class_i_o_1_1_zip_reader.html',1,'IO::ZipReader'],['../class_i_o_1_1_zip_reader.html#ad7fe0a622c3bc4bce25bcc9209f69a29',1,'IO::ZipReader::ZipReader()'],['../class_i_o_1_1_zip_reader.html#ad9565e3f9f518954819f894eded76fb5',1,'IO::ZipReader::ZipReader(StreamReader base_stream)']]],
   ['zipreader_2ecpp_9',['ZipReader.cpp',['../_zip_reader_8cpp.html',1,'']]],
-  ['zoom_5ffor_5fsd_10',['zoom_for_SD',['../classmenu_1_1_m_render_context.html#a09e674ed1d0d37aa0749105055119971',1,'menu::MRenderContext']]]
+  ['zoom_5ffor_5fsd_10',['zoom_for_SD',['../classmenu_1_1_m_render_context.html#a09e674ed1d0d37aa0749105055119971',1,'menu::MRenderContext::zoom_for_SD()'],['../classmenu_1_1_m_update_context.html#a175446ba19bdca9dbd73883c9d188d04',1,'menu::MUpdateContext::zoom_for_SD()']]]
 ];

@@ -7,9 +7,9 @@ namespace gtengine
 	class MRoomConfig : public Object
 	{
 		public:
-		  MRoomConfig();
-		  MRoomConfig(MGameParameter gp);
-		  MRoomConfig(MRoomConfig src);
+		  MRoomConfig() { };
+		  MRoomConfig(MGameParameter gp) { };
+		  MRoomConfig(MRoomConfig src) { };
 
 		  void deepCopy(MRoomConfig src);
 

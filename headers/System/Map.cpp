@@ -26,6 +26,6 @@ namespace System
 			Int size();
 
 			/** \brief Performs a callback on each element of the map. */
-			void each(Function<Object> cb);
+			void each(FunctionObject<Object> cb);
 	}
 }

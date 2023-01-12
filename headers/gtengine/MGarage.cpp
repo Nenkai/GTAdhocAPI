@@ -7,7 +7,7 @@ namespace gtengine
 	{
 		  public:
 
-		    MGarage();
+		    MGarage() { };
 			
 			Bool initialize(String garage_path, UInt garage_max);
 

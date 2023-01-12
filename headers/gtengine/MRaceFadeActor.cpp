@@ -4,10 +4,10 @@ namespace gtengine
 {
 	class MRaceFadeActor : MActor
 	{
-		  public:
-          MRaceFadeActor();
+		public:
+            MRaceFadeActor() { };
 
-          Float speed;
-          Bool continuous;
+            Float speed;
+            Bool continuous;
     }
 }

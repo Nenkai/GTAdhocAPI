@@ -7,7 +7,7 @@ namespace gtengine
 	class MLTEntry : public Object
 	{
 		  public:
-		    MLTEntry();
+		    MLTEntry() { };
 
 			UInt car_code;
 			ULong total_time;

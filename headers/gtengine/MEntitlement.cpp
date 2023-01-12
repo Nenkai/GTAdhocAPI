@@ -9,7 +9,7 @@ namespace gtengine
 	class MEntitlement : public Object
 	{
 		  public:
-			MEntitlement();
+			MEntitlement() { };
 
 			void setGlobal();
 

@@ -8,7 +8,7 @@ namespace gtengine
 	{
 		public:
 		
-			MOrganizer();
+			MOrganizer() { };
 
 			/** \brief Initializes the organizer. */
 			void initialize();

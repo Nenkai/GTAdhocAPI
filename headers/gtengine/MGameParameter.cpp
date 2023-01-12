@@ -8,7 +8,7 @@ namespace gtengine
 	class MGameParameter : public Object
 	{
 		  public:
-			MGameParameter();
+			MGameParameter() { };
 
 			ULong game_id;
 			ULong folder_id;

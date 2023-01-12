@@ -7,14 +7,14 @@ namespace gtengine
 	{
 		  public:
 		  
-		  	MCarThin();
+		  	MCarThin() { };
 
-		    MCarThin(ULong code, Int color = 0);
+		    MCarThin(ULong code, Int color = 0) { };
 
 			/** \brief Creates a MCarThin from the specified car label.
 			\details Use "GARAGE_CAR" for the current car (code will be -1). 
 			Can be a label from GENERIC_CAR or TUNED_CARS. */
-			MCarThin(String label, Int color = 0);
+			MCarThin(String label, Int color = 0) { };
 			
 		  	operator==();
 			operator!=();

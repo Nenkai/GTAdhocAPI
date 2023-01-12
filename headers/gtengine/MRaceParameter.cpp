@@ -8,7 +8,7 @@ namespace gtengine
 	class MRaceParameter : public Object
 	{
 		  public:
-			MRaceParameter();
+			MRaceParameter() { };
 
 			void deepCopy();
 			RaceType race_type;

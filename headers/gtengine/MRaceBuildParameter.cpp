@@ -6,7 +6,7 @@ namespace gtengine
 	class MRaceBuildParameter : public Object
 	{
 		  public:
-			MRaceBuildParameter();
+			MRaceBuildParameter() { };
 
 			void deepCopy(MRaceBuildParameter rbp);
 			void setDefault();

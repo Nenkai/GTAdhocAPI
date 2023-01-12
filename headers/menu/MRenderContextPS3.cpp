@@ -4,7 +4,7 @@ using namespace pdistd;
 
 namespace menu
 {
-	/** \brief Cell implementation of Render Context
+	/** \brief Cell implementation of MRenderContext
     \details main::ContextMain & others will always return this object */
 	public class MRenderContextPS3 : public MRenderContext
 	{

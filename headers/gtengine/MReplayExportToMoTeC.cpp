@@ -7,7 +7,7 @@ namespace gtengine
 	class MReplayExportToMoTeC : public Object
 	{
 		  public:
-			MReplayExportToMoTeC();
+			MReplayExportToMoTeC() { };
 
 			Bool initialize(Int unk, String replay_file, String logger_file);
 			void finalize();

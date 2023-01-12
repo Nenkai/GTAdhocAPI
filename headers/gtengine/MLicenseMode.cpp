@@ -6,7 +6,7 @@ namespace gtengine
 	class MLicenseMode : public Object
 	{
 		  public:
-		    MLicenseMode();
+		    MLicenseMode() { };
 			
 			void connect(MOrganizer organizer);
 			void setTargetSlotID(Int slot_id);

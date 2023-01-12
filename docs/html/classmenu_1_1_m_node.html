@@ -107,9 +107,22 @@ Inheritance diagram for menu::MNode:</div>
  <div class="center">
   <img src="classmenu_1_1_m_node.png" usemap="#menu::MNode_map" alt=""/>
   <map id="menu::MNode_map" name="menu::MNode_map">
-<area href="class_system_1_1_module.html" title="Built-in type that represents a module (or namespace in C++)." alt="System::Module" shape="rect" coords="55,56,155,80"/>
-<area href="class_system_1_1_object.html" title="This is the base object for every type." alt="System::Object" shape="rect" coords="0,0,100,24"/>
-<area href="classmenu_1_1_m_widget.html" title="Represents a UI component." alt="menu::MWidget" shape="rect" coords="55,168,155,192"/>
+<area href="class_system_1_1_module.html" title="Built-in type that represents a module (or namespace in C++)." alt="System::Module" shape="rect" coords="241,56,369,80"/>
+<area href="class_system_1_1_object.html" title="This is the base object for every type." alt="System::Object" shape="rect" coords="172,0,300,24"/>
+<area href="classmenu_1_1_m_actor.html" title="Represents an actor." alt="menu::MActor" shape="rect" coords="0,168,128,192"/>
+<area href="classmenu_1_1_m_widget.html" title="Represents a UI component." alt="menu::MWidget" shape="rect" coords="483,168,611,192"/>
+<area href="classmenu_1_1_m_composite.html" title="Represents a widget made up or containing multiple widgets." alt="menu::MComposite" shape="rect" coords="414,224,542,248"/>
+<area href="classmenu_1_1_m_text_face.html" title="Represents a facing widget that displays text." alt="menu::MTextFace" shape="rect" coords="552,224,680,248"/>
+<area href="classmenu_1_1_m_box.html" title="Base Box." alt="menu::MBox" shape="rect" coords="276,280,404,304"/>
+<area href="classmenu_1_1_m_component.html" alt="menu::MComponent" shape="rect" coords="414,280,542,304"/>
+<area href="classmenu_1_1_m_project.html" title="Represents a project, a group of roots/pages ." alt="menu::MProject" shape="rect" coords="552,280,680,304"/>
+<area href="classmenu_1_1_m_d_box.html" title="Base Directional Box." alt="menu::MDBox" shape="rect" coords="69,336,197,360"/>
+<area href="classmenu_1_1_m_f_box.html" title="F Box." alt="menu::MFBox" shape="rect" coords="207,336,335,360"/>
+<area href="classmenu_1_1_m_m_box.html" title="M Box." alt="menu::MMBox" shape="rect" coords="345,336,473,360"/>
+<area href="classmenu_1_1_m_s_box.html" title="S Box." alt="menu::MSBox" shape="rect" coords="483,336,611,360"/>
+<area href="classmenu_1_1_m_h_box.html" title="Horizontal Widget Box." alt="menu::MHBox" shape="rect" coords="0,392,128,416"/>
+<area href="classmenu_1_1_m_v_box.html" title="Vertical Widget Box." alt="menu::MVBox" shape="rect" coords="138,392,266,416"/>
+<area href="classmenu_1_1_m_root_window.html" title="Represents a window/page/root." alt="menu::MRootWindow" shape="rect" coords="483,392,611,416"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -361,18 +374,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a20367bc3806437457d549758de54c12e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a20367bc3806437457d549758de54c12e">parent</a></td></tr>
 <tr class="memdesc:a20367bc3806437457d549758de54c12e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the parent node for this node.  <a href="classmenu_1_1_m_node.html#a20367bc3806437457d549758de54c12e">More...</a><br /></td></tr>
 <tr class="separator:a20367bc3806437457d549758de54c12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fc1c118b6182f85fb4c3b5dbf15d942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a8fc1c118b6182f85fb4c3b5dbf15d942">next</a></td></tr>
-<tr class="memdesc:a8fc1c118b6182f85fb4c3b5dbf15d942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the next node for this node.  <a href="classmenu_1_1_m_node.html#a8fc1c118b6182f85fb4c3b5dbf15d942">More...</a><br /></td></tr>
-<tr class="separator:a8fc1c118b6182f85fb4c3b5dbf15d942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00af1e0efef362fadb666113fce81a45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a00af1e0efef362fadb666113fce81a45">prev</a></td></tr>
-<tr class="memdesc:a00af1e0efef362fadb666113fce81a45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the previous node for this node.  <a href="classmenu_1_1_m_node.html#a00af1e0efef362fadb666113fce81a45">More...</a><br /></td></tr>
-<tr class="separator:a00af1e0efef362fadb666113fce81a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00c3a1e7790bb058c26bc87783c6c5ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a00c3a1e7790bb058c26bc87783c6c5ad">next_node</a></td></tr>
-<tr class="memdesc:a00c3a1e7790bb058c26bc87783c6c5ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the next node for this node. Same as next.  <a href="classmenu_1_1_m_node.html#a00c3a1e7790bb058c26bc87783c6c5ad">More...</a><br /></td></tr>
-<tr class="separator:a00c3a1e7790bb058c26bc87783c6c5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedc879c86f145a6eccae45778c187a3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#aedc879c86f145a6eccae45778c187a3d">prev_node</a></td></tr>
-<tr class="memdesc:aedc879c86f145a6eccae45778c187a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the previous node for this node. Same as prev.  <a href="classmenu_1_1_m_node.html#aedc879c86f145a6eccae45778c187a3d">More...</a><br /></td></tr>
-<tr class="separator:aedc879c86f145a6eccae45778c187a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f329444c75860a7d1e7af9b2635a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#a39f329444c75860a7d1e7af9b2635a8a">next</a></td></tr>
+<tr class="memdesc:a39f329444c75860a7d1e7af9b2635a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the next node for this node.  <a href="classmenu_1_1_m_node.html#a39f329444c75860a7d1e7af9b2635a8a">More...</a><br /></td></tr>
+<tr class="separator:a39f329444c75860a7d1e7af9b2635a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae950159e46b89aab8d8cc1eaf20c83e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#ae950159e46b89aab8d8cc1eaf20c83e9">prev</a></td></tr>
+<tr class="memdesc:ae950159e46b89aab8d8cc1eaf20c83e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the previous node for this node.  <a href="classmenu_1_1_m_node.html#ae950159e46b89aab8d8cc1eaf20c83e9">More...</a><br /></td></tr>
+<tr class="separator:ae950159e46b89aab8d8cc1eaf20c83e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa91839def3fa7121059ac1f759b1b4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#aaa91839def3fa7121059ac1f759b1b4a">next_node</a></td></tr>
+<tr class="memdesc:aaa91839def3fa7121059ac1f759b1b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the next node for this node. Same as next.  <a href="classmenu_1_1_m_node.html#aaa91839def3fa7121059ac1f759b1b4a">More...</a><br /></td></tr>
+<tr class="separator:aaa91839def3fa7121059ac1f759b1b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc79844437fc110387d11c4806531deb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_node.html">MNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#abc79844437fc110387d11c4806531deb">prev_node</a></td></tr>
+<tr class="memdesc:abc79844437fc110387d11c4806531deb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the previous node for this node. Same as prev.  <a href="classmenu_1_1_m_node.html#abc79844437fc110387d11c4806531deb">More...</a><br /></td></tr>
+<tr class="separator:abc79844437fc110387d11c4806531deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2e7730e88014d9e772276c4cb0d5a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#abb2e7730e88014d9e772276c4cb0d5a0">class_name</a></td></tr>
 <tr class="memdesc:abb2e7730e88014d9e772276c4cb0d5a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Gets the class name of this node. i.e "MRootWindow".  <a href="classmenu_1_1_m_node.html#abb2e7730e88014d9e772276c4cb0d5a0">More...</a><br /></td></tr>
 <tr class="separator:abb2e7730e88014d9e772276c4cb0d5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -402,7 +415,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad37ca53880c27e2e38559cb25bfcb07e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_root_window.html">MRootWindow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#ad37ca53880c27e2e38559cb25bfcb07e">root_window</a></td></tr>
 <tr class="memdesc:ad37ca53880c27e2e38559cb25bfcb07e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Returns the root window linked to this node.  <a href="classmenu_1_1_m_node.html#ad37ca53880c27e2e38559cb25bfcb07e">More...</a><br /></td></tr>
 <tr class="separator:ad37ca53880c27e2e38559cb25bfcb07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeadf8b96224c4907f1989956de0fd0ea"><td class="memItemLeft" align="right" valign="top">MProject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#aeadf8b96224c4907f1989956de0fd0ea">project</a></td></tr>
+<tr class="memitem:aeadf8b96224c4907f1989956de0fd0ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_1_1_m_project.html">MProject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#aeadf8b96224c4907f1989956de0fd0ea">project</a></td></tr>
 <tr class="memdesc:aeadf8b96224c4907f1989956de0fd0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter-only. Returns the project linked to this node.  <a href="classmenu_1_1_m_node.html#aeadf8b96224c4907f1989956de0fd0ea">More...</a><br /></td></tr>
 <tr class="separator:aeadf8b96224c4907f1989956de0fd0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd93d5b990803bed17be7cb9a58a00a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_system_1_1_object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmenu_1_1_m_node.html#afd93d5b990803bed17be7cb9a58a00a9">reset_script_check</a></td></tr>
@@ -673,14 +686,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8fc1c118b6182f85fb4c3b5dbf15d942" name="a8fc1c118b6182f85fb4c3b5dbf15d942"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fc1c118b6182f85fb4c3b5dbf15d942">&#9670;&#160;</a></span>next</h2>
+<a id="a39f329444c75860a7d1e7af9b2635a8a" name="a39f329444c75860a7d1e7af9b2635a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f329444c75860a7d1e7af9b2635a8a">&#9670;&#160;</a></span>next</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a> menu::MNode::next</td>
+          <td class="memname"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> menu::MNode::next</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -689,14 +702,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a00c3a1e7790bb058c26bc87783c6c5ad" name="a00c3a1e7790bb058c26bc87783c6c5ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00c3a1e7790bb058c26bc87783c6c5ad">&#9670;&#160;</a></span>next_node</h2>
+<a id="aaa91839def3fa7121059ac1f759b1b4a" name="aaa91839def3fa7121059ac1f759b1b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa91839def3fa7121059ac1f759b1b4a">&#9670;&#160;</a></span>next_node</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a> menu::MNode::next_node</td>
+          <td class="memname"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> menu::MNode::next_node</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -767,14 +780,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a00af1e0efef362fadb666113fce81a45" name="a00af1e0efef362fadb666113fce81a45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00af1e0efef362fadb666113fce81a45">&#9670;&#160;</a></span>prev</h2>
+<a id="ae950159e46b89aab8d8cc1eaf20c83e9" name="ae950159e46b89aab8d8cc1eaf20c83e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae950159e46b89aab8d8cc1eaf20c83e9">&#9670;&#160;</a></span>prev</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a> menu::MNode::prev</td>
+          <td class="memname"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> menu::MNode::prev</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -783,14 +796,14 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aedc879c86f145a6eccae45778c187a3d" name="aedc879c86f145a6eccae45778c187a3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedc879c86f145a6eccae45778c187a3d">&#9670;&#160;</a></span>prev_node</h2>
+<a id="abc79844437fc110387d11c4806531deb" name="abc79844437fc110387d11c4806531deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc79844437fc110387d11c4806531deb">&#9670;&#160;</a></span>prev_node</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> <a class="el" href="classmenu_1_1_m_node.html">MNode</a> menu::MNode::prev_node</td>
+          <td class="memname"><a class="el" href="classmenu_1_1_m_node.html">MNode</a> menu::MNode::prev_node</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -806,7 +819,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MProject menu::MNode::project</td>
+          <td class="memname"><a class="el" href="classmenu_1_1_m_project.html">MProject</a> menu::MNode::project</td>
         </tr>
       </table>
 </div><div class="memdoc">

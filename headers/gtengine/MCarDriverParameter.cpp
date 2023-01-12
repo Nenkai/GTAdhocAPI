@@ -7,9 +7,9 @@ namespace gtengine
 	{
 		public:
             /** \brief Constructs a new driver parameter with DriverType::NONE.*/
-			MCarDriverParameter();
+			MCarDriverParameter() { };
 
-            MCarDriverParameter(DriverType driver_type);
+            MCarDriverParameter(DriverType driver_type) { };
 
             /** \brief Returns whether the driver parameter is vacant, no user assigned to it. */
             Bool isVacant();

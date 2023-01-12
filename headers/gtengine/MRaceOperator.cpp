@@ -8,7 +8,7 @@ namespace gtengine
 	{
 		public:
 		
-			MRaceOperator();
+			MRaceOperator() { };
 
 			void setOrganizer(MOrganizer organizer);
 			void startRebuildRaceSequence();

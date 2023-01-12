@@ -7,7 +7,7 @@ namespace gtengine
 	class MReplayExport : public Object
 	{
 		  public:
-			MReplayExport();
+			MReplayExport() { };
 
 			Bool initialize(Int unk, String replay_file, String logger_file);
 			void finalize();

@@ -7,7 +7,7 @@ namespace gtengine
 	class MDataLogger : public Object
 	{
 		  public:
-			MDataLogger();
+			MDataLogger() { };
 
 			Bool initialize(String logger_filename, Int unit_velocity);
 			void finalize();

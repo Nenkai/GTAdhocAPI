@@ -6,7 +6,8 @@ namespace gtengine
 	class MCourseGenerateData : public Object
 	{
 		  public:
-		    MCourseGenerateData();
+		    MCourseGenerateData() { };
+			
 
 		    void reserve(ULong unk, ULong unk2);
 			void copy(ByteData ted);

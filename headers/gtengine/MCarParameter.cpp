@@ -7,18 +7,18 @@ namespace gtengine
 	{
 		public:
             /** \brief Constructs an empty MCarParameter. */
-            MCarParameter();
+            MCarParameter() { };
 
             /** \brief Constructs a MCarParameter from a MCarThin. */
-            MCarParameter(MCarThin car_thin);
+            MCarParameter(MCarThin car_thin) { };
 
             /** \brief Constructs a MCarParameter from a car label. 
             \details This will call setCarCode(). */
-            MCarParameter(String label);
+            MCarParameter(String label) { };
 
             /** \brief Constructs a MCarParameter from a car code. 
             \details This will call setCarCode(), but only from GENERIC_CAR. */
-            MCarParameter(UInt code);
+            MCarParameter(UInt code) { };
 
             /** \brief Gets the latest supported version of MCarParameter. */
             static UInt getVersion();

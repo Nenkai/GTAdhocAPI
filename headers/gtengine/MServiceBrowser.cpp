@@ -7,7 +7,7 @@ namespace gtengine
 	class MServiceBrowser : public Object
 	{
 		  public:
-		    MServiceBrowser();
+		    MServiceBrowser() { };
 
 			Bool initialize();
 

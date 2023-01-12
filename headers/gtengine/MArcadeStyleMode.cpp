@@ -6,7 +6,7 @@ namespace gtengine
 	class MArcadeStyleMode : public Object
 	{
 		  public:
-		    MArcadeStyleMode();
+		    MArcadeStyleMode() { };
 			
 			void connect(MOrganizer organizer);
 			void setStartSeconds(Int seconds);

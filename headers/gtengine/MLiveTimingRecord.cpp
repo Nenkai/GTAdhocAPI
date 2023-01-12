@@ -7,7 +7,7 @@ namespace gtengine
 	class MLiveTimingRecord : public Object
 	{
 		  public:
-		    MLiveTimingRecord();
+		    MLiveTimingRecord() { };
 
 			Array<MLTEntry> getEntries(Bool unk, Int unk2 = 0);
 			MLTEntry getEntry(Int unk, Int unk = 0);

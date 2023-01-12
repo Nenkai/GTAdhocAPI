@@ -8,7 +8,8 @@ namespace gtengine
 	{
 		  public:
 
-		    MGPSReplay2();
+		    MGPSReplay2() { };
+			
 			
 			void initialize(MOrganizer organizer);
 			void finalize();

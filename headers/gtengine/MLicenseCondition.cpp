@@ -6,7 +6,7 @@ namespace gtengine
 	class MLicenseCondition : public Object
 	{
 		  public:
-		    MLicenseCondition();
+		    MLicenseCondition() { };
 
 			LicenseCheckType check_type;
 			LicenseConditionType condition;

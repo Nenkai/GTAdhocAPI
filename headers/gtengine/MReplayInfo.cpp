@@ -6,7 +6,7 @@ namespace gtengine
 	class MReplayInfo : public Object
 	{
 		  public:
-			MReplayInfo();
+			MReplayInfo() { };
 
 			/** \brief Calls initialize() */
 			MReplayInfo(ByteData header, String file_name);
