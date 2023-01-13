@@ -8,6 +8,7 @@ namespace menu
 	public class MComposite : public MWidget
 	{
 		public:
+			/** @brief constructor taking no param */
             MComposite() { };
 
 			/** \brief Getter-only. Default 0. */

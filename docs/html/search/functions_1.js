@@ -18,7 +18,7 @@ var searchData=
   ['bindbenchtestdummy_15',['bindBenchTestDummy',['../classgtengine_1_1_m_organizer.html#abad73583097b47e1805d747de39ff6b0',1,'gtengine::MOrganizer']]],
   ['bindinputbenchtest_16',['bindInputBenchTest',['../classgtengine_1_1_m_organizer.html#afc7feb8023584f0120d9b3e77e4554f5',1,'gtengine::MOrganizer']]],
   ['bindoutputbenchtest_17',['bindOutputBenchTest',['../classgtengine_1_1_m_organizer.html#a53bbbad6c485f9ceb531a1b4372a907b',1,'gtengine::MOrganizer']]],
-  ['bool_18',['Bool',['../class_system_1_1_bool.html#ab9d063f459d85092ddc30df68ae1f896',1,'System::Bool']]],
+  ['bool_18',['Bool',['../class_system_1_1_bool.html#ab9d063f459d85092ddc30df68ae1f896',1,'System::Bool::Bool()'],['../class_system_1_1_bool.html#abf92c6f3f0182567aee5f2e6c4e3d355',1,'System::Bool::Bool(Bool value)']]],
   ['bootbydebugger_19',['bootByDebugger',['../classpdiext_1_1_m_system_configuration.html#ae5322744a65da49262e1a34d81daa2d5',1,'pdiext::MSystemConfiguration']]],
   ['bootfromdisc_20',['bootFromDisc',['../classpdiext_1_1_m_system_configuration.html#a70d0d8677d976aab179e8fd1d32c3e7d',1,'pdiext::MSystemConfiguration']]],
   ['browserequest_21',['browseRequest',['../classgtengine_1_1_m_service_browser.html#ad20785c922aebf7888e16e7c6f631735',1,'gtengine::MServiceBrowser']]],
@@ -29,7 +29,7 @@ var searchData=
   ['buildindex_26',['buildIndex',['../classpdiext_1_1_m_voucher.html#a108aad677eb82ac0692be53ec2403700',1,'pdiext::MVoucher']]],
   ['buildrace_27',['buildRace',['../classgtengine_1_1_m_race_operator.html#a5df1214adb6c099e2e170e9d3cda8b90',1,'gtengine::MRaceOperator']]],
   ['busywait_28',['BusyWait',['../classpdistd_1_1____module____.html#a4de3b8bab403ec8cdf837c34e699d987',1,'pdistd::__module__']]],
-  ['byte_29',['Byte',['../class_system_1_1_byte.html#a93f304cd2a4705398d614ccd9d55fe6d',1,'System::Byte']]],
+  ['byte_29',['Byte',['../class_system_1_1_byte.html#a93f304cd2a4705398d614ccd9d55fe6d',1,'System::Byte::Byte()'],['../class_system_1_1_byte.html#ac3a8e4d4c66a59d844516d43205997dd',1,'System::Byte::Byte(Byte value)']]],
   ['bytedata_30',['ByteData',['../class_system_1_1_byte_data.html#a8a5cd791c18ddfefa6ec4b20b165afdb',1,'System::ByteData::ByteData()'],['../class_system_1_1_byte_data.html#abd3dd791700f21106fcc092f9f46b009',1,'System::ByteData::ByteData(Object obj)'],['../class_system_1_1_byte_data.html#a4f593f64f39f9bcce9cc4bde4aa28866',1,'System::ByteData::ByteData(Object unknown, Int size)']]],
   ['bytereader_31',['ByteReader',['../class_i_o_1_1_byte_reader.html#ac5e28aee8474e61f0dbafdfdf5b01f8e',1,'IO::ByteReader::ByteReader()'],['../class_i_o_1_1_byte_reader.html#ad382c8da260381621d4476abf6fb8f4b',1,'IO::ByteReader::ByteReader(Object data)']]],
   ['bytewriter_32',['ByteWriter',['../class_i_o_1_1_byte_writer.html#a5e0aa8da9121a217c12c34e680cbbc5c',1,'IO::ByteWriter::ByteWriter()'],['../class_i_o_1_1_byte_writer.html#a10f1239fe0524983e69790e1553446ff',1,'IO::ByteWriter::ByteWriter(Object data)']]]

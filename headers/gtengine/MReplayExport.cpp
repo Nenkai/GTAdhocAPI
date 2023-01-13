@@ -7,6 +7,7 @@ namespace gtengine
 	class MReplayExport : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 			MReplayExport() { };
 
 			Bool initialize(Int unk, String replay_file, String logger_file);

@@ -7,6 +7,7 @@ namespace gtengine
 	class MGTServiceManager : public Object
 	{
 		  public:
+		  	/** \brief Constructs a new GT Service manager object (engine singleton). */
 		    MGTServiceManager() { };
 
 			void setOrganizer(MOrganizer organizer);

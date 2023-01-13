@@ -1,6 +1,7 @@
 var class_system_1_1_int =
 [
     [ "Int", "class_system_1_1_int.html#acc7e300041af8dab377b89c28ab5fe30", null ],
+    [ "Int", "class_system_1_1_int.html#adea41523505573531d073a0548410d14", null ],
     [ "operator!", "class_system_1_1_int.html#ab0f27aeb51bba2aae66f9048c5907270", null ],
     [ "operator!=", "class_system_1_1_int.html#a8ae2cb2072b33cc82921c4d10dd898f7", null ],
     [ "operator%", "class_system_1_1_int.html#ad14c505dc433b1bb43e0817138b002ac", null ],

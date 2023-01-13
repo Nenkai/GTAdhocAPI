@@ -8,6 +8,8 @@ namespace menu
 	public class MImageFace : public MColorFace
 	{
 		public:
+
+            /** @brief constructor taking no param */
             MImageFace() { };
 
             /** \brief Gets the image path for this image face.

@@ -6,7 +6,7 @@ namespace pdistd
 	class MHttp3 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MHttp3() { };
 
 			/** \brief Inits all http modules, & sets the parameters 

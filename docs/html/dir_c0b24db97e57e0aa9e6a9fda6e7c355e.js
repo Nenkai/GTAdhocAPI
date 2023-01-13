@@ -8,6 +8,7 @@ var dir_c0b24db97e57e0aa9e6a9fda6e7c355e =
     [ "MComponent.cpp", "_m_component_8cpp.html", "_m_component_8cpp" ],
     [ "MComposite.cpp", "_m_composite_8cpp.html", "_m_composite_8cpp" ],
     [ "MManager.cpp", "_m_manager_8cpp.html", "_m_manager_8cpp" ],
+    [ "MMenuGameObjectManager.cpp", "_m_menu_game_object_manager_8cpp.html", "_m_menu_game_object_manager_8cpp" ],
     [ "MNode.cpp", "_m_node_8cpp.html", "_m_node_8cpp" ],
     [ "MProject.cpp", "_m_project_8cpp.html", "_m_project_8cpp" ],
     [ "MRectangle.cpp", "_m_rectangle_8cpp.html", "_m_rectangle_8cpp" ],

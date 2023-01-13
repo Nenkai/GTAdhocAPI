@@ -6,6 +6,7 @@ namespace gtengine
 	class MLicenseMode : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MLicenseMode() { };
 			
 			void connect(MOrganizer organizer);

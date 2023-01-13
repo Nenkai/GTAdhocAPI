@@ -6,7 +6,7 @@ namespace pdiext
 	class MUsbPspComm : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MUsbPspComm() { };
 
 			/** \brief Begins importing data

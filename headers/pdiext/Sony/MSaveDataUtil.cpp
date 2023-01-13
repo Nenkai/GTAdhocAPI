@@ -6,15 +6,9 @@ namespace pdiext
 	class MSaveDataUtil : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MSaveDataUtil() { };
-
-			SaveDataUtilError save(SaveDataUtilMode mode, Bool can_copy, Bool bind_check, Bool make_backup, Bool compress,
-			 Bool abort_request, Bool create_new, String dir_name, String save_filename, String input_filename,
-			 String title, String subtitle, String description, String list_param, String icon_title, 
-			 String icon_png_name = "", String bg_png_name = "", String unk = nil, String unk2 = nil, 
-			 Int indicator_position = 0, Int indicator_align = 0, Int indicator_mode = 0, String indicator_message, ByteData indicator_png_name = nil);
-
+			
 			SaveDataUtilError save(SaveDataUtilMode mode, 
 				Bool can_copy, 
 				Bool bind_check, 
@@ -38,7 +32,7 @@ namespace pdiext
 				String indicator_message = nil, 
 				ByteData indicator_png_name = nil);
 
-			SaveDataUtilError save(SaveDataUtilMode mode, 
+			SaveDataUtilError load(SaveDataUtilMode mode, 
 				Bool can_copy, 
 				Bool bind_check, 
 				Bool compress,

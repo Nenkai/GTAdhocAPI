@@ -8,6 +8,9 @@ namespace System
 			/// @brief constructor taking no param
 			Bool() { };
 			
+			/** \brief Constructs a new Bool from the specified value. */
+			Bool(Bool value) { };
+
 			/* Value */
 			Bool value;
 			

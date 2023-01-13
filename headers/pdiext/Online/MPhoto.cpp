@@ -6,7 +6,7 @@ namespace pdistd
 	class MPhoto : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MPhoto() { };
 
 			void clearCallback();

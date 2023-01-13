@@ -8,6 +8,8 @@ namespace menu
 	public class MHBox : public MDBox
 	{
 		public:
+		
+			/** @brief constructor taking no param */
 			MHBox() { };
 	};
 };

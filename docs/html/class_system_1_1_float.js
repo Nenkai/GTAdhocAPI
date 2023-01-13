@@ -1,6 +1,7 @@
 var class_system_1_1_float =
 [
     [ "Float", "class_system_1_1_float.html#a81cb7bcaefc82c20ddadf8e4b875829a", null ],
+    [ "Float", "class_system_1_1_float.html#a5770241116561f68725a1ba9f4c724fa", null ],
     [ "operator!", "class_system_1_1_float.html#a0a848daff312219f8c324997dabb8a15", null ],
     [ "operator!=", "class_system_1_1_float.html#a8a82adfd5665cebcd69b718d6bf6721b", null ],
     [ "operator%", "class_system_1_1_float.html#aec356e91548131c9680cac83f25e43a7", null ],

@@ -6,7 +6,7 @@ namespace pdistd
 	class MUserProfile2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MUserProfile2() { };
 
 			void clearCallback();

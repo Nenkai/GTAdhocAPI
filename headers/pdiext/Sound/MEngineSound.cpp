@@ -6,7 +6,7 @@ namespace pdiext
 	class MEngineSound : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MEngineSound() { };
 
 			/** \brief Mostly dummied */

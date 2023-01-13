@@ -8,6 +8,9 @@ namespace System
 			/// @brief constructor taking no param
 			Int() { };
 			
+			/** \brief Constructs a new Int from the specified value. */
+			Int(Int value) { };
+
 			Int value;
 			
 			operator-() {};

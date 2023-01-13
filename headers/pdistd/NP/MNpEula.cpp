@@ -6,7 +6,7 @@ namespace pdistd
 	class MNpEula : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MNpEula() { };
 
 			/** \brief sceNpEulaCheckEulaStatus - Need to be signed-in

@@ -6,6 +6,7 @@ var namespacepdiext =
     [ "MGameContentUtilStorage", "classpdiext_1_1_m_game_content_util_storage.html", "classpdiext_1_1_m_game_content_util_storage" ],
     [ "MGameDataUtil", "classpdiext_1_1_m_game_data_util.html", "classpdiext_1_1_m_game_data_util" ],
     [ "MGameObjectManager", "classpdiext_1_1_m_game_object_manager.html", "classpdiext_1_1_m_game_object_manager" ],
+    [ "MGrim2", "classpdiext_1_1_m_grim2.html", "classpdiext_1_1_m_grim2" ],
     [ "MHttpRequest", "classpdiext_1_1_m_http_request.html", "classpdiext_1_1_m_http_request" ],
     [ "MPhotoSysUtil", "classpdiext_1_1_m_photo_sys_util.html", "classpdiext_1_1_m_photo_sys_util" ],
     [ "MSaveDataUtil", "classpdiext_1_1_m_save_data_util.html", "classpdiext_1_1_m_save_data_util" ],

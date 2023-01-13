@@ -6,7 +6,7 @@ namespace pdistd
 	class MCourse : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MCourse() { };
 			
 			void clearCallback();

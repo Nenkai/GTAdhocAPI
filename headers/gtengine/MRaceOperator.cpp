@@ -7,7 +7,7 @@ namespace gtengine
 	class MRaceOperator : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MRaceOperator() { };
 
 			void setOrganizer(MOrganizer organizer);

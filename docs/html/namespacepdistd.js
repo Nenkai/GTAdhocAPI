@@ -2,7 +2,6 @@ var namespacepdistd =
 [
     [ "__module__", "classpdistd_1_1____module____.html", null ],
     [ "AppBootConfig", "classpdistd_1_1_app_boot_config.html", null ],
-    [ "MActivateEvent", "classpdistd_1_1_m_activate_event.html", "classpdistd_1_1_m_activate_event" ],
     [ "MActivity", "classpdistd_1_1_m_activity.html", "classpdistd_1_1_m_activity" ],
     [ "MAutoTest", "classpdistd_1_1_m_auto_test.html", null ],
     [ "MAVChat", "classpdistd_1_1_m_a_v_chat.html", "classpdistd_1_1_m_a_v_chat" ],
@@ -20,7 +19,6 @@ var namespacepdistd =
     [ "MGameInputData", "classpdistd_1_1_m_game_input_data.html", "classpdistd_1_1_m_game_input_data" ],
     [ "MGamePort", "classpdistd_1_1_m_game_port.html", "classpdistd_1_1_m_game_port" ],
     [ "MGpb", "classpdistd_1_1_m_gpb.html", "classpdistd_1_1_m_gpb" ],
-    [ "MGrim2", "classpdistd_1_1_m_grim2.html", "classpdistd_1_1_m_grim2" ],
     [ "MGTMail", "classpdistd_1_1_m_g_t_mail.html", "classpdistd_1_1_m_g_t_mail" ],
     [ "MHttp3", "classpdistd_1_1_m_http3.html", "classpdistd_1_1_m_http3" ],
     [ "MHttpc", "classpdistd_1_1_m_httpc.html", "classpdistd_1_1_m_httpc" ],
@@ -61,7 +59,6 @@ var namespacepdistd =
     [ "MSystemBGM", "classpdistd_1_1_m_system_b_g_m.html", null ],
     [ "MSystemDialog", "classpdistd_1_1_m_system_dialog.html", null ],
     [ "MTestSou", "classpdistd_1_1_m_test_sou.html", "classpdistd_1_1_m_test_sou" ],
-    [ "MTextEvent", "classpdistd_1_1_m_text_event.html", "classpdistd_1_1_m_text_event" ],
     [ "MTime", "classpdistd_1_1_m_time.html", "classpdistd_1_1_m_time" ],
     [ "MTv2", "classpdistd_1_1_m_tv2.html", "classpdistd_1_1_m_tv2" ],
     [ "MUserProfile2", "classpdistd_1_1_m_user_profile2.html", "classpdistd_1_1_m_user_profile2" ],

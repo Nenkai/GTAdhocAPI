@@ -6,12 +6,13 @@ namespace gtengine
 	class MReplayInfo : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 			MReplayInfo() { };
 
-			/** \brief Calls initialize() */
+			/** \brief Constructs a new replay info from the provided header and file name. Calls initialize() */
 			MReplayInfo(ByteData header, String file_name);
 
-			Int initialize(ByteData header, String file_name = nil)
+			Int initialize(ByteData header, String file_name = nil);
 
 			/** \returns Bool int, whether replay version (Offset 0x08) is under 116 */
 			VersionCheckResult checkVersion();

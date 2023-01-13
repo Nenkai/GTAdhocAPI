@@ -6,7 +6,7 @@ namespace pdistd
 	class MMatching2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MMatching2() { };
 
 			void clearCallback();

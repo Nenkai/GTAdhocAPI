@@ -9,6 +9,8 @@ namespace menu
 	public class MCancelEvent : public MWidgetEvent
 	{
 		public:
+
+			/** @brief Constructs an cancel event from the specified render context and widget. */
 			MCancelEvent(MRenderContext context, MWidget widget) { }
 	};
 };

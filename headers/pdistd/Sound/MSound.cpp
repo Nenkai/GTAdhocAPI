@@ -16,7 +16,7 @@ namespace pdistd
 			void keepMusic();
 			void startMusic();
 			void stopMusic();
-			void fadeOutMusic()
+			void fadeOutMusic();
 			void fadeInMusic();
 			void startStream();
 			void startStreamEx();

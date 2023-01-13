@@ -8,6 +8,11 @@ namespace System
 			/// @brief constructor taking no param
 			UInt() { };
 			
+			
+			
+
+			
+
 			UInt value;
 			
 			operator-() {};

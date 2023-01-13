@@ -6,7 +6,7 @@ namespace pdistd
 	class MNetworkUserStorage : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MNetworkUserStorage() { };
 
 			/** \brief  sceNpTusInit(0) - Initialize the NP title user storage utility 

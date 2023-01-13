@@ -6,7 +6,7 @@ namespace pdistd
 	class MCommunity : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MCommunity() { };
 
 			void clearCallback();

@@ -8,6 +8,8 @@ namespace menu
 	public class MKeyEvent : public MWidgetEvent
 	{
 		public:
+
+			/** @brief Constructs a key event from the specified render context, widget, and data. */
 			MKeyEvent(MRenderContext context, MWidget widget,
 				Int keysym, Int port_data, Float unk, Float unk2) { };
 

@@ -7,7 +7,7 @@ namespace pdistd
 	class MPDINetwork : public Object
 	{
 		public:
-
+			/** \brief Constructs new PDI Network object (based on engine singleton) */
 			MPDINetwork() { };
 
 			void setPdiServerUserId();

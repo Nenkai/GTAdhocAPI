@@ -7,6 +7,7 @@ namespace gtengine
 	class MRoomConfig : public Object
 	{
 		public:
+		  /** \brief constructor taking no param */
 		  MRoomConfig() { };
 		  MRoomConfig(MGameParameter gp) { };
 		  MRoomConfig(MRoomConfig src) { };

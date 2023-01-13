@@ -2,11 +2,11 @@ using namespace System;
 
 namespace pdistd
 {
-	/** \brief Blob Object (Based on ByteData)*/
+	/** \brief Blob Object (Based on ByteData) */
 	class MBlob : public Object, IByteData
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MBlob() { };
 
 			/** \brief Creates a new blob from a buffer. */

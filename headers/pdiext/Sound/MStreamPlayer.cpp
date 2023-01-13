@@ -5,7 +5,7 @@ namespace pdiext
 	class MStreamPlayer : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MStreamPlayer() { };
 
 			void load();

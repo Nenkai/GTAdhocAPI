@@ -41,7 +41,7 @@ namespace pdiext
 	class MVoucher : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MVoucher() { };
 
 			/** \brief Loads DRM Module 

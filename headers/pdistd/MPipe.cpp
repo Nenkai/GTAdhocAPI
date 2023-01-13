@@ -7,6 +7,7 @@ namespace pdistd
 	{
 		public:
 
+			/** \brief constructor taking no param */
 			MPipe() { };
 
 			/** \brief Gets the total size in the pipe */

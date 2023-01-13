@@ -6,6 +6,8 @@ namespace pdistd
 	{
 		public:
 
+			/** \brief constructor taking no param */
+			
 			MWorker() { };
 
 			Bool done;

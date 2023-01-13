@@ -9,6 +9,7 @@ namespace gtengine
             /** \brief Constructs a new driver parameter with DriverType::NONE.*/
 			MCarDriverParameter() { };
 
+            /** \brief Constructs a new driver parameter from the provided driver type. */
             MCarDriverParameter(DriverType driver_type) { };
 
             /** \brief Returns whether the driver parameter is vacant, no user assigned to it. */

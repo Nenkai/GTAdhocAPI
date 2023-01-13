@@ -8,6 +8,8 @@ namespace menu
 	public class MFunctionEvent : public MEvent
 	{
 		public:
+
+			/** @brief Constructs a function event from the specified callback and arguments. */
 			MFunctionEvent(FunctionObject func, Object args, ...) { };
 
 			FunctionObject getFunction();

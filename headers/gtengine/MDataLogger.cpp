@@ -7,6 +7,7 @@ namespace gtengine
 	class MDataLogger : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 			MDataLogger() { };
 
 			Bool initialize(String logger_filename, Int unit_velocity);

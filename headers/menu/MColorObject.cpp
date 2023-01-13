@@ -33,11 +33,11 @@ namespace menu
             /** \brief Gets the value component (0.0 to 1.0). */
             Float v;
 
-            /** Gets the color index or sets the color from index.
+            /** \brief Gets the color index or sets the color from index.
             \details Depends on colors being set from menu::BasicColorMap/menu::ColorPalette, normally defined in "products/gt6/script/MenuClassDefine.ad" */
             Int color_index;
 
-            /** Gets the color name or sets the color from name.
+            /** \brief Gets the color name or sets the color from name.
             \details Depends on colors being set from menu::BasicColorMap/menu::ColorPalette, normally defined in "products/gt6/script/MenuClassDefine.ad" */
             String color_name;
 

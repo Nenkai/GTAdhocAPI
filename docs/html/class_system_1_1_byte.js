@@ -1,6 +1,7 @@
 var class_system_1_1_byte =
 [
     [ "Byte", "class_system_1_1_byte.html#a93f304cd2a4705398d614ccd9d55fe6d", null ],
+    [ "Byte", "class_system_1_1_byte.html#ac3a8e4d4c66a59d844516d43205997dd", null ],
     [ "operator!", "class_system_1_1_byte.html#a199f0ed60ee863e60853c0c0fc8a17aa", null ],
     [ "operator!=", "class_system_1_1_byte.html#a02b330988de3b1af1c39955ce3b079eb", null ],
     [ "operator%", "class_system_1_1_byte.html#acab662d1e3fac597dfb922f2953833cb", null ],

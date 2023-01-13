@@ -9,6 +9,7 @@ namespace gtengine
 	class MEntitlement : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 			MEntitlement() { };
 
 			void setGlobal();

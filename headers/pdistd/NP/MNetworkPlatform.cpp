@@ -6,8 +6,7 @@ namespace pdistd
 	class MNetworkPlatform : public Object
 	{
 		public:
-
-			/** \brief Returns new NP object (based on engine singleton)
+			/** \brief Constructs new NP object (based on engine singleton)
 			\details Initialize will be called.
 			Should be using PDINetwork.getNP() or main::NP to get the singleton instead */
 			MNetworkPlatform() { };

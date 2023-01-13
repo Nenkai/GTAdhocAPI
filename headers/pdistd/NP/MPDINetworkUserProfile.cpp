@@ -5,7 +5,7 @@ namespace pdistd
 	class MPDINetworkUserProfile : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MPDINetworkUserProfile() { };
 
 			/** \brief Copy from specified object into current */

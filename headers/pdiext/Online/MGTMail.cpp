@@ -6,7 +6,7 @@ namespace pdistd
 	class MGTMail : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MGTMail() { };
 
 			void clearCallback();

@@ -6,6 +6,7 @@ namespace gtengine
 	class MArcadeStyleMode : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MArcadeStyleMode() { };
 			
 			void connect(MOrganizer organizer);

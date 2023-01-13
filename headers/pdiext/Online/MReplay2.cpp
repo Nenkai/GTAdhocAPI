@@ -6,7 +6,7 @@ namespace pdistd
 	class MReplay2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MReplay2() { };
 
 			void clearCallback();

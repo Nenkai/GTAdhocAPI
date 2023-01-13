@@ -8,6 +8,8 @@ namespace menu
 	public class MTextFace : public MWidget
 	{
 		public:
+
+            /** @brief constructor taking no param */
             MTextFace() { };
 
             String key;

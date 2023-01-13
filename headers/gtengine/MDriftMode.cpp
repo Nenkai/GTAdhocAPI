@@ -6,6 +6,7 @@ namespace gtengine
 	class MDriftMode : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MDriftMode() { };
 			
 			void connect(MOrganizer organizer);

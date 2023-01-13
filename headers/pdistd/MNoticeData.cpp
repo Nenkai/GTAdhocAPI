@@ -7,6 +7,7 @@ namespace pdistd
 	{
 		public:
 		
+			/** \brief constructor taking no param */
 			MNoticeData() { };
 
 			NoticeType type;

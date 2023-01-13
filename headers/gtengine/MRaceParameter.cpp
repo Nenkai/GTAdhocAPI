@@ -8,6 +8,7 @@ namespace gtengine
 	class MRaceParameter : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 			MRaceParameter() { };
 
 			void deepCopy();

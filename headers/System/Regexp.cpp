@@ -5,7 +5,7 @@ namespace System
 	{
 		public:
 		
-			/// @brief constructor taking no param
+			/** \brief constructor taking no param */
 			Regexp() { };
 			
 			/** \brief Compiles a regexp from the specified string */

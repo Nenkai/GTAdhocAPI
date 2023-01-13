@@ -6,7 +6,7 @@ namespace pdiext
 	class MGameContentUtilStorage  : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MGameContentUtilStorage() { };
 
 			/** \brief Starts the content util storage 

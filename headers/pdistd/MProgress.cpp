@@ -8,6 +8,7 @@ namespace pdistd
 	{
 		public:
 
+			/** \brief constructor taking no param */
 			MProgress() { };
 
 			void setRange();

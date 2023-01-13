@@ -1,12 +1,12 @@
 using namespace System;
 
-namespace pdistd
+namespace pdiext
 {
 	/** \brief Gran Turismo Server Interface */
 	class MGrim2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MGrim2() { };
 
 			/** \brief Initializes Grim2 

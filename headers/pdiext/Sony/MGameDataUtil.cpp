@@ -6,7 +6,7 @@ namespace pdiext
 	class MGameDataUtil : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MGameDataUtil() { };
 
 			/** \brief Creates game data at /dev_hdd0/game. cellGameCreateGameData 

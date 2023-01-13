@@ -7,6 +7,7 @@ namespace gtengine
 	class MGameItem : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		  	MGameItem() { };
 
 			GameItemType itemtype;

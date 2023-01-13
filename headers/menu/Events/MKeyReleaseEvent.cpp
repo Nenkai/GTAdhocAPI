@@ -9,6 +9,8 @@ namespace menu
 	public class MKeyReleaseEvent : public MKeyEvent
 	{
 		public:
+
+			/** @brief constructor taking no param */
 			MKeyReleaseEvent() { };
 	};
 };

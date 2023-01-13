@@ -8,6 +8,8 @@ namespace menu
 	public class MWidget : public MNode
 	{
 		public:
+
+          /** \brief constructor taking no param */
           MWidget() { }
       
           /** \brief Getter-only. */
@@ -117,15 +119,34 @@ namespace menu
           /** \brief Name of the blending function. Can be "mix", "add", "disable", "screen", "hard_light", "multiply". */
           String blend_func_name;
       
+          /** \brief Whether to post-render. Defaults to false. */
           Bool post_render;
+
+          /** \brief Defaults to true. */
           Bool cursor_target;
+
+          /** \brief Whether the widget can be focused. Defaults to false. */
           Bool can_focus;
+
+          /** \brief Whether the widget can be navigated to. Defaults to true. */
           Bool can_navigate;
+
+          /** \brief Whether this widget is a facing/displaying content. Defaults to false. */
           Bool is_face;
+
+          /** \brief Whether this widget is a mask. Defaults to false. */
           Bool is_mask;
+
+          /** \brief Whether to wrap text in the target. Defaults to false. */
           Bool wrap_text_target;
+          
+          /** \brief Text wraping margin. Defaults to 4. */
           Int wrap_text_margin;
+
+          /** \brief Whether this widget has a tooltip. Defaults to false. */
           Bool has_tooltip;
+
+          /** \brief String key for the tooltip. */
           String tooltip_key;
       
           /** \brief Center would be 0.5 */

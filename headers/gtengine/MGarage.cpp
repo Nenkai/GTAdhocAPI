@@ -6,7 +6,7 @@ namespace gtengine
 	class MGarage : public Object
 	{
 		  public:
-
+			/** \brief constructor taking no param */
 		    MGarage() { };
 			
 			Bool initialize(String garage_path, UInt garage_max);

@@ -8,6 +8,8 @@ namespace menu
     public class MProject : public MComposite
     {
         public:
+        
+          /** @brief constructor taking no param */
           MProject() { };
 
           /** \brief Finds a page by name. */

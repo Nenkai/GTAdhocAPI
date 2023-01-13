@@ -71,7 +71,7 @@ namespace __toplevel__
             static void exit(Int return_code);
 
             /** \brief Returns whether an object is a nil pointer. */
-            static Int exit(Object obj);
+            static Int nilp(Object obj);
 
             /** \brief Unknown, seems stubbed. Returns object provided */
             static Object sym_id(Object obj);

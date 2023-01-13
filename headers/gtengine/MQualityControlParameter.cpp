@@ -7,9 +7,9 @@ namespace gtengine
 	class MQualityControlParameter : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 			MQualityControlParameter() { };
 			
-
 			void deepCopy(MQualityControlParameter rbp);
 			Bool isDefault();
 			void setDefault();

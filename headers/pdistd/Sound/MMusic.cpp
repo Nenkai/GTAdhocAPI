@@ -6,6 +6,9 @@ namespace pdistd
 	class MMusic
 	{
 		public:
+			/** \brief constructor taking no param */
+			MMusic() { };
+
 			/** \brief Unknown. Type is 'system', 'pcm', 'midi' */
 			void load(String type);
 

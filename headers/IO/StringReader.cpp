@@ -1,3 +1,5 @@
+using namespace System;
+
 namespace IO
 {
 	/** \brief Stream reader for reading from strings. */

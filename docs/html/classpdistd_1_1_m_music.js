@@ -1,5 +1,6 @@
 var classpdistd_1_1_m_music =
 [
+    [ "MMusic", "classpdistd_1_1_m_music.html#acedb14e6a6ba0e05c8ac3d68b19e81a9", null ],
     [ "fadein", "classpdistd_1_1_m_music.html#a132c753930bfacc1fee5c84067e59f98", null ],
     [ "fadeinDirect", "classpdistd_1_1_m_music.html#a02ae599ddb159b49c2e1a0d5d9e1ebcc", null ],
     [ "fadeout", "classpdistd_1_1_m_music.html#afd565bc5f82073d45433ff7c6874640f", null ],

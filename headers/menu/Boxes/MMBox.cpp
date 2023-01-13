@@ -8,6 +8,8 @@ namespace menu
 	public class MMBox : public MBox
 	{
 		public:
+
+			/** @brief constructor taking no param */
             MMBox() { };
 
 			/** \brief Layout name.

@@ -6,7 +6,7 @@ namespace pdistd
 	class MNews2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MNews2() { };
 
 			void initialize();

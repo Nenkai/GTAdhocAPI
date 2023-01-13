@@ -8,6 +8,7 @@ namespace gtengine
 	class MGameParameter : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 			MGameParameter() { };
 
 			ULong game_id;

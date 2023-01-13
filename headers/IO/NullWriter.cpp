@@ -1,3 +1,5 @@
+using namespace System;
+
 namespace IO
 {
 	class NullWriter : public StreamWriter

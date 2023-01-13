@@ -6,7 +6,7 @@ namespace pdistd
 	class MBbs2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MBbs2() { };
 			
 			void clearCallback();

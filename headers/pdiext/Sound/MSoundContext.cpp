@@ -5,7 +5,7 @@ namespace pdiext
 	class MSoundContext : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MSoundContext() { };
 
 			Bool enable;

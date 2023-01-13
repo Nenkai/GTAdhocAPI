@@ -9,6 +9,8 @@ namespace menu
 	public class MFocusEnterEvent : public MCrossingEvent
 	{
 		public:
+
+			/** @brief Constructs a focus enter event from the specified render context and widget. */
 			MFocusEnterEvent(MRenderContext context, MWidget widget) { };
 	};
 };

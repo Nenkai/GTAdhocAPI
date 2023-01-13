@@ -9,9 +9,6 @@ namespace gtengine
 	class MSpecDB : public Object
 	{
 		  public:
-
-		    MSpecDB() { };
-
 			static const UInt NO_CODE = -1;
 
 			// ModelName, Label, NapeJpn, NameEng, Pitcrew, Name, Map, Logo, BaseName

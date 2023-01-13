@@ -6,6 +6,7 @@ namespace gtengine
 	class MLicenseCondition : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MLicenseCondition() { };
 
 			LicenseCheckType check_type;

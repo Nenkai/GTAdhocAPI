@@ -2,7 +2,7 @@ var searchData=
 [
   ['ubyte_0',['UByte',['../class_system_1_1_u_byte.html#ad1554ad3971136fb0ab2c9a728b7aba7',1,'System::UByte']]],
   ['uint_1',['UInt',['../class_system_1_1_u_int.html#ab6ca5dd11a89dfcdb3e8530e8792d56e',1,'System::UInt']]],
-  ['ulong_2',['ULong',['../class_system_1_1_u_long.html#a72f0d1ca3edd1e54f6d5d1be1786e39f',1,'System::ULong']]],
+  ['ulong_2',['ULong',['../class_system_1_1_u_long.html#a72f0d1ca3edd1e54f6d5d1be1786e39f',1,'System::ULong::ULong()'],['../class_system_1_1_u_long.html#ad6b0a448f914bbfc8bdc0398404707b8',1,'System::ULong::ULong(ULong value)']]],
   ['unget_3',['unget',['../class_i_o_1_1_stream_reader.html#aef8ab0a96f618c5dc61a6ffd3b568ae5',1,'IO::StreamReader']]],
   ['unload_4',['unload',['../classpdiext_1_1_m_photo_sys_util.html#a93d49e42422ab4377bf10f3d6ff1969b',1,'pdiext::MPhotoSysUtil::unload()'],['../classpdiext_1_1_m_stream_player.html#a3a91afae77383afb79718eeec6fd967d',1,'pdiext::MStreamPlayer::unload()'],['../classpdistd_1_1_m_gpb.html#af7168e32e1cf298509837c31bb93ef0d',1,'pdistd::MGpb::unload()'],['../classpdistd_1_1_m_r_text_d_b.html#ab62a32a440d204c15e76ea399ea90824',1,'pdistd::MRTextDB::unload()'],['../classpdistd_1_1_m_music.html#a2190ba0c03c6afda4c29c0e420bcaa84',1,'pdistd::MMusic::unload()'],['../classpdistd_1_1_m_sound.html#a3f5251bd2f5ac466e495287dd392e460',1,'pdistd::MSound::unload()']]],
   ['unloadcommon_5',['unloadCommon',['../classpdistd_1_1_m_r_text_manager.html#a0a7a717a6495ef7dc40ab542891eea61',1,'pdistd::MRTextManager']]],
@@ -21,8 +21,8 @@ var searchData=
   ['unlock_18',['unlock',['../class_system_1_1_monitor.html#a5806086b1a8eae0ca273caf21499c677',1,'System::Monitor']]],
   ['unlocktrophy_19',['unlockTrophy',['../classpdistd_1_1_m_p_d_i_network.html#a991c719e9ace4887953d42acc29730e8',1,'pdistd::MPDINetwork']]],
   ['unlocktrophyasync_20',['unlockTrophyAsync',['../classpdistd_1_1_m_p_d_i_network.html#ade946c47d48207f7ac097aeba09b120a',1,'pdistd::MPDINetwork']]],
-  ['unpack_21',['unpack',['../classgtengine_1_1_m_game_parameter.html#a05e1b180509ec14a1bc7af25b9d44ae5',1,'gtengine::MGameParameter::unpack()'],['../classgtengine_1_1_m_room_config.html#adf4ac22be51eb03c6514784413a4e52c',1,'gtengine::MRoomConfig::unpack()'],['../class_system_1_1_byte_data.html#a1216ebd9306de6c2507ff15b77c26911',1,'System::ByteData::unpack()']]],
-  ['unpack_22',['Unpack',['../class_binary_1_1____module____.html#afd678c65176ea9c6b636c96141feecb9',1,'Binary::__module__']]],
+  ['unpack_21',['Unpack',['../class_binary_1_1____module____.html#afd678c65176ea9c6b636c96141feecb9',1,'Binary::__module__']]],
+  ['unpack_22',['unpack',['../classgtengine_1_1_m_game_parameter.html#a05e1b180509ec14a1bc7af25b9d44ae5',1,'gtengine::MGameParameter::unpack()'],['../classgtengine_1_1_m_room_config.html#adf4ac22be51eb03c6514784413a4e52c',1,'gtengine::MRoomConfig::unpack()'],['../class_system_1_1_byte_data.html#a1216ebd9306de6c2507ff15b77c26911',1,'System::ByteData::unpack()']]],
   ['unpackasloungeconfig_23',['unpackAsLoungeConfig',['../classgtengine_1_1_m_game_parameter.html#a06aa0dab4e858dd4015b7a678be8f8ef',1,'gtengine::MGameParameter']]],
   ['unpackasroomconfig_24',['unpackAsRoomConfig',['../classgtengine_1_1_m_game_parameter.html#a8e1604334fb9b0d05bdd9c5ea94cf1ab',1,'gtengine::MGameParameter']]],
   ['unregisterservicebyid_25',['unregisterServiceById',['../classgtengine_1_1_m_g_t_service_manager.html#afae30981e056c662cdea66d23cd5caa9',1,'gtengine::MGTServiceManager']]],
@@ -44,5 +44,5 @@ var searchData=
   ['uselaunchdata_41',['useLaunchData',['../classgtengine_1_1_m_race_parameter.html#a23ba8191dcfb99c9b529fdf944c54446',1,'gtengine::MRaceParameter']]],
   ['uselogofont_42',['UseLogoFont',['../classpdiext_1_1____module____.html#a54dcab3d4f63a96bbf02a82d7ddf70b1',1,'pdiext::__module__']]],
   ['useracebuildparameter_43',['useRaceBuildParameter',['../classgtengine_1_1_m_race_operator.html#a405a48e104dd1e4f5edbeefe72829950',1,'gtengine::MRaceOperator']]],
-  ['ushort_44',['UShort',['../class_system_1_1_u_short.html#a1a50f9a83f941cfc1e5266cf5f6c1abe',1,'System::UShort']]]
+  ['ushort_44',['UShort',['../class_system_1_1_u_short.html#a1a50f9a83f941cfc1e5266cf5f6c1abe',1,'System::UShort::UShort()'],['../class_system_1_1_u_short.html#a1f6b0e85efae425774513873db7f6154',1,'System::UShort::UShort(UShort value)']]]
 ];

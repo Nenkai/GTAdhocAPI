@@ -6,7 +6,7 @@ namespace pdiext
 	class MStorageDataUtil : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MStorageDataUtil() { };
 
 			/** \brief cellStorageDataImport - Import a file 

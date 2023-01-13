@@ -7,7 +7,10 @@ namespace System
 		
 			/// @brief constructor taking no param
 			Long() { };
-					
+
+			/** \brief Constructs a new Long from the specified value. */
+			Long(Long value) { };
+
 			Long value;
 			
 			operator-() {};

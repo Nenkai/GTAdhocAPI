@@ -7,7 +7,7 @@ namespace gtengine
 	class MGPSReplay2 : public Object
 	{
 		  public:
-
+			/** \brief constructor taking no param */
 		    MGPSReplay2() { };
 			
 			

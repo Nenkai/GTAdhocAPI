@@ -6,7 +6,7 @@ namespace pdistd
 	class MEventRace2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MEventRace2() { };
 
 			void initialize();

@@ -8,8 +8,10 @@ namespace System
 			/// @brief constructor taking no param
 			Module() { };
 			
-			/** \brief Creates a new module with the specified name. */
-			Module() { };
+			/** \brief Constructs
+			
+			 a new module with the specified name. */
+			Module(String name) { };
 
 			/// @brief Returns the module name.
 			String name;

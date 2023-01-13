@@ -2,10 +2,10 @@ using namespace System;
 
 namespace pdistd
 {
-	class MMenuGameObjectManager : public Object
+	class MMenuGameObjectManager : public MGameObjectManager
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MMenuGameObjectManager() { };
 
 			void initialize();

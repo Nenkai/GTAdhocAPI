@@ -5,9 +5,12 @@ namespace System
 	{
 		public:
 		
-			/// @brief constructor taking no param
+			/** \brief constructor taking no param */
 			Short() { };
-						
+
+			/** \brief Constructs a new Short from the specified value. */
+			Short(Short value) { };
+
 			Object value;
 			
 			operator-() {};

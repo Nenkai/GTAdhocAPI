@@ -7,6 +7,7 @@ namespace gtengine
 	class MServicePublisher : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MServicePublisher() { };
 
 			/** \param name If not provided, uses ps3-<mac address> as name*/

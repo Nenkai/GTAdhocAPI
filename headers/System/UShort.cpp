@@ -8,6 +8,9 @@ namespace System
 			/// @brief constructor taking no param
 			UShort() { };
 			
+			/** \brief Constructs a new UShort from the specified value. */
+			UShort(UShort value) { };
+
 			Object value;
 			
 			operator-() {};

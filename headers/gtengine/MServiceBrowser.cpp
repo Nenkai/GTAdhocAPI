@@ -7,6 +7,7 @@ namespace gtengine
 	class MServiceBrowser : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MServiceBrowser() { };
 
 			Bool initialize();

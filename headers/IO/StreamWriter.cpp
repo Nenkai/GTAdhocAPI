@@ -1,3 +1,5 @@
+using namespace System;
+
 namespace IO
 {
 	/** \brief Abstract class for stream writing. */

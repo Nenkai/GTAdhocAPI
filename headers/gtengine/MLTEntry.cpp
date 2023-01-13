@@ -7,6 +7,7 @@ namespace gtengine
 	class MLTEntry : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MLTEntry() { };
 
 			UInt car_code;

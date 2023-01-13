@@ -10,6 +10,8 @@ namespace menu
 	public class MKeyPressEvent : public MKeyEvent
 	{
 		public:
+
+			/** @brief Constructs a key press event from the specified render context, widget, and data. */
 			MKeyPressEvent(MRenderContext context, MWidget widget,
 				Int keysym, Int port_data, Float unk, Float unk2, 
 				Int repeat) { };

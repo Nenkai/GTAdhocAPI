@@ -25,7 +25,7 @@ namespace pdiext
 	{
 		public:
 		
-			/** \brief Creates a MSoundEffect from the provided sgd file */
+			/** \brief Constructs a MSoundEffect from the provided sgd file */
 			MSoundEffect(String path_to_sgd) { };
 
 			void play(String code);

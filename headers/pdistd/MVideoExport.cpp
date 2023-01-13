@@ -6,7 +6,7 @@ namespace pdistd
 	class MVideoExport : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MVideoExport() { };
 
 			/** \brief cellVideoExportInitialize2 - Initialize the video utility (without a memory container)

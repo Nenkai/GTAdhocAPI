@@ -6,7 +6,7 @@ namespace pdistd
 	class MTv2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MTv2() { };
 
 			void initialize();

@@ -1,7 +1,8 @@
 var classpdistd_1_1_m_sound =
 [
     [ "MSound", "classpdistd_1_1_m_sound.html#a1c921d31c661d265f29843a90706b8c3", null ],
-    [ "fadeOutMusic", "classpdistd_1_1_m_sound.html#a17a68b4178df3e6983c27fb15455b046", null ],
+    [ "fadeInMusic", "classpdistd_1_1_m_sound.html#aaac22d392a01f7bf81a70cad36f35d6a", null ],
+    [ "fadeOutMusic", "classpdistd_1_1_m_sound.html#a448887d47d478c9e707ae4b2270cbd77", null ],
     [ "getEffectCodeList", "classpdistd_1_1_m_sound.html#a31c15c34db6565fd3e907e90ede0c2b7", null ],
     [ "isPlayingStream", "classpdistd_1_1_m_sound.html#a3c23d840ee971c0ec49d1e97c42a8699", null ],
     [ "keepMusic", "classpdistd_1_1_m_sound.html#a434564630a03502683db98efeb694577", null ],

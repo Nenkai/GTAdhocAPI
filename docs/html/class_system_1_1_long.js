@@ -1,6 +1,7 @@
 var class_system_1_1_long =
 [
     [ "Long", "class_system_1_1_long.html#a49ffbe0f1753fc1d19c246d8b162b814", null ],
+    [ "Long", "class_system_1_1_long.html#a6d87140abe52b995b510ef4dbab37ffc", null ],
     [ "operator!", "class_system_1_1_long.html#af4d69e4c81f34e02e988f70a7818d018", null ],
     [ "operator!=", "class_system_1_1_long.html#a64369d22f53073cd109fbf231d3d7398", null ],
     [ "operator%", "class_system_1_1_long.html#a388ffe3f91f6b3a97da19be562efe846", null ],

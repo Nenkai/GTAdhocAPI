@@ -48,7 +48,7 @@ var namespacegtengine =
     [ "MSceneTime", "classgtengine_1_1_m_scene_time.html", "classgtengine_1_1_m_scene_time" ],
     [ "MServiceBrowser", "classgtengine_1_1_m_service_browser.html", "classgtengine_1_1_m_service_browser" ],
     [ "MServicePublisher", "classgtengine_1_1_m_service_publisher.html", "classgtengine_1_1_m_service_publisher" ],
-    [ "MSpecDB", "classgtengine_1_1_m_spec_d_b.html", "classgtengine_1_1_m_spec_d_b" ],
+    [ "MSpecDB", "classgtengine_1_1_m_spec_d_b.html", null ],
     [ "MVehicleStatus", "classgtengine_1_1_m_vehicle_status.html", "classgtengine_1_1_m_vehicle_status" ],
     [ "AchieveType", "namespacegtengine.html#aa7664f1399b6fe841046098423c90849", [
       [ "NONE", "namespacegtengine.html#aa7664f1399b6fe841046098423c90849ab50339a10e1de285ac99d4c3990b8693", null ],

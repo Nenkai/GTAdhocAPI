@@ -8,6 +8,8 @@ namespace menu
 	public class MManager : public MEvent
 	{
 		public:
+
+			/** @brief constructor taking no param */
 			MManager() { };
 
 			MWidget createWidget(String name);

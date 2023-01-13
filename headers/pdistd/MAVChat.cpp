@@ -5,7 +5,7 @@ namespace pdistd
 	class MAVChat : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MAVChat() { };
 
 			void initialize();

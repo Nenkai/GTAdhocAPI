@@ -9,13 +9,13 @@ namespace System
 			Array() { };
 			
 			/** \brief Creates an array with the specified size */
-			Array(Int) { };
+			Array(Int size) { };
 
 			/** \brief Gets or sets the array size */
 			Int size;
 
 			/** \brief Same effect as size */
-			Int resize(Int size)
+			Int resize(Int size);
 
 			/** \brief Obsolete? */
 			void reserve();
@@ -142,9 +142,9 @@ namespace System
 			return sum; // 6
 			\endcode
 			*/
-			void each(Function<Object> cb);
+			void each(FunctionObject<Object> cb);
 
 			/** \brief Creates a new array populated with the results of calling a provided function on every element in the calling array. */
-			Array map(Function<Object> cb);
+			Array map(FunctionObject<Object> cb);
 	}
 }

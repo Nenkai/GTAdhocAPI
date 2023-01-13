@@ -1,11 +1,12 @@
 using namespace System;
+using namespace menu;
 
 namespace gtengine
 {
-	class MRaceFadeActor : MActor
+	class MRaceFadeActor : public MActor
 	{
 		public:
-            MRaceFadeActor() { };
+            MRaceFadeActor(MOrganizer organizer) { };
 
             Float speed;
             Bool continuous;

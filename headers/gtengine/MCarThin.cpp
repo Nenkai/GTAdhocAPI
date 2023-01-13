@@ -6,9 +6,10 @@ namespace gtengine
 	class MCarThin : public Object
 	{
 		  public:
-		  
+		  	/** \brief constructor taking no param */
 		  	MCarThin() { };
 
+			/** \brief Creates a MCarThin from the specified car code. */
 		    MCarThin(ULong code, Int color = 0) { };
 
 			/** \brief Creates a MCarThin from the specified car label.

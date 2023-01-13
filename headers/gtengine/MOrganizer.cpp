@@ -7,7 +7,7 @@ namespace gtengine
 	class MOrganizer : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MOrganizer() { };
 
 			/** \brief Initializes the organizer. */

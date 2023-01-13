@@ -8,6 +8,8 @@ namespace menu
 	public class MActor : public MNode
 	{
 		public:
+            
+            /** @brief constructor taking no param */
             MActor() { };
 
             void initialize();

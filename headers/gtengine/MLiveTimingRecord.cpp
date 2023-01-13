@@ -7,6 +7,7 @@ namespace gtengine
 	class MLiveTimingRecord : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MLiveTimingRecord() { };
 
 			Array<MLTEntry> getEntries(Bool unk, Int unk2 = 0);

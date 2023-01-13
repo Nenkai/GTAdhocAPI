@@ -7,7 +7,7 @@ namespace pdistd
 	class MHttpc : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MHttpc() { };
 
 			/** \brief Inits libpace */

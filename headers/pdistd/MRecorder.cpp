@@ -7,6 +7,7 @@ namespace pdistd
 	{
 		public:
 
+			/** \brief constructor taking no param */
 			MRecorder() { };
 
 			/** \brief cellRecOpen - Initialize the recording utility
@@ -18,7 +19,7 @@ namespace pdistd
 			\param unused2 Unused or stripped param 2
 			\return Returns error code of cellRecOpen
 			*/
-			Int open(string dir_name, string file_name, Int cell_video_format, Int cell_audio_format, Bool unused = nil, Bool unused2 = nil);
+			Int open(String dir_name, String file_name, Int cell_video_format, Int cell_audio_format, Bool unused = nil, Bool unused2 = nil);
 
 			/** \brief cellRecClose - Terminate the recording utility */
 			Int close();

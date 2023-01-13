@@ -7,7 +7,7 @@ namespace pdistd
 	{
 		public:
 		
-		/// @brief constructor taking no param
+		/** \brief constructor taking no param */
 		MPJson() { };
 		
 		/** \brief JSON Encode string */

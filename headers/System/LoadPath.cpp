@@ -1,7 +1,8 @@
 namespace System
 {
-	class LoadPath
+	class LoadPath : public Object, IByteData
 	{
-		void push();
+		public:
+			void push();
 	}
 }

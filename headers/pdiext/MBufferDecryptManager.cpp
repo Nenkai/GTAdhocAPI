@@ -8,7 +8,7 @@ namespace pdiext
 	class MBufferDecryptManager : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MBufferDecryptManager() { };
 
 			/** \brief Registers a new path/file with decryption key to use by the file device */

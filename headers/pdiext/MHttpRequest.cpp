@@ -6,7 +6,7 @@ namespace pdiext
 	class MHttpRequest : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MHttpRequest() { };
 
 			void isDone();

@@ -1,3 +1,6 @@
+using namespace System;
+
+
 namespace IO
 {
 	/** \brief Stream writer for writing strings. 

@@ -8,6 +8,10 @@ namespace System
 			/// @brief constructor taking no param
 			UByte() { };
 			
+			
+			
+			
+
 			UByte value;
 			
 			operator-() {};

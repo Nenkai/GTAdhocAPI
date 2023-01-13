@@ -6,6 +6,7 @@ namespace gtengine
 	class MDragRaceMode : public Object
 	{
 		  public:
+		  	/** \brief constructor taking no param */
 		    MDragRaceMode() { };
 			
 			void connect(MOrganizer organizer);

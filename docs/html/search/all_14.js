@@ -55,7 +55,7 @@ var searchData=
   ['texcoord_5fleft_52',['texcoord_left',['../classmenu_1_1_m_image_face.html#af0e35d57fff2cc07d80435bd8135e9c6',1,'menu::MImageFace']]],
   ['texcoord_5fright_53',['texcoord_right',['../classmenu_1_1_m_image_face.html#a330a783b6b4b4677e08ad02a84cb7bb2',1,'menu::MImageFace']]],
   ['texcoord_5ftop_54',['texcoord_top',['../classmenu_1_1_m_image_face.html#a6f29689330f03f37b4cb8c757ff373fa',1,'menu::MImageFace']]],
-  ['text_55',['text',['../classmenu_1_1_m_text_face.html#a970f9b557e5732cbbe61d7fe7b30eda7',1,'menu::MTextFace::text()'],['../classpdistd_1_1_m_text_event.html#acdc17cf7d64737d7135475bbb9643c30',1,'pdistd::MTextEvent::text()']]],
+  ['text_55',['text',['../classmenu_1_1_m_text_face.html#a970f9b557e5732cbbe61d7fe7b30eda7',1,'menu::MTextFace']]],
   ['text_5fcolor_56',['text_color',['../classmenu_1_1_m_text_face.html#a1fdadaf16eccef6024fb768a30de28a4',1,'menu::MTextFace']]],
   ['textconv_57',['TextConv',['../classpdistd_1_1____module____.html#a8fa371ea2ad6005779aa50f7eaea40d1',1,'pdistd::__module__']]],
   ['thread_58',['Thread',['../class_system_1_1_thread.html',1,'System::Thread'],['../class_system_1_1_thread.html#a06a2aad8854f986540093f2dd2b086e9',1,'System::Thread::Thread()'],['../class_system_1_1_thread.html#a12f50c1ff8a4d7a29e95f53f86b4a2c6',1,'System::Thread::Thread(FunctionObject func)']]],

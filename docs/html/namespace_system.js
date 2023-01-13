@@ -13,7 +13,7 @@ var namespace_system =
     [ "FunctionObject", "class_system_1_1_function_object.html", "class_system_1_1_function_object" ],
     [ "Int", "class_system_1_1_int.html", "class_system_1_1_int" ],
     [ "Iterator", "class_system_1_1_iterator.html", "class_system_1_1_iterator" ],
-    [ "LoadPath", "class_system_1_1_load_path.html", null ],
+    [ "LoadPath", "class_system_1_1_load_path.html", "class_system_1_1_load_path" ],
     [ "Long", "class_system_1_1_long.html", "class_system_1_1_long" ],
     [ "Map", "class_system_1_1_map.html", "class_system_1_1_map" ],
     [ "MethodObject", "class_system_1_1_method_object.html", "class_system_1_1_method_object" ],

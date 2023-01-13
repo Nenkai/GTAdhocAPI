@@ -6,10 +6,10 @@ namespace pdistd
 	class MGpb : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MGpb() { };
 
-			/** \brief Loads a gpb from specified path */
+			/** \brief Constructs & loads a gpb from specified path */
 			MGpb(String path) { };
 
 			/** \brief Loads a gpb from specified path */

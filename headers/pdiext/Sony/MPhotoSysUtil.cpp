@@ -6,7 +6,7 @@ namespace pdiext
 	class MPhotoSysUtil : public Object
 	{
 		public:
-		
+			/** \brief constructor taking no param */
 			MPhotoSysUtil() { };
 
 			/** \brief Loads CELL_SYSMODULE_PHOTO_EXPORT module 

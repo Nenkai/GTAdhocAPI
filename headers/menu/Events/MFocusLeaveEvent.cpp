@@ -9,6 +9,8 @@ namespace menu
 	public class MFocusLeaveEvent : public MCrossingEvent
 	{
 		public:
+
+			/** @brief Constructs a focus leave event from the specified render context and widget. */
 			MFocusLeaveEvent(MRenderContext context, MWidget widget) { };
 	};
 };

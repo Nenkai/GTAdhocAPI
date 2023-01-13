@@ -1,3 +1,5 @@
+using namespace System;
+
 namespace IO
 {
 	/** \brief Stream reader for reading from inflated files
@@ -6,7 +8,7 @@ namespace IO
 	{
 		public:
 		
-			/// @brief constructor taking no param
+			/** @brief constructor taking no param */
 			ZipReader() { };
 			
 			/** \brief Opens a ZipReader based on the input stream 

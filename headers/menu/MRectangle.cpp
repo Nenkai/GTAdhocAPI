@@ -8,12 +8,15 @@ namespace menu
 	public class MRectangle : public Object
 	{
 		public:
-                  MRectangle() { };
-                  MRectangle(Float x, Float y, Float w, Float h) { };
+            /** @brief constructor taking no param */
+            MRectangle() { };
 
-                  Float x;
-                  Float y;
-                  Float w;
-                  Float h;
+            /** \brief Constructs a new rectangle from the specified sizes. */
+            MRectangle(Float x, Float y, Float w, Float h) { };
+
+            Float x;
+            Float y;
+            Float w;
+            Float h;
 	};
 };

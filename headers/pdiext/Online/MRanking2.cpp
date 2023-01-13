@@ -6,7 +6,7 @@ namespace pdistd
 	class MRanking2 : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MRanking2() { };
 
 			void clearCallback();

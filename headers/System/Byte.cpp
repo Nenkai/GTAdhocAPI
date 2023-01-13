@@ -8,6 +8,9 @@ namespace System
 			/// @brief constructor taking no param
 			Byte() { };
 			
+			/** \brief Constructs a new Byte from the specified value. */
+			Byte(Byte value) { };
+
 			Byte value;
 			
 			operator-() {};

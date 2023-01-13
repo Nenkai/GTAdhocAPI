@@ -1,10 +1,11 @@
 namespace System
 {
-	/** \brief Built-in dictionary/key-value pair object. */
+	/** \brief Built-in dictionary/key-value pair object based on std::map. 
+	\details The keys are always ordered by their comparator i.e numerically for integers or alphabetically for strings. */
 	class Map : public Object, IMap
 	{
 		public:
-			/** \brief Creates a new map.*/
+			/** \brief Creates a new map. */
 			Map() {}
 
 			/** \brief Clears the map. */

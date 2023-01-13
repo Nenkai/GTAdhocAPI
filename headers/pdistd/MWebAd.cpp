@@ -6,6 +6,7 @@ namespace pdistd
 	{
 		public:
 
+			/** \brief constructor taking no param */
 			MWebAd() { };
 
 			/** \brief Sets the local path where adhoc modules are stored */

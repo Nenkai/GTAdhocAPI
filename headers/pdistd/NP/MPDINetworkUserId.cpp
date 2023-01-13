@@ -2,10 +2,10 @@ using namespace System;
 
 namespace pdistd
 {
-	class MPDINetworkUserId : publicObject
+	class MPDINetworkUserId : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MPDINetworkUserId() { };
 
 			/** \brief Copy from specified object into current */

@@ -7,7 +7,10 @@ namespace System
 		
 			/// @brief constructor taking no param
 			ULong() { };
-						
+
+			/** \brief Constructs a new ULong from the specified value. */
+			ULong(ULong value) { };
+
 			Object value;
 			
 			operator-() {};

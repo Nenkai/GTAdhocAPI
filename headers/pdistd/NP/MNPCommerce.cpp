@@ -6,7 +6,7 @@ namespace pdistd
 	class MNPCommerce : public Object
 	{
 		public:
-
+			/** \brief constructor taking no param */
 			MNPCommerce() { };
 
 			static void updateCommerce();
