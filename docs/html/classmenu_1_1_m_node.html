@@ -107,23 +107,24 @@ Inheritance diagram for menu::MNode:</div>
  <div class="center">
   <img src="classmenu_1_1_m_node.png" usemap="#menu::MNode_map" alt=""/>
   <map id="menu::MNode_map" name="menu::MNode_map">
-<area href="class_system_1_1_module.html" title="Built-in type that represents a module (or namespace in C++)." alt="System::Module" shape="rect" coords="308,56,474,80"/>
-<area href="class_system_1_1_object.html" title="This is the base object for every type." alt="System::Object" shape="rect" coords="220,0,386,24"/>
+<area href="class_system_1_1_module.html" title="Built-in type that represents a module (or namespace in C++)." alt="System::Module" shape="rect" coords="176,56,342,80"/>
+<area href="class_system_1_1_object.html" title="This is the base object for every type." alt="System::Object" shape="rect" coords="88,0,254,24"/>
 <area href="classmenu_1_1_m_actor.html" title="Represents an actor." alt="menu::MActor" shape="rect" coords="0,168,166,192"/>
-<area href="classmenu_1_1_m_widget.html" title="Represents a UI component." alt="menu::MWidget" shape="rect" coords="616,168,782,192"/>
+<area href="classmenu_1_1_m_chart_series.html" title="Base series for chart widgets." alt="menu::MChartSeries" shape="rect" coords="176,168,342,192"/>
+<area href="classmenu_1_1_m_widget.html" title="Represents a UI component." alt="menu::MWidget" shape="rect" coords="528,168,694,192"/>
 <area href="classgtengine_1_1_m_race_fade_actor.html" alt="gtengine::MRaceFadeActor" shape="rect" coords="0,224,166,248"/>
-<area href="classmenu_1_1_m_composite.html" title="Represents a widget made up or containing multiple widgets." alt="menu::MComposite" shape="rect" coords="528,224,694,248"/>
-<area href="classmenu_1_1_m_text_face.html" title="Represents a facing widget that displays text." alt="menu::MTextFace" shape="rect" coords="704,224,870,248"/>
-<area href="classmenu_1_1_m_box.html" title="Base Box." alt="menu::MBox" shape="rect" coords="352,280,518,304"/>
-<area href="classmenu_1_1_m_component.html" alt="menu::MComponent" shape="rect" coords="528,280,694,304"/>
-<area href="classmenu_1_1_m_project.html" title="Represents a project, a group of roots/pages ." alt="menu::MProject" shape="rect" coords="704,280,870,304"/>
-<area href="classmenu_1_1_m_d_box.html" title="Base Directional Box." alt="menu::MDBox" shape="rect" coords="88,336,254,360"/>
-<area href="classmenu_1_1_m_f_box.html" title="F Box." alt="menu::MFBox" shape="rect" coords="264,336,430,360"/>
-<area href="classmenu_1_1_m_m_box.html" title="M Box." alt="menu::MMBox" shape="rect" coords="440,336,606,360"/>
-<area href="classmenu_1_1_m_s_box.html" title="S Box." alt="menu::MSBox" shape="rect" coords="616,336,782,360"/>
-<area href="classmenu_1_1_m_h_box.html" title="Horizontal Widget Box." alt="menu::MHBox" shape="rect" coords="0,392,166,416"/>
-<area href="classmenu_1_1_m_v_box.html" title="Vertical Widget Box." alt="menu::MVBox" shape="rect" coords="176,392,342,416"/>
-<area href="classmenu_1_1_m_root_window.html" title="Represents a window/page/root." alt="menu::MRootWindow" shape="rect" coords="616,392,782,416"/>
+<area href="classmenu_1_1_m_pie_series.html" title="Represents a pie series for use with MPieChart." alt="menu::MPieSeries" shape="rect" coords="352,224,518,248"/>
+<area href="classmenu_1_1_m_rader_series.html" title="Represents a radar series for use with MRaderChart." alt="menu::MRaderSeries" shape="rect" coords="352,280,518,304"/>
+<area href="classmenu_1_1_m_blur_face.html" title="Represents a facing widget that acts as blur." alt="menu::MBlurFace" shape="rect" coords="704,224,870,248"/>
+<area href="classmenu_1_1_m_chart_face.html" title="Represents a facing widget that displays a chart. This class is not usable - only bench functions in ..." alt="menu::MChartFace" shape="rect" coords="704,280,870,304"/>
+<area href="classmenu_1_1_m_color_face.html" title="Represents a facing widget that displays a color." alt="menu::MColorFace" shape="rect" coords="704,336,870,360"/>
+<area href="classmenu_1_1_m_composite.html" title="Represents a widget made up or containing multiple widgets." alt="menu::MComposite" shape="rect" coords="704,392,870,416"/>
+<area href="classmenu_1_1_m_flash_face.html" title="Represents a facing widget that represents a strobe (converted flash/.swf -&gt; strobe (...." alt="menu::MFlashFace" shape="rect" coords="704,448,870,472"/>
+<area href="classmenu_1_1_m_image_shape.html" title="Represents a widget that an image shaped (or cropped from a texture atlas)." alt="menu::MImageShape" shape="rect" coords="704,504,870,528"/>
+<area href="classmenu_1_1_m_pie_chart.html" title="Represents a facing widget that displays a pie." alt="menu::MPieChart" shape="rect" coords="704,560,870,584"/>
+<area href="classmenu_1_1_m_rader_chart.html" title="Represents a facing widget that displays a radar chart." alt="menu::MRaderChart" shape="rect" coords="704,616,870,640"/>
+<area href="classmenu_1_1_m_text_face.html" title="Represents a facing widget that displays text." alt="menu::MTextFace" shape="rect" coords="704,672,870,696"/>
+<area href="classmenu_1_1_m_tool_tip_face.html" title="Represents a facing widget that displays a tooltip." alt="menu::MToolTipFace" shape="rect" coords="704,728,870,752"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -455,6 +456,8 @@ Static Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Represents a core UI node. </p>
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00008">8</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a61dfedca5d64a62bb025176b9a77ed38" name="a61dfedca5d64a62bb025176b9a77ed38"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61dfedca5d64a62bb025176b9a77ed38">&#9670;&#160;</a></span>doCopy()</h2>
@@ -567,6 +570,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Alias name. Returns "nil" if not set (use has_alias_name) </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00042">42</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="abb2e7730e88014d9e772276c4cb0d5a0" name="abb2e7730e88014d9e772276c4cb0d5a0"></a>
@@ -582,6 +587,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter-only. Gets the class name of this node. i.e "MRootWindow". </p>
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00027">27</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -607,6 +614,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Setter-only. Unknown, sets an engine singleton. May not be used. </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00059">59</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a38319349c120376bf8c3b58abaae65a1" name="a38319349c120376bf8c3b58abaae65a1"></a>
@@ -622,6 +631,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter-only. </p>
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00080">80</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -639,6 +650,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Getter-only. </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00039">39</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a90434d7f575f35dadcb9647bcafd64c4" name="a90434d7f575f35dadcb9647bcafd64c4"></a>
@@ -655,6 +668,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Whether this node is linked to a script. </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00045">45</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a4da8e511a8445cb2985df6d4096e5b6f" name="a4da8e511a8445cb2985df6d4096e5b6f"></a>
@@ -668,6 +683,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00082">82</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -685,6 +702,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Whether this node is enabled. </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00048">48</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a39f329444c75860a7d1e7af9b2635a8a" name="a39f329444c75860a7d1e7af9b2635a8a"></a>
@@ -700,6 +719,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter-only. Gets the next node for this node. </p>
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00015">15</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -717,6 +738,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Getter-only. Gets the next node for this node. Same as next. </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00021">21</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a097bd39b17f4563d6c1548fbc2d70430" name="a097bd39b17f4563d6c1548fbc2d70430"></a>
@@ -732,6 +755,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter-only. Gets the name of this node. i.e "TopRoot". </p>
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00033">33</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -749,6 +774,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Getter-only. Gets the path of this node. i.e "RunViewerProject::TopRoot". </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00036">36</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="af3dc64a106c509fa6b4afbf6df0d36ed" name="af3dc64a106c509fa6b4afbf6df0d36ed"></a>
@@ -762,6 +789,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00050">50</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -779,6 +808,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Gets or sets the parent node for this node. </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00012">12</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ae950159e46b89aab8d8cc1eaf20c83e9" name="ae950159e46b89aab8d8cc1eaf20c83e9"></a>
@@ -794,6 +825,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter-only. Gets the previous node for this node. </p>
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00018">18</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -811,6 +844,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Getter-only. Gets the previous node for this node. Same as prev. </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00024">24</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="aeadf8b96224c4907f1989956de0fd0ea" name="aeadf8b96224c4907f1989956de0fd0ea"></a>
@@ -826,6 +861,8 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter-only. Returns the project linked to this node. </p>
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00056">56</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -843,6 +880,8 @@ Static Public Attributes</h2></td></tr>
 
 <p>Getter-only. Gets the prototype name of this node. i.e "RootWindow". </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00030">30</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <a id="afd93d5b990803bed17be7cb9a58a00a9" name="afd93d5b990803bed17be7cb9a58a00a9"></a>
@@ -856,6 +895,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00071">71</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
 
 </div>
 </div>
@@ -873,10 +914,12 @@ Static Public Attributes</h2></td></tr>
 
 <p>Getter-only. Returns the root window linked to this node. </p>
 
+<p class="definition">Definition at line <a class="el" href="_m_node_8cpp_source.html#l00053">53</a> of file <a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>headers/menu/<a class="el" href="_m_node_8cpp.html">MNode.cpp</a></li>
+<li>headers/menu/<a class="el" href="_m_node_8cpp_source.html">MNode.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

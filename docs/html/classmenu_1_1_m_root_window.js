@@ -1,5 +1,7 @@
 var classmenu_1_1_m_root_window =
 [
+    [ "MRootWindow", "classmenu_1_1_m_root_window.html#a6d5054655233b5e9e6d19d8260530733", null ],
+    [ "MRootWindow", "classmenu_1_1_m_root_window.html#af6d41f126230f495c78c5b1ea341b3a4", null ],
     [ "doCopy", "classmenu_1_1_m_root_window.html#abbc122fc34dfdf1770a0c43f4be41327", null ],
     [ "doFinalize", "classmenu_1_1_m_root_window.html#a6a982711234480fd6db718ccf8821579", null ],
     [ "doInitialize", "classmenu_1_1_m_root_window.html#ae383672371b9511645b73e7655e45809", null ],

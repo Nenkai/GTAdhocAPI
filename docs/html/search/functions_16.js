@@ -7,7 +7,7 @@ var searchData=
   ['waitfornoracers_4',['waitForNoRacers',['../classgtengine_1_1_m_organizer.html#a54ee38ae3c5fc40b20f98cccce2efc66',1,'gtengine::MOrganizer']]],
   ['waitotherentries_5',['waitOtherEntries',['../classgtengine_1_1_m_organizer.html#a81dfb39ea3a9cbd8ec7ad52a70678937',1,'gtengine::MOrganizer']]],
   ['waitregularracers_6',['waitRegularRacers',['../classgtengine_1_1_m_organizer.html#af465cec3b870ef1ccd047a5d0f9a2217',1,'gtengine::MOrganizer']]],
-  ['waittickentry_7',['waitTickEntry',['../classgtengine_1_1_m_organizer.html#aeb9a34a39741be7e6e21ff1222a19cec',1,'gtengine::MOrganizer']]],
+  ['waittickentry_7',['waitTickEntry',['../classgtengine_1_1_m_organizer.html#aeb9a34a39741be7e6e21ff1222a19cec',1,'gtengine::MOrganizer::waitTickEntry()'],['../classmenu_1_1_m_scene_face.html#a73ab2514d907c6b9307a1733a56f82fd',1,'menu::MSceneFace::waitTickEntry()']]],
   ['waituntiltrophyinitialized_8',['waitUntilTrophyInitialized',['../classpdistd_1_1_m_p_d_i_network.html#aa39273776fc4e1a00bc051c1b2d93272',1,'pdistd::MPDINetwork']]],
   ['wakeup_9',['wakeup',['../class_system_1_1_thread.html#ab314f5be17988932455197917ccaabdf',1,'System::Thread']]],
   ['warp_10',['warp',['../classmenu_1_1_m_actor.html#a735c7f2af490e818549babd8d62b9eef',1,'menu::MActor']]],

@@ -2,6 +2,8 @@ var hierarchy =
 [
     [ "gtengine::GTGame::AchieveCondition", "classgtengine_1_1_g_t_game_1_1_achieve_condition.html", null ],
     [ "gtengine::GTGame::ArcadeStyleSetting", "classgtengine_1_1_g_t_game_1_1_arcade_style_setting.html", null ],
+    [ "System::Array< Array< Float > >", "class_system_1_1_array.html", null ],
+    [ "System::Array< Array< Int > >", "class_system_1_1_array.html", null ],
     [ "System::Array< Country >", "class_system_1_1_array.html", null ],
     [ "System::Array< DrivetrainType >", "class_system_1_1_array.html", null ],
     [ "System::Array< Float >", "class_system_1_1_array.html", null ],
@@ -83,7 +85,20 @@ var hierarchy =
           [ "menu::MActor", "classmenu_1_1_m_actor.html", [
             [ "gtengine::MRaceFadeActor", "classgtengine_1_1_m_race_fade_actor.html", null ]
           ] ],
+          [ "menu::MChartSeries", "classmenu_1_1_m_chart_series.html", [
+            [ "menu::MPieSeries", "classmenu_1_1_m_pie_series.html", null ],
+            [ "menu::MRaderSeries", "classmenu_1_1_m_rader_series.html", null ]
+          ] ],
           [ "menu::MWidget", "classmenu_1_1_m_widget.html", [
+            [ "menu::MBlurFace", "classmenu_1_1_m_blur_face.html", null ],
+            [ "menu::MChartFace", "classmenu_1_1_m_chart_face.html", null ],
+            [ "menu::MColorFace", "classmenu_1_1_m_color_face.html", [
+              [ "menu::MGraphFace", "classmenu_1_1_m_graph_face.html", null ],
+              [ "menu::MImageFace", "classmenu_1_1_m_image_face.html", [
+                [ "menu::MMovieFace", "classmenu_1_1_m_movie_face.html", null ],
+                [ "menu::MSceneFace", "classmenu_1_1_m_scene_face.html", null ]
+              ] ]
+            ] ],
             [ "menu::MComposite", "classmenu_1_1_m_composite.html", [
               [ "menu::MBox", "classmenu_1_1_m_box.html", [
                 [ "menu::MDBox", "classmenu_1_1_m_d_box.html", [
@@ -97,9 +112,15 @@ var hierarchy =
                 ] ]
               ] ],
               [ "menu::MComponent", "classmenu_1_1_m_component.html", null ],
+              [ "menu::MComposite3D", "classmenu_1_1_m_composite3_d.html", null ],
               [ "menu::MProject", "classmenu_1_1_m_project.html", null ]
             ] ],
-            [ "menu::MTextFace", "classmenu_1_1_m_text_face.html", null ]
+            [ "menu::MFlashFace", "classmenu_1_1_m_flash_face.html", null ],
+            [ "menu::MImageShape", "classmenu_1_1_m_image_shape.html", null ],
+            [ "menu::MPieChart", "classmenu_1_1_m_pie_chart.html", null ],
+            [ "menu::MRaderChart", "classmenu_1_1_m_rader_chart.html", null ],
+            [ "menu::MTextFace", "classmenu_1_1_m_text_face.html", null ],
+            [ "menu::MToolTipFace", "classmenu_1_1_m_tool_tip_face.html", null ]
           ] ]
         ] ],
         [ "pdiext::__module__", "classpdiext_1_1____module____.html", null ],
@@ -114,15 +135,26 @@ var hierarchy =
     [ "gtengine::GTGame::LicenseCondition", "classgtengine_1_1_g_t_game_1_1_license_condition.html", null ],
     [ "gtengine::GTGame::LicenseConditionData", "classgtengine_1_1_g_t_game_1_1_license_condition_data.html", null ],
     [ "gtengine::GTGame::LocalizeText", "classgtengine_1_1_g_t_game_1_1_localize_text.html", null ],
-    [ "MColorFace", null, [
-      [ "menu::MImageFace", "classmenu_1_1_m_image_face.html", null ]
-    ] ],
     [ "pdistd::MDomNodeList", "classpdistd_1_1_m_dom_node_list.html", null ],
     [ "MGameObjectManager", null, [
       [ "pdistd::MMenuGameObjectManager", "classpdistd_1_1_m_menu_game_object_manager.html", null ]
     ] ],
+    [ "MMovieSetting", null, [
+      [ "menu::MMovieFace", "classmenu_1_1_m_movie_face.html", null ]
+    ] ],
     [ "pdistd::MMusic", "classpdistd_1_1_m_music.html", null ],
+    [ "MRichColor", null, [
+      [ "menu::MColorFace", "classmenu_1_1_m_color_face.html", null ],
+      [ "menu::MPieChart", "classmenu_1_1_m_pie_chart.html", null ]
+    ] ],
     [ "pdistd::MSystemBGM", "classpdistd_1_1_m_system_b_g_m.html", null ],
+    [ "menu::MTextSetting", "classmenu_1_1_m_text_setting.html", [
+      [ "menu::MTextFace", "classmenu_1_1_m_text_face.html", null ],
+      [ "menu::MToolTipFace", "classmenu_1_1_m_tool_tip_face.html", null ]
+    ] ],
+    [ "MTransform3D", null, [
+      [ "menu::MComposite3D", "classmenu_1_1_m_composite3_d.html", null ]
+    ] ],
     [ "pdistd::MWatcher", "classpdistd_1_1_m_watcher.html", null ],
     [ "System::Object", "class_system_1_1_object.html", [
       [ "IO::StreamReader", "class_i_o_1_1_stream_reader.html", [

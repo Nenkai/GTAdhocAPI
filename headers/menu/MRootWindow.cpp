@@ -9,6 +9,11 @@ namespace menu
 	{
 		public:
 
+            /** \brief constructor taking no param */
+            MRootWindow() { };
+
+            MRootWindow(Float unk, Float unk2) { };
+
             /** \brief Gets or sets the parent node for this node. */
 		MNode parent;
 
