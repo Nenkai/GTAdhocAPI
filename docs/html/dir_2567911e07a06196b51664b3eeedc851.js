@@ -10,6 +10,9 @@ var dir_2567911e07a06196b51664b3eeedc851 =
     [ "MKeyEvent.cpp", "_m_key_event_8cpp.html", "_m_key_event_8cpp" ],
     [ "MKeyPressEvent.cpp", "_m_key_press_event_8cpp.html", "_m_key_press_event_8cpp" ],
     [ "MKeyReleaseEvent.cpp", "_m_key_release_event_8cpp.html", "_m_key_release_event_8cpp" ],
+    [ "MLeaveEvent.cpp", "_m_leave_event_8cpp.html", "_m_leave_event_8cpp" ],
+    [ "MMotionEvent.cpp", "_m_motion_event_8cpp.html", "_m_motion_event_8cpp" ],
     [ "MNodeEvent.cpp", "_m_node_event_8cpp.html", "_m_node_event_8cpp" ],
+    [ "MScriptEvent.cpp", "_m_script_event_8cpp.html", "_m_script_event_8cpp" ],
     [ "MWidgetEvent.cpp", "_m_widget_event_8cpp.html", "_m_widget_event_8cpp" ]
 ];

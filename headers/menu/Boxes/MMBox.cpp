@@ -4,7 +4,7 @@ using namespace pdistd;
 
 namespace menu
 {
-	/** \brief M Box */
+	/** \brief Box that allows splitting widgets into a specific layout (rows/columns). */
 	public class MMBox : public MBox
 	{
 		public:

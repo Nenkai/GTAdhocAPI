@@ -48,8 +48,8 @@ namespace menu
 			void insertChild(MRenderContext context, MWidget unk, MWidget unk2);
 			void appendChild(MWidget widget);
 			void appendChild(MRenderContext context, MWidget widget);
-			void appendChild(MWidget widget);
-			void appendChild(MRenderContext context, MWidget widget);
+			void removeChild(MWidget widget);
+			void removeChild(MRenderContext context, MWidget widget);
 			void replaceChild(MWidget unk, MWidget unk2);
 			void replaceChild(MRenderContext context, MWidget unk, MWidget unk2);
 			Int countChild();

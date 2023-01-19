@@ -4,7 +4,7 @@ using namespace pdistd;
 
 namespace menu
 {
-	/** \brief Horizontal Widget Box */
+	/** \brief Horizontal box widget, allowing widgets to be packed horizontally. */
 	public class MHBox : public MDBox
 	{
 		public:

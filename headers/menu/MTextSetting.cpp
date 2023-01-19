@@ -8,8 +8,14 @@ namespace menu
 	public class MTextSetting
 	{
 		public:
+
+            /** \brief Text color. Defaults to [0.83, 0.83, 0.83, 1.0]. */
             MColorObject color;
+
+             /** \brief Top Text color. Defaults to [0.83, 0.83, 0.83, 1.0]. */
             MColorObject top_color;
+
+             /** \brief Bottom Text color. Defaults to [0.83, 0.83, 0.83, 1.0]. */
             MColorObject bottom_color;
 
             /** \brief Alpha. Defaults to 1.0 (fully visible)*/
@@ -48,7 +54,17 @@ namespace menu
             /** \brief Defaults to true */
             Bool aligned;
 
-            /** \brief Gets or sets the alignment. */
+            /** \brief Sets the text alignment. Defaults to 4 (Center). View details for options
+            \details Each value is a different alignment:
+            - 0: Top-Left
+            - 1: Top-Center
+            - 2: Top-Right
+            - 3: Left
+            - 4: Center
+            - 5: Right
+            - 6: Bottom-Left
+            - 7: Bottom-Center
+            - 8: Bottom-Right */
             Int align;
 
             Int clut;
@@ -74,7 +90,7 @@ namespace menu
             /** \brief Shadow value. Defaults to 0.0. */
             Float shadow_value;
 
-            /** \brief Shadow color. */
+            /** \brief Shadow color. Defaults to [0.0, 0.0, 0.0, 1.0] */
             MColorObject shadow_color;
 
             /** \brief Shadow Alpha. Defaults to 1.0 (fully visible) */
@@ -83,7 +99,7 @@ namespace menu
             /** \brief Outline value. Defaults to 0.0 */
             Float outline_value;
 
-             /** \brief Outline color. */
+             /** \brief Outline color. Defaults to [0.0, 0.0, 0.0, 1.0] */
             MColorObject outline_color;
 
             /** \brief Offset to the next line. Defaults to 0.0 */

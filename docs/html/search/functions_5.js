@@ -41,7 +41,7 @@ var searchData=
   ['formurldecode_38',['formUrlDecode',['../classpdistd_1_1_m_http3.html#a556a7f617e4984056a6dcd6c3e16a278',1,'pdistd::MHttp3']]],
   ['formurlencode_39',['formUrlEncode',['../classpdistd_1_1_m_http3.html#aa8c1d686b918d68a55f9a7d2b58681b6',1,'pdistd::MHttp3']]],
   ['forward_40',['forward',['../classmenu_1_1_m_actor.html#a9aa0931f5fce2e902e764828f164cd7a',1,'menu::MActor']]],
-  ['freeze_41',['freeze',['../classgtengine_1_1_g_t_game_1_1_localize_text.html#af09c2b641e93d8aea8486d40fd42895b',1,'gtengine::GTGame::LocalizeText']]],
+  ['freeze_41',['freeze',['../classgtengine_1_1_g_t_game_1_1_localize_text.html#af09c2b641e93d8aea8486d40fd42895b',1,'gtengine::GTGame::LocalizeText::freeze()'],['../classmenu_1_1_m_chase_actor.html#a1688267d69fc6fbf5c01e4d155e4df25',1,'menu::MChaseActor::freeze()']]],
   ['freezetext_42',['freezeText',['../classgtengine_1_1_g_t_game_1_1_information.html#aa00c8734df970320b632b644310da001',1,'gtengine::GTGame::Information::freezeText()'],['../classgtengine_1_1_g_t_game_1_1_localize_text.html#a3523efe9a6e334c8107c18af0896d6f8',1,'gtengine::GTGame::LocalizeText::freezeText()']]],
   ['functionobject_43',['FunctionObject',['../class_system_1_1_function_object.html#a51c918496990dcb8ffc0941e012c967d',1,'System::FunctionObject']]]
 ];

@@ -4,7 +4,7 @@ using namespace pdistd;
 
 namespace menu
 {
-	/** \brief S Box */
+	/** \brief S(calable?) Box */
 	public class MSBox : public MBox
 	{
 		public:

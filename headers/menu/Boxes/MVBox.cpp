@@ -4,7 +4,7 @@ using namespace pdistd;
 
 namespace menu
 {
-	/** \brief Vertical Widget Box */
+	/** \brief Vertical box widget, allowing widgets to be packed vertically. */
 	public class MVBox : public MDBox
 	{
 		public:

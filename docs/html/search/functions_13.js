@@ -2,8 +2,8 @@ var searchData=
 [
   ['tan_0',['tan',['../class_math_1_1____module____.html#ab84f0b4a98b2ef7cd033a348ef28d211',1,'Math::__module__']]],
   ['tell_1',['tell',['../class_i_o_1_1_stream_reader.html#aab446eee0481dc8384d4c8143305d0cc',1,'IO::StreamReader::tell()'],['../class_i_o_1_1_stream_writer.html#ae1f08cfd0a7b1834efee0cb3f8445a90',1,'IO::StreamWriter::tell()']]],
-  ['terminate_2',['terminate',['../class_system_1_1_thread.html#af1486b6a7c05c914f5e032343ca5f969',1,'System::Thread']]],
-  ['terminate_3',['Terminate',['../class_system_1_1_thread.html#aa911f36a782bf7ffe9dd6f305d6e4d01',1,'System::Thread']]],
+  ['terminate_2',['Terminate',['../class_system_1_1_thread.html#aa911f36a782bf7ffe9dd6f305d6e4d01',1,'System::Thread']]],
+  ['terminate_3',['terminate',['../class_system_1_1_thread.html#af1486b6a7c05c914f5e032343ca5f969',1,'System::Thread']]],
   ['test_4',['test',['../classgtengine_1_1_m_g_p_s_replay2.html#a3a8a7d3e048ec770fd82b5bbb9da3e40',1,'gtengine::MGPSReplay2::test()'],['../classpdistd_1_1_m_network_user_storage.html#a611dcbb94afa68b138c9a5754c8e1490',1,'pdistd::MNetworkUserStorage::test()']]],
   ['texcoord_5',['Texcoord',['../classmenu_1_1_m_image_face.html#aea47c9ab502638736fa22e477e642aaf',1,'menu::MImageFace']]],
   ['textconv_6',['TextConv',['../classpdistd_1_1____module____.html#a8fa371ea2ad6005779aa50f7eaea40d1',1,'pdistd::__module__']]],
@@ -31,11 +31,12 @@ var searchData=
   ['transfer_28',['transfer',['../classgtengine_1_1_m_garage.html#a06b5d286f3e166e5edd0a615e252999e',1,'gtengine::MGarage']]],
   ['transient_29',['Transient',['../classmenu_1_1_m_text_face.html#ae098b431f5e5ff38c3d5f98b40d44d04',1,'menu::MTextFace::Transient()'],['../classmenu_1_1_m_tool_tip_face.html#a2de89abbbd74e7625846fbeec93276c2',1,'menu::MToolTipFace::Transient()']]],
   ['transientreset_30',['TransientReset',['../classmenu_1_1_m_text_face.html#a342eb9ef6d58f3680781d99e1cc32f48',1,'menu::MTextFace']]],
-  ['translate_31',['translate',['../classmenu_1_1_m_manager.html#aff5f58fd85deb53d99c374ae111700e4',1,'menu::MManager::translate(String category, String pair)'],['../classmenu_1_1_m_manager.html#a5a21053b5b4fc3043a6ec680f13a3a54',1,'menu::MManager::translate(MNode node_name, String sub_category, String pair)'],['../classmenu_1_1_m_render_context.html#a899b20c9bb2814f6694dea627acf48f7',1,'menu::MRenderContext::translate(String category, String pair)'],['../classmenu_1_1_m_render_context.html#a8f3b7054f6c7d897208612b5a044d082',1,'menu::MRenderContext::translate(MNode node_name, String sub_category, String pair)'],['../classmenu_1_1_m_update_context.html#adb74df01b963dcfd6457a1e99fa4fe3e',1,'menu::MUpdateContext::translate(String category, String pair)'],['../classmenu_1_1_m_update_context.html#a682771694420ea2e7df62e59e27da678',1,'menu::MUpdateContext::translate(MNode node_name, String sub_category, String pair)']]],
+  ['translate_31',['translate',['../classmenu_1_1_m_manager.html#aff5f58fd85deb53d99c374ae111700e4',1,'menu::MManager::translate(String category, String pair)'],['../classmenu_1_1_m_manager.html#a5a21053b5b4fc3043a6ec680f13a3a54',1,'menu::MManager::translate(MNode node_name, String sub_category, String pair)'],['../classmenu_1_1_m_render_context.html#a899b20c9bb2814f6694dea627acf48f7',1,'menu::MRenderContext::translate(String category, String pair)'],['../classmenu_1_1_m_render_context.html#a8f3b7054f6c7d897208612b5a044d082',1,'menu::MRenderContext::translate(MNode node_name, String sub_category, String pair)'],['../classmenu_1_1_m_transform.html#a9f193d6b8f6426102404a33c1f7ddbc2',1,'menu::MTransform::translate()'],['../classmenu_1_1_m_update_context.html#adb74df01b963dcfd6457a1e99fa4fe3e',1,'menu::MUpdateContext::translate(String category, String pair)'],['../classmenu_1_1_m_update_context.html#a682771694420ea2e7df62e59e27da678',1,'menu::MUpdateContext::translate(MNode node_name, String sub_category, String pair)']]],
   ['translateatcursorproject_32',['translateAtCursorProject',['../classmenu_1_1_m_manager.html#a8289638cc0413b9c8ffde4891ab35b6f',1,'menu::MManager']]],
-  ['trim_33',['trim',['../class_system_1_1_string.html#a20baec9bbd67a321318d23d583f3eef3',1,'System::String::trim()'],['../class_system_1_1_string.html#a743bff52b4a16fcc2077ecc70f0101f5',1,'System::String::trim(String trim_str)']]],
-  ['trunc_34',['trunc',['../class_math_1_1____module____.html#a70bb790e02398cb42af01a2289782575',1,'Math::__module__']]],
-  ['truncatefile_35',['TruncateFile',['../classpdistd_1_1____module____.html#a7315b21ac8736c80f275a69d45666a44',1,'pdistd::__module__']]],
-  ['trylock_36',['trylock',['../class_system_1_1_monitor.html#a9399eb1b0c5d60c9a8d12fb16fb18bda',1,'System::Monitor']]],
-  ['turneverybodyoutfromroom_37',['turnEverybodyOutFromRoom',['../classgtengine_1_1_m_lobby.html#a6eaf1510fcae7301155ff9bfd0374a58',1,'gtengine::MLobby']]]
+  ['translatertext_33',['TranslateRtext',['../classmenu_1_1____module____.html#ab372d491921c4b010a25ebefe841999c',1,'menu::__module__::TranslateRtext(String category, String pair)'],['../classmenu_1_1____module____.html#a0add67cdedf3a2f26a6ed72099dc2442',1,'menu::__module__::TranslateRtext(MRootWindow window, String category, String pair)']]],
+  ['trim_34',['trim',['../class_system_1_1_string.html#a20baec9bbd67a321318d23d583f3eef3',1,'System::String::trim()'],['../class_system_1_1_string.html#a743bff52b4a16fcc2077ecc70f0101f5',1,'System::String::trim(String trim_str)']]],
+  ['trunc_35',['trunc',['../class_math_1_1____module____.html#a70bb790e02398cb42af01a2289782575',1,'Math::__module__']]],
+  ['truncatefile_36',['TruncateFile',['../classpdistd_1_1____module____.html#a7315b21ac8736c80f275a69d45666a44',1,'pdistd::__module__']]],
+  ['trylock_37',['trylock',['../class_system_1_1_monitor.html#a9399eb1b0c5d60c9a8d12fb16fb18bda',1,'System::Monitor']]],
+  ['turneverybodyoutfromroom_38',['turnEverybodyOutFromRoom',['../classgtengine_1_1_m_lobby.html#a6eaf1510fcae7301155ff9bfd0374a58',1,'gtengine::MLobby']]]
 ];

@@ -222,15 +222,28 @@ namespace menu
           Bool adaptive_cursor_align_y;
           Bool need_update;
           Bool packing;
+
+          /** \brief Whether this object is allowed to be packed. Parent object must allow packing, such as any MBox. */
           Bool packable;
+
+          /** \brief Whether to allow children to be packed within this widget. This is normally used to allow MRootWindow to pack its children, or prevent any MBox from packing. */
           Bool pack_children;
+
+          /** \brief Pad for each side. [pack_pad_left, pack_pad_right, pack_pad_top, pack_pad_bottom]*/
           Array<Int> pack_pad;
       
-      
+          /** \brief If packing enabled, Padding while packing on the left in pixels. */
           Int pack_pad_left;
+
+          /** \brief If packing enabled, Padding while packing on the right in pixels. */
           Int pack_pad_right;
+
+          /** \brief If packing enabled, Padding while packing at the top in pixels. */
           Int pack_pad_top;
+
+          /** \brief If packing enabled, Padding while packing on the bottom in pixels. */
           Int pack_pad_bottom;
+
           Bool pack_allocate_x;
           Bool pack_allocate_y;
           Bool pack_allocate_w;
@@ -238,7 +251,11 @@ namespace menu
           Int pack_side;
           Bool pack_expand_x;
           Bool pack_expand_y;
+
+          /** \brief Whether to fill X while packing. Defaults to false */
           Bool pack_fill_x;
+
+          /** \brief Whether to fill Y while packing. Defaults to false */
           Bool pack_fill_y;
           Bool pack_shrink_x;
           Bool pack_shrink_y;
@@ -248,6 +265,7 @@ namespace menu
       
           /** \brief Normal is 0.5 */
           Float pack_alignment_y;
+          
           Float minimum_width;
           Float minimum_height;
           Bool time_out;
