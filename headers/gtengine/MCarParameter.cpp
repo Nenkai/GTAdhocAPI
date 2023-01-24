@@ -312,7 +312,7 @@ namespace gtengine
             /** \brief Gets the car's PP as int.
             \returns As an Int.
             \details Call beginInfo() before! */
-            Int getPP();
+            Int getPP1000();
 
             /** \brief Gets the car's PP with tire bonus included.
             \returns As an Int.

@@ -52,7 +52,7 @@ var classgtengine_1_1_m_car_parameter =
     [ "getPower", "classgtengine_1_1_m_car_parameter.html#a17cb7d6bd538ca4327b32772bc969320", null ],
     [ "getPowerString", "classgtengine_1_1_m_car_parameter.html#abe5f2bcb69bdf051d0a72d0dd59202ef", null ],
     [ "getPP", "classgtengine_1_1_m_car_parameter.html#a39e4aa83b3487e38be6d3527dcd3aec0", null ],
-    [ "getPP", "classgtengine_1_1_m_car_parameter.html#a2857c341d300d0ef44c62d1e91d50955", null ],
+    [ "getPP1000", "classgtengine_1_1_m_car_parameter.html#a3645bc8a787050aa4c46e93c1ad05fc0", null ],
     [ "getPPWithTire", "classgtengine_1_1_m_car_parameter.html#affdbbcbf3500d432302eb83ed3c56f78", null ],
     [ "getPPWithTire1000", "classgtengine_1_1_m_car_parameter.html#a828608ab1aea22aa55fdcd3c84afa3fd", null ],
     [ "getPWR", "classgtengine_1_1_m_car_parameter.html#adc147c0cb6574c450472efc8e30bb8bd", null ],
