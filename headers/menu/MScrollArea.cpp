@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	class MScrollArea : public Object
 	{

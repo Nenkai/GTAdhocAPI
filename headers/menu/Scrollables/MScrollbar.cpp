@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Base scrollbar object. */
 	class MScrollbar : public MScrollbar

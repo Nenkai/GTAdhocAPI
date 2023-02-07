@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Scroll arrow. */
 	class MScrollArrow : public MComposite

@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Unknown, intended for use with context.pushEvent() */
 	class MScriptEvent : public MNodeEvent

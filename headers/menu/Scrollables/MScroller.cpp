@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Represents a listbox widget. */
 	class MScroller : public MComposite

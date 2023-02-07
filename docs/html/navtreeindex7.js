@@ -47,6 +47,8 @@ var NAVTREEINDEX7 =
 "_m_vector3_interpolator_8cpp_source.html":[2,0,0,4,7,6],
 "_m_vector_attribute_8cpp.html":[2,0,0,4,1,7],
 "_m_vector_attribute_8cpp_source.html":[2,0,0,4,1,7],
+"_m_vector_interpolator_8cpp.html":[2,0,0,4,7,7],
+"_m_vector_interpolator_8cpp_source.html":[2,0,0,4,7,7],
 "_m_vehicle_status_8cpp.html":[2,0,0,1,50],
 "_m_vehicle_status_8cpp_source.html":[2,0,0,1,50],
 "_m_video_export_8cpp.html":[2,0,0,6,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "_np_message_info_type_8cpp.html#a53d63a09bf3c9e368af3222c6b77871dad03c5a0fecb01c319f38d220760ecab6":[2,0,0,6,1,23,0,3],
 "_np_message_info_type_8cpp.html#a53d63a09bf3c9e368af3222c6b77871dad5d1b86344c560675e308526f06c2dae":[2,0,0,6,1,23,0,2],
 "_np_message_info_type_8cpp.html#a53d63a09bf3c9e368af3222c6b77871dae9cb217697088a98b1937d111d936281":[2,0,0,6,1,23,0,0],
-"_np_message_info_type_8cpp_source.html":[2,0,0,6,1,23],
-"_np_message_main_type_8cpp.html":[2,0,0,6,1,24],
-"_np_message_main_type_8cpp.html#a2e7c6d1b606fe54b86cb8c99463664ab":[2,0,0,6,1,24,0]
+"_np_message_info_type_8cpp_source.html":[2,0,0,6,1,23]
 };

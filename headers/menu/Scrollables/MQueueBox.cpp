@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Represents a queuebox widget. */
 	class MListBox : public MScrollRange

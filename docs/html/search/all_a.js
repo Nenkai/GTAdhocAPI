@@ -12,5 +12,5 @@ var searchData=
   ['jp_9',['JP',['../classgtengine_1_1_g_t_game_1_1_localize_text.html#ae111a737c9ebdae7f5c90bfd019252bf',1,'gtengine::GTGame::LocalizeText::JP()'],['../namespacegtengine.html#a2c8afae7258734436666872801f64ff2a24d22e03afb23edb45c6c8cfa16a280e',1,'gtengine::JP()'],['../namespacegtengine.html#a67c00792517a0bc56c44f56e838d87f5a24d22e03afb23edb45c6c8cfa16a280e',1,'gtengine::JP()'],['../namespacepdistd.html#a564e2746b69141ffbd6da1e34ce74f2da24d22e03afb23edb45c6c8cfa16a280e',1,'pdistd::JP()']]],
   ['jump_5fbonus_5fscore_10',['jump_bonus_score',['../classgtengine_1_1_g_t_game_1_1_arcade_style_setting.html#af3d5faca73965d264d4b47ac91137ad9',1,'gtengine::GTGame::ArcadeStyleSetting']]],
   ['jump_5fon_5fthe_5fmoon_11',['JUMP_ON_THE_MOON',['../namespacegtengine.html#ab45e9bdca779eb3f0b0354f404405867ab295a1310d65b58ff762ddabf407f2d2',1,'gtengine']]],
-  ['justify_12',['justify',['../classpdistd_1_1_m_list_box.html#aa41ad25dcd4031819dfac13ae07a6982',1,'pdistd::MListBox']]]
+  ['justify_12',['justify',['../classmenu_1_1_m_list_box.html#a036a30a9258ff300e297e5d3004d9b7f',1,'menu::MListBox']]]
 ];

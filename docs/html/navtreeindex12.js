@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"_track_day_weather_8cpp.html#a347be2ed85ac44f9c5289920520a3958a88ccc6b2fb24b637955ab08e23e57dfe":[2,0,0,1,0,161,0,16],
+"_track_day_weather_8cpp.html#a347be2ed85ac44f9c5289920520a3958a8ffad47c717777d02e7f7336567302c6":[2,0,0,1,0,161,0,20],
 "_track_day_weather_8cpp.html#a347be2ed85ac44f9c5289920520a3958a94fc0f47e69057819d2e3cb67e1c5a97":[2,0,0,1,0,161,0,27],
 "_track_day_weather_8cpp.html#a347be2ed85ac44f9c5289920520a3958a96e435f046fa3a8dd429b7d5351065c0":[2,0,0,1,0,161,0,19],
 "_track_day_weather_8cpp.html#a347be2ed85ac44f9c5289920520a3958a9ea117b2348fa4fdc15fa82e2201b62f":[2,0,0,1,0,161,0,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "_voice_chat_mode_8cpp.html#af2da3f259ceae82ed278c696d0c942f6ab50339a10e1de285ac99d4c3990b8693":[2,0,0,1,0,166,0,0],
 "_voice_chat_mode_8cpp.html#af2da3f259ceae82ed278c696d0c942f6ada6191c31cc9114cd7493c93dcb61384":[2,0,0,1,0,166,0,4],
 "_voice_chat_mode_8cpp.html#af2da3f259ceae82ed278c696d0c942f6ae42fc64a3f94477661688befc212293c":[2,0,0,1,0,166,0,1],
-"_voice_chat_mode_8cpp_source.html":[2,0,0,1,0,166],
-"_voice_quality_8cpp.html":[2,0,0,1,0,167],
-"_voice_quality_8cpp.html#a7fb975e2f49d029118c1af00c2952ffa":[2,0,0,1,0,167,0]
+"_voice_chat_mode_8cpp_source.html":[2,0,0,1,0,166]
 };

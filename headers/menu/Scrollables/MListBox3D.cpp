@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Represents a 3D listbox widget. */
 	class MListBox3D : public MScrollRange

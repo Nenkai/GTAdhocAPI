@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Base scroll range. */
 	class MScrollRange : public MScroller

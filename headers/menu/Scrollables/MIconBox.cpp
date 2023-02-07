@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Represents an icon box widget (2D scrollable). */
 	class MIconBox : public MScrollArea

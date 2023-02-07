@@ -6,5 +6,6 @@ var dir_884d2fad5ce4c8280823954b3c219939 =
     [ "MInterpolator.cpp", "_m_interpolator_8cpp.html", "_m_interpolator_8cpp" ],
     [ "MIntInterpolator.cpp", "_m_int_interpolator_8cpp.html", "_m_int_interpolator_8cpp" ],
     [ "MScalarInterpolator.cpp", "_m_scalar_interpolator_8cpp.html", "_m_scalar_interpolator_8cpp" ],
-    [ "MVector3Interpolator.cpp", "_m_vector3_interpolator_8cpp.html", "_m_vector3_interpolator_8cpp" ]
+    [ "MVector3Interpolator.cpp", "_m_vector3_interpolator_8cpp.html", "_m_vector3_interpolator_8cpp" ],
+    [ "MVectorInterpolator.cpp", "_m_vector_interpolator_8cpp.html", "_m_vector_interpolator_8cpp" ]
 ];

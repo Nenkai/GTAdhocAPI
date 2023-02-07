@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	class MScriptWatcher : public MWatcher
 	{

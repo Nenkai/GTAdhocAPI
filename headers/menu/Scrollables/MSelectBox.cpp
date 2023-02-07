@@ -1,6 +1,7 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
+
 {
 	/** \brief Select box. */
 	class MSelectBox : public MScrollRange

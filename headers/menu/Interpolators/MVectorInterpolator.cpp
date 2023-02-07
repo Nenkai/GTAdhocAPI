@@ -5,7 +5,7 @@ using namespace pdistd;
 namespace menu
 {
 	/** \brief Represents a vector interpolator .*/
-	public class MVector3Interpolator : public MInterpolator
+	public class MVectorInterpolator : public MInterpolator
 	{
 		public:
             /** @brief constructor taking no param */

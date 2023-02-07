@@ -116,7 +116,7 @@ var searchData=
   ['protocol_113',['protocol',['../classpdistd_1_1_m_sd_service.html#a28fd792322adfcab0c596fc9088d91c4',1,'pdistd::MSdService']]],
   ['prototype_5fname_114',['prototype_name',['../classmenu_1_1_m_node.html#a96ed9a7c58db32f501dae4d8bb66654c',1,'menu::MNode::prototype_name()'],['../classmenu_1_1_m_root_window.html#aacd5129da788fac13bb03de75728f5b9',1,'menu::MRootWindow::prototype_name()']]],
   ['proxy_5fdriver_5fmodel_115',['proxy_driver_model',['../classgtengine_1_1_g_t_game_1_1_entry.html#ada43823a28a9c5b7b2698e2b5e766e1e',1,'gtengine::GTGame::Entry::proxy_driver_model()'],['../classgtengine_1_1_g_t_game_1_1_entry_base.html#afef57f6f882443aeb4ecc4b6e2627c90',1,'gtengine::GTGame::EntryBase::proxy_driver_model()']]],
-  ['pseudo_5fmagnify_116',['pseudo_magnify',['../classpdistd_1_1_m_list_box.html#a9ae41dc208eee1ce42872ad32f02a81d',1,'pdistd::MListBox']]],
+  ['pseudo_5fmagnify_116',['pseudo_magnify',['../classmenu_1_1_m_list_box.html#aa6b2cebe6a2b7dc5ca4887395aa7470b',1,'menu::MListBox']]],
   ['psp_5fmode_117',['psp_mode',['../classgtengine_1_1_g_t_game_1_1_editor_info.html#a4c79ffc7ca77fe9960dc2ba4e13c5d0f',1,'gtengine::GTGame::EditorInfo']]],
   ['pt_118',['PT',['../classgtengine_1_1_g_t_game_1_1_localize_text.html#ad05d0c140055cc8a4ae506b3568e178a',1,'gtengine::GTGame::LocalizeText']]]
 ];

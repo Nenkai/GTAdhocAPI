@@ -1,4 +1,4 @@
 var _m_script_event_8cpp =
 [
-    [ "pdistd::MScriptEvent", "classpdistd_1_1_m_script_event.html", "classpdistd_1_1_m_script_event" ]
+    [ "menu::MScriptEvent", "classmenu_1_1_m_script_event.html", "classmenu_1_1_m_script_event" ]
 ];

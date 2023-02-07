@@ -1,4 +1,4 @@
 var _m_scrollbar_8cpp =
 [
-    [ "pdistd::MScrollbar", "classpdistd_1_1_m_scrollbar.html", "classpdistd_1_1_m_scrollbar" ]
+    [ "menu::MScrollbar", "classmenu_1_1_m_scrollbar.html", "classmenu_1_1_m_scrollbar" ]
 ];

@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Represents a scrollable window. */
 	class MScrollWindow : public MFBox

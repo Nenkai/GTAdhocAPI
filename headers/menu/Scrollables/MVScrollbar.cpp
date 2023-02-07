@@ -1,6 +1,6 @@
 using namespace System;
 
-namespace pdistd
+namespace menu
 {
 	/** \brief Represents a vertical scrollbar widget. */
 	class MVScrollbar : public MScrollbar
