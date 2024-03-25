@@ -24,6 +24,14 @@ namespace menu
 
             void adjustSize();
 
+            /**
+            \details Specific optional options:
+            - "@WorkBuffer"
+            - "@Work"
+            - "@ColorBuffer"
+            - "@DepthBuffer"
+            - "@WebCam"
+            */
             String image_path;
 
             /** \brief Setter-only. Sets image chunk from data (should be a byte data) 
