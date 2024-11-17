@@ -68,14 +68,14 @@ namespace gtengine
 			void updateCar(MCarParameter cp);
 			void updateCarWithoutTrunk(MCarParameter cp);
 			Int getCurrentSet(MCarParameter cp);
-			void changeSet(Int unk, MCarParameter cp);
+			void changeSet(MCarParameter cp, Int sheet_id);
 			UInt transfer(MGarage other, UInt garage_id);
 			Bool isInvalid(UInt code);
 			void setInvalid(UInt code, Bool invalid);
 
 			/** \param message No more than 128 characters */
-			String getComment(UInt garage_id, Int unk);
-			void setComment(UInt garage_id, Int unk, String message);
+			String getComment(UInt garage_id, Int sheet_id);
+			void setComment(UInt garage_id, Int sheet_id, String message);
 			Bool hasDLCExpended(UInt unk);
 			Array<UInt> getDLCValidCars();
 			Array<UInt> getDLCInvalidCars();
