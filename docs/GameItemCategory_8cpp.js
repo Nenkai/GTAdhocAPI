@@ -1,0 +1,38 @@
+var GameItemCategory_8cpp =
+[
+    [ "GameItemCategory", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1", [
+      [ "NONE", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "CAR", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aedc860e2d30b3a5c8823c026e7a79e03", null ],
+      [ "DRIVER", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a0420dcd0a9b3fc40a86ae7e7b530bcbf", null ],
+      [ "DRIVER_ITEM", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1afee65681e863670740631948a1caee30", null ],
+      [ "DRIVER_HEAD", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a09f8074c7a99c7fa1d9d63608b427634", null ],
+      [ "DRIVER_BODY", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1acf250fa6781fc3052c3a80b17ad65675", null ],
+      [ "DRIVER_SET", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1ae5c3672387f74a1169cce3ced5f88068", null ],
+      [ "MONEY", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a2bc794c2d9a28e52d1dd66d95e37d485", null ],
+      [ "TUNERPARTS", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1ae5cc9dd0dea8fad1f49a7e1bf8876323", null ],
+      [ "BODY_CHASSIS", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a4384bc5ad4cc39904f02a3eb687c130f", null ],
+      [ "ENGINE", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a1942d6cfa11aa1cf183f999aba8eac2e", null ],
+      [ "ADMISSION", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aab0c41815e647e263e5e3da84f61d8f9", null ],
+      [ "EMISSION", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a22ad2fbf2a5f5f4194e337f0f86fd8d3", null ],
+      [ "BOOSTER", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a7789c2a174e66786a6c0a22520e330d4", null ],
+      [ "TRANSMISSION", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a20580b40d2c28165915cffd90aa4fdda", null ],
+      [ "DRIVETRAIN", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a79de1c527fdd7d88cf3ad097b19507b8", null ],
+      [ "SUSPENSION", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aa1ba7786e9210213ad2cad80bfb75f72", null ],
+      [ "BRAKE", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a0c206573cf0e27e92aa30ae9c13de668", null ],
+      [ "BTIRE", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aaf470b3063a0aa0f75a8e9b51cb30594", null ],
+      [ "CTIRE", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1ae6afd526c901191534b27bbece7185f5", null ],
+      [ "VTIRE", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a86f5735a73ce4efd7ea1feaa7df8f167", null ],
+      [ "STIRE", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aed8fbd69559ab3715a9a93864361c222", null ],
+      [ "OTHERS", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a8606ac74fd2decc1899004c49b226fae", null ],
+      [ "HORN", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a56c6d6a30750c742aa7f433db0c0a909", null ],
+      [ "OTHERPARTS", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a88c5ff1c2f22d290630bc1df6a8be722", null ],
+      [ "PAINT_ITEM", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aa38472e80de9c29d8d18741425d45e74", null ],
+      [ "SPECIAL_PAINT_ITEM", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aed92a5c6ac5c21081ea6653d6b9f10cc", null ],
+      [ "MUSEUMCARD", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a4aa434fcb15c30d370cd3a88d1f33cd7", null ],
+      [ "MOVIE", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1ade5e5ba1f70956d42bcdb5731fa69e42", null ],
+      [ "SPECIAL", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aa72e4a34f10af98a9814d865e717399f", null ],
+      [ "PRESENTCAR_TICKET", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1aa5bc6287f3e3745c12811638a58809e4", null ],
+      [ "PRESENTITEM_TICKET", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1afd8bad12a6ab460f3ef6e54a4bc609d3", null ],
+      [ "SPECIAL_TICKET", "GameItemCategory_8cpp.html#aebb0ccf5fd8ed5d406edbebe2d374df1a7fd43cdd02a7d56bc157b84fb11eb865", null ]
+    ] ]
+];

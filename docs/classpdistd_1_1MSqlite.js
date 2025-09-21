@@ -1,0 +1,25 @@
+var classpdistd_1_1MSqlite =
+[
+    [ "MSqlite", "classpdistd_1_1MSqlite.html#a617273adc937d2f572cf437e9ec361bf", null ],
+    [ "begin", "classpdistd_1_1MSqlite.html#af6f0eaecb634fb78d1b9563e57e62656", null ],
+    [ "changes", "classpdistd_1_1MSqlite.html#a6438a7961fb8149059e9b807204055e6", null ],
+    [ "close", "classpdistd_1_1MSqlite.html#a7e3b3c5fb290f1a74fc1de0d835b29ec", null ],
+    [ "commit", "classpdistd_1_1MSqlite.html#a51d3f1fba074c1b43158b02abf410fb7", null ],
+    [ "count", "classpdistd_1_1MSqlite.html#a7f39cdb97736588344ef3e0ce2c826a9", null ],
+    [ "execute", "classpdistd_1_1MSqlite.html#ad2eeef18bbbc6e90249884816210ae8e", null ],
+    [ "execute0", "classpdistd_1_1MSqlite.html#a7ebb5866cdd7010f5107307d1c14f6c9", null ],
+    [ "executeQuery", "classpdistd_1_1MSqlite.html#adeecbd90de125f59feb8d9b05ddca954", null ],
+    [ "executeQuery1C", "classpdistd_1_1MSqlite.html#ac2848afed70b991c4ee68c3f57650836", null ],
+    [ "executeQuery1R1C", "classpdistd_1_1MSqlite.html#aa80dcadc63f01fefc9cc7924b81ea515", null ],
+    [ "executeQueryBegin", "classpdistd_1_1MSqlite.html#acf93149f7440ad0a8ecb104674e2fde9", null ],
+    [ "executeQueryEnd", "classpdistd_1_1MSqlite.html#abc634a22405ef7acc3516463942e6aef", null ],
+    [ "executeQueryNext", "classpdistd_1_1MSqlite.html#a8705fb842eef9ed3ca6c04b63b16c725", null ],
+    [ "executeTransaction", "classpdistd_1_1MSqlite.html#af9d5488b7783f7343931472015e5f233", null ],
+    [ "getDBPath", "classpdistd_1_1MSqlite.html#a8224f174eacbe1ad74601b1814e8c546", null ],
+    [ "getLastError", "classpdistd_1_1MSqlite.html#a40e4daa44b1b4d87683e9e39f5501c50", null ],
+    [ "open", "classpdistd_1_1MSqlite.html#aa545a56d4336724370904d2b52e53a5c", null ],
+    [ "query", "classpdistd_1_1MSqlite.html#a1adfe8cda967c6d8f6351155a0f1c1fe", null ],
+    [ "query1", "classpdistd_1_1MSqlite.html#aa7ca3bc202176e628dbbf92d625c957a", null ],
+    [ "queryList", "classpdistd_1_1MSqlite.html#afcad71ee143ba62134bbbd6c880e34b3", null ],
+    [ "rollback", "classpdistd_1_1MSqlite.html#a0a525d54a7b7a8d8119cd4487b170962", null ]
+];
