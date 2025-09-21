@@ -4,7 +4,8 @@ using namespace pdistd;
 
 namespace menu
 {
-	/** \brief Base representation of a render context */
+	/** \brief Base representation of a render context.
+        \details A render context is effectively just a screen to render. There may be more than one (i.e split screen). */
 	public class MRenderContext : public Object
 	{
 		public:
@@ -137,6 +138,12 @@ namespace menu
             /** \brief Enables rendering of this render context. */
             Bool enable;
 
+			/** \brief Event pumping mask/bit flags. Controls which input device is allowed to pump events. 
+			\details For bits:\n
+			Bit 0 (0x01) = Pad 1 (Player 1)\n
+			Bit 1 (0x02) = Pad 2 (Player 2)\n
+			Bit 2 (0x04) = Keyboard\n
+			Bit 4 (0x10) = Mouse Events (MMotion)\n */
             UInt event_mask;
 
             Bool getInputEnable();
