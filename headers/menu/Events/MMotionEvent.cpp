@@ -4,13 +4,14 @@ using namespace pdistd;
 
 namespace menu
 {
+	/* \brief Mouse motion events (mouse move). */
 	public class MMotionEvent : public MWidgetEvent
 	{
 		public:
-			/** \brief Getter-only. */
+			/** \brief Mouse position X. Getter-only. */
 			Float x;
 
-			/** \brief Getter-only. */
+			/** \brief Mouse position Y. Getter-only. */
 			Float y;
 	};
 };
