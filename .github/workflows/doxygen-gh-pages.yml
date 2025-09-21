@@ -18,3 +18,4 @@ jobs:
           branch: gh-pages
           config_file: Doxyfile
           doxygen_version: 1.9.6
+          target_folder: docs
